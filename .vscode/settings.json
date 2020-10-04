@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "dotnet-test-explorer.testProjectPath":"*Test.@(csproj|vbproj|fsproj)"
+}
