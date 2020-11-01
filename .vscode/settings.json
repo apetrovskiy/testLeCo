@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "python.testing.pytestArgs": [
         "src"
@@ -15,4 +16,11 @@
     "files.watcherExclude": {
         "**/target": true
     }
+=======
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "dotnet-test-explorer.testProjectPath":"*Test.@(csproj|vbproj|fsproj)"
+>>>>>>> feature/challenge-20201001-20201007
 }
