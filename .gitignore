@@ -1184,3 +1184,32 @@ DerivedData/
 # Ionide (cross platform F# VS Code tools) working folder
 
 # End of https://www.toptal.com/developers/gitignore/api/java,kotlin,scala,groovy,csharp,fsharp,python,ruby,go,code,visualstudio,visualstudiocode,openframeworks+visualstudio,intellij+all,pycharm+all,xcode,dart,flutter,database,powershell
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.fake
+.ionide
+.metals/metals.h2.db
+.metals/metals.lock.db
+.bloop/CodeSignTest.json
+.bloop/CodeSignTest-test.json
+
+allure-reports/*
+*result.json
+*container.json
+
+.nyc_output/*
+**/.nyc_output/*
+
+null/*
+**/null/*
+
+.noseids
+allure-results/*-result.json
+allure-results/*-container.json
+!allure-results/categories.json
+.allure/*
