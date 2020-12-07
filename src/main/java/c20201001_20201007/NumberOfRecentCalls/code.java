@@ -5,7 +5,7 @@ class RecentCounter {
     }
     
     public int ping(int t) {
-        
+        return 0;
     }
 }
 

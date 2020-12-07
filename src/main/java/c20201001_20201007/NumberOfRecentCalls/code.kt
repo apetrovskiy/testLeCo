@@ -1,7 +1,7 @@
 class RecentCounter() {
 
     fun ping(t: Int): Int {
-        
+        return 0
     }
 
 }
