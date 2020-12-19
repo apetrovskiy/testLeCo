@@ -1,5 +1,9 @@
 package challenges.c20201001_20201007.NumberOfRecentCalls;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
 public class NumberOfRecentCallsTest {
     @Test
     void testNumberOfRecentCalls() {

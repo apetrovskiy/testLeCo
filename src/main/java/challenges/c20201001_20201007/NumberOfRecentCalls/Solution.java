@@ -1,5 +1,7 @@
 package challenges.c20201001_20201007.NumberOfRecentCalls;
 
+import java.util.LinkedList;
+
 class RecentCounter {
 
     LinkedList<Integer> slideWindow;
