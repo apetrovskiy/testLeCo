@@ -1,6 +1,5 @@
+from src.main.java.challenges.c20201001_20201007.CombinationSum.solution import Solution
 import unittest
-
-from solution import Solution
 
 
 class SolutionTest(unittest.TestCase):
