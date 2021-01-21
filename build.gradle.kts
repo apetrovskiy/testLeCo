@@ -58,6 +58,7 @@ java {
     }
 }*/
 
+/*
 tasks.withType<JavaCompile>().configureEach {
     javaCompiler.set(javaToolchains.compilerFor {
         languageVersion.set(JavaLanguageVersion.of(11))
@@ -69,6 +70,7 @@ tasks.withType<Test>().configureEach {
         languageVersion.set(JavaLanguageVersion.of(14))
     })
 }
+*/
 
 sourceSets.main {
     java.srcDirs("src/main/java")
