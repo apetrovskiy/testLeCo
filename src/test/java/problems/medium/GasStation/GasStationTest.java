@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+//import problems.medium.GasStation.SolutionSc;
 
 class GasStationTest {
     @ParameterizedTest
@@ -22,6 +23,15 @@ class GasStationTest {
         final var actualResult = new SolutionKt().canCompleteCircuit(gas, cost);
         assertEquals(expectedResult, actualResult);
     }
+
+    /*
+    @ParameterizedTest
+    @MethodSource("getInputData")
+    void TestGasStationScala(int[] gas, int[] cost, int expectedResult) {
+        final var actualResult = SolutionSc.canCompleteCircuit(gas, cost);
+        assertEquals(expectedResult, actualResult);
+    }
+    */
 
     static Stream<Arguments> getInputData() {
         return Stream.of(Arguments.of(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 }, 3),
