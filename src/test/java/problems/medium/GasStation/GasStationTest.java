@@ -16,6 +16,13 @@ class GasStationTest {
         assertEquals(expectedResult, actualResult);
     }
 
+    @ParameterizedTest
+    @MethodSource("getInputData")
+    void TestGasStationKt(int[] gas, int[] cost, int expectedResult) {
+        final var actualResult = new SolutionKt().canCompleteCircuit(gas, cost);
+        assertEquals(expectedResult, actualResult);
+    }
+
     static Stream<Arguments> getInputData() {
         return Stream.of(Arguments.of(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 }, 3),
                 of(new int[] { 2, 3, 4 }, new int[] { 3, 4, 3 }, -1),
