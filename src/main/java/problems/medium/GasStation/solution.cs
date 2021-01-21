@@ -1,7 +1,10 @@
-namespace problems.medium.GasStation {
-
-}public class Solution {
-    public int CanCompleteCircuit(int[] gas, int[] cost) {
-        return 0;
+namespace problems.medium.GasStation
+{
+    public class Solution
+    {
+        public int CanCompleteCircuit(int[] gas, int[] cost)
+        {
+            return 0;
+        }
     }
 }
