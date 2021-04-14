@@ -1,0 +1,16 @@
+loop from 0 to 2
+index = 0
+nums[index + k - 1] - nums[index] =                 2
+current_diff = 2
+max_diff = 0
+result = [3]
+index = 1
+nums[index + k - 1] - nums[index] =                 -3
+current_diff = -3
+max_diff = 0
+result = [5]
+index = 2
+nums[index + k - 1] - nums[index] =                 4
+current_diff = 4
+max_diff = 0
+result = [2]

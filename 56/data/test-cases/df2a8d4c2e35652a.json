@@ -1,0 +1,62 @@
+{
+  "uid" : "df2a8d4c2e35652a",
+  "name" : "test_gas_station[gas1-cost1--1]",
+  "fullName" : "src.test.java.problems.medium.GasStation.test_gas_station#test_gas_station",
+  "historyId" : "80b71b598c0acc1466398a6b18582b2a",
+  "time" : {
+    "start" : 1618438612273,
+    "stop" : 1618438612274,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.GasStation"
+  }, {
+    "name" : "suite",
+    "value" : "test_gas_station"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-155"
+  }, {
+    "name" : "thread",
+    "value" : "3059-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.GasStation.test_gas_station"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cost",
+    "value" : "[3, 4, 3]"
+  }, {
+    "name" : "expected_result",
+    "value" : "-1"
+  }, {
+    "name" : "gas",
+    "value" : "[2, 3, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df2a8d4c2e35652a.json",
+  "parameterValues" : [ "[3, 4, 3]", "-1", "[2, 3, 4]" ]
+}

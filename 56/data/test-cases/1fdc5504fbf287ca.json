@@ -1,0 +1,102 @@
+{
+  "uid" : "1fdc5504fbf287ca",
+  "name" : "test_3",
+  "fullName" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest#test_3",
+  "historyId" : "b3aced65abda9ed6c81ba966e508d9af",
+  "time" : {
+    "start" : 1618438612218,
+    "stop" : 1618438612219,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest",
+    "time" : {
+      "start" : 1618438612180,
+      "stop" : 1618438612180,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c5cb73bbb9133d1",
+      "name" : "stdout",
+      "source" : "6c5cb73bbb9133d1.txt",
+      "type" : "text/plain",
+      "size" : 3
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest::0",
+    "time" : {
+      "start" : 1618438612228,
+      "stop" : 1618438612228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum"
+  }, {
+    "name" : "suite",
+    "value" : "test_combination_sum"
+  }, {
+    "name" : "subSuite",
+    "value" : "SolutionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-155"
+  }, {
+    "name" : "thread",
+    "value" : "3059-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fdc5504fbf287ca.json",
+  "parameterValues" : [ ]
+}
