@@ -15,8 +15,10 @@ class Solution:
         # print(f"input = {nums}")
         # sorted = nums.copy()
         # sorted.sort()
-        # result = [[sorted[x], sorted[y]] for x in range(len(sorted)) for y in range(
-        #     len(sorted) - 1, 0, -1) if sorted[x] + sorted[y] == target and x < y]
+        # result = [[sorted[x], sorted[y]] for x
+        # in range(len(sorted)) for y in range(
+        #     len(sorted) - 1, 0, -1) if sorted[x]
+        # + sorted[y] == target and x < y]
         # print(f"result: {result}")
         # print(f"what to find {result[0][0]}")
         # print(f"index = {nums.index(result[0][0])}")
