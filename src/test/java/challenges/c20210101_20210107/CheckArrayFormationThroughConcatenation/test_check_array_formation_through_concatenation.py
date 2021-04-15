@@ -1,7 +1,7 @@
-from src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution import Solution
 import pytest
 from typing import List
-from src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution import Solution
+from src.main.java.challenges.c20210101_20210107.\
+    CheckArrayFormationThroughConcatenation.solution import Solution
 
 
 test_data = [
@@ -14,5 +14,8 @@ test_data = [
 
 
 @pytest.mark.parametrize("input_array,pieces,expected_result", test_data)
-def test_check_array_formation_through_concatenation(input_array: List[int], pieces: List[List[int]], expected_result: bool):
+def test_check_array_formation_through_concatenation(
+        input_array: List[int],
+        pieces: List[List[int]],
+        expected_result: bool):
     assert expected_result == Solution().canFormArray(input_array, pieces)
