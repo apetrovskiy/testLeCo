@@ -1,4 +1,5 @@
-from src.main.java.challenges.c20210115_20210121.FindTheMostCompetitiveSubsequence.solution3 import Solution
+from src.main.java.challenges.c20210115_20210121.\
+    FindTheMostCompetitiveSubsequence.solution3 import Solution
 from typing import List
 import pytest
 

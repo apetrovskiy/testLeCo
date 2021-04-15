@@ -5,7 +5,8 @@ class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         # mine, which is wrong with the -1 case
         # for index in range(0, len(gas)):
-        #     if sum(gas) - sum(cost) + cost[index] >= 0 and gas[index] >= cost[index]:
+        #     if sum(gas) - sum(cost) + cost[index]
+        # >= 0 and gas[index] >= cost[index]:
         #         return index
         # return -1
 
