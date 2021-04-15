@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "4fccd9513846c20f",
+        "parentUid" : "9c36c0d89f9478629a8668ff735ae4a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586217,
+          "stop" : 1618513586218,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c36c0d89f9478629a8668ff735ae4a1"
+    }, {
+      "name" : "AssertionError: Lists differ: [[2, 2, 2, 2], [2, 3, 3], [3, 5]] != []\n\nFirst list contains 3 additional elements.\nFirst extra element 0:\n[2, 2, 2, 2]\n\n- [[2, 2, 2, 2], [2, 3, 3], [3, 5]]\n+ []",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "f39d7c93f58b7149",
+        "parentUid" : "1b3f6a30bd56ce3366a2c0d71463b27d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586250,
+          "stop" : 1618513586250,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b3f6a30bd56ce3366a2c0d71463b27d"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1]] != [[0]]\n\nFirst differing element 0:\n[1]\n[0]\n\n- [[1]]\n?   ^\n\n+ [[0]]\n?   ^",
+      "children" : [ {
+        "name" : "test_4",
+        "uid" : "8099e98e930aed6a",
+        "parentUid" : "a8a7cd336e05f958baac176fc0cb66bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586258,
+          "stop" : 1618513586258,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8a7cd336e05f958baac176fc0cb66bf"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+      "children" : [ {
+        "name" : "test_5",
+        "uid" : "e116b101ba0ba804",
+        "parentUid" : "9e9e18b679ff66d0c9d4a05338b3055e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586263,
+          "stop" : 1618513586263,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e9e18b679ff66d0c9d4a05338b3055e"
+    }, {
+      "name" : "AssertionError: assert [2, 3, 3, 4] == [5, 4, 9, 6]\n  At index 0 diff: 2 != 5\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_most_competitive[nums1-4-expected_result1]",
+        "uid" : "f79b4fe9f4db869f",
+        "parentUid" : "c02b2073c6f27fce959bd19b91c97e73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586272,
+          "stop" : 1618513586273,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
+      } ],
+      "uid" : "c02b2073c6f27fce959bd19b91c97e73"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7f6cd338d940>>('abc', 'ahbgdc')\n +    where <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7f6cd338d940>> = <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7f6cd338d940>.isSubsequence\n +      where <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7f6cd338d940> = Solution()",
+      "children" : [ {
+        "name" : "test_is_subsequence[abc-ahbgdc-True]",
+        "uid" : "eec7241bfa79d820",
+        "parentUid" : "f13d728af917a61441c90335c22a9115",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618513586288,
+          "stop" : 1618513586288,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'abc'", "'ahbgdc'" ]
+      } ],
+      "uid" : "f13d728af917a61441c90335c22a9115"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
