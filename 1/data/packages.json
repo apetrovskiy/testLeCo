@@ -1,0 +1,369 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.java",
+    "children" : [ {
+      "name" : "challenges",
+      "children" : [ {
+        "name" : "c20201001_20201007.CombinationSum.test_combination_sum",
+        "children" : [ {
+          "name" : "test_1",
+          "uid" : "95af2bccdc14d421",
+          "parentUid" : "de832479b0b3a17ff3d0b0ba0908c9c6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684741,
+            "stop" : 1618519684741,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_2",
+          "uid" : "a9f8be4b2459366b",
+          "parentUid" : "de832479b0b3a17ff3d0b0ba0908c9c6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684743,
+            "stop" : 1618519684743,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_3",
+          "uid" : "18ddc9a63b81d378",
+          "parentUid" : "de832479b0b3a17ff3d0b0ba0908c9c6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684745,
+            "stop" : 1618519684745,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_4",
+          "uid" : "79bd89b3490f93bd",
+          "parentUid" : "de832479b0b3a17ff3d0b0ba0908c9c6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684746,
+            "stop" : 1618519684746,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_5",
+          "uid" : "376c945d764e4885",
+          "parentUid" : "de832479b0b3a17ff3d0b0ba0908c9c6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684748,
+            "stop" : 1618519684748,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c20201001_20201007.CombinationSum.test_combination_sum"
+      }, {
+        "name" : "c20210101_20210107",
+        "children" : [ {
+          "name" : "CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation",
+          "children" : [ {
+            "name" : "test_check_array_formation_through_concatenation[input_array0-pieces0-True]",
+            "uid" : "1392d717a30182d0",
+            "parentUid" : "9b634905ac0cb7fbf599d6e9be5d89b4",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684749,
+              "stop" : 1618519684749,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "[85]", "[[85]]" ]
+          }, {
+            "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
+            "uid" : "8f4d26b065b06052",
+            "parentUid" : "9b634905ac0cb7fbf599d6e9be5d89b4",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684752,
+              "stop" : 1618519684752,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "[15, 88]", "[[88], [15]]" ]
+          }, {
+            "name" : "test_check_array_formation_through_concatenation[input_array2-pieces2-False]",
+            "uid" : "bd08199390851642",
+            "parentUid" : "9b634905ac0cb7fbf599d6e9be5d89b4",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684753,
+              "stop" : 1618519684753,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "False", "[49, 18, 16]", "[[16, 18, 49]]" ]
+          }, {
+            "name" : "test_check_array_formation_through_concatenation[input_array3-pieces3-True]",
+            "uid" : "3cfed7791f4abc18",
+            "parentUid" : "9b634905ac0cb7fbf599d6e9be5d89b4",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684755,
+              "stop" : 1618519684755,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "[91, 4, 64, 78]", "[[78], [4, 64], [91]]" ]
+          }, {
+            "name" : "test_check_array_formation_through_concatenation[input_array4-pieces4-False]",
+            "uid" : "978b7e205b64c68f",
+            "parentUid" : "9b634905ac0cb7fbf599d6e9be5d89b4",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684756,
+              "stop" : 1618519684756,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "False", "[1, 3, 5, 7]", "[[2, 4, 6, 8]]" ]
+          } ],
+          "uid" : "CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation"
+        }, {
+          "name" : "FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree",
+          "children" : [ {
+            "name" : "test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree[original0-cloned0-target0-expected_result0]",
+            "uid" : "518db76cc0a4df01",
+            "parentUid" : "68c1f1c2a3dbe087fa3d5cc89b2c8055",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684758,
+              "stop" : 1618519684758,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fe586c6ed90>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fe586c6e130>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fe586c6edf0>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fe586c6eaf0>" ]
+          } ],
+          "uid" : "FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree"
+        } ],
+        "uid" : "a06142832b4446705519a5ff2f58caff"
+      }, {
+        "name" : "c20210115_20210121.FindTheMostCompetitiveSubsequence.test_find_the_most_competitive_subsequence",
+        "children" : [ {
+          "name" : "test_most_competitive[nums0-2-expected_result0]",
+          "uid" : "a75579274f6e83bb",
+          "parentUid" : "2cd731edb43dc70859b45918a9373c0e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684759,
+            "stop" : 1618519684759,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[2, 6]", "2", "[3, 5, 2, 6]" ]
+        }, {
+          "name" : "test_most_competitive[nums1-4-expected_result1]",
+          "uid" : "1c59e9c9727beef1",
+          "parentUid" : "2cd731edb43dc70859b45918a9373c0e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1618519684761,
+            "stop" : 1618519684761,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
+        } ],
+        "uid" : "c20210115_20210121.FindTheMostCompetitiveSubsequence.test_find_the_most_competitive_subsequence"
+      } ],
+      "uid" : "8d982aac5bb721b65632a408ac2a99b0"
+    }, {
+      "name" : "problems",
+      "children" : [ {
+        "name" : "easy",
+        "children" : [ {
+          "name" : "ContainsDuplicate.test_contains_duplicate",
+          "children" : [ {
+            "name" : "test_contains_duplicate[input0-True]",
+            "uid" : "34729489eba950e5",
+            "parentUid" : "0dd46eb13333e33dd063017ff7798db6",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684764,
+              "stop" : 1618519684764,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "[1, 2, 3, 1]" ]
+          }, {
+            "name" : "test_contains_duplicate[input1-False]",
+            "uid" : "52fa703ce6e79b93",
+            "parentUid" : "0dd46eb13333e33dd063017ff7798db6",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684766,
+              "stop" : 1618519684766,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "False", "[1, 2, 3, 4]" ]
+          }, {
+            "name" : "test_contains_duplicate[input2-True]",
+            "uid" : "479631ba0043aec9",
+            "parentUid" : "0dd46eb13333e33dd063017ff7798db6",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684769,
+              "stop" : 1618519684769,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "[1, 1, 1, 3, 3, 4, 3, 2, 4, 2]" ]
+          } ],
+          "uid" : "ContainsDuplicate.test_contains_duplicate"
+        }, {
+          "name" : "IsSubsequence.test_is_subsequence",
+          "children" : [ {
+            "name" : "test_is_subsequence[abc-ahbgdc-True]",
+            "uid" : "d17ac8af891b6228",
+            "parentUid" : "0aeb707c7f1e14f8d7344d4991a3fe03",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684770,
+              "stop" : 1618519684770,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "True", "'abc'", "'ahbgdc'" ]
+          }, {
+            "name" : "test_is_subsequence[axc-ahbgdc-False]",
+            "uid" : "37a3409854ecb3d7",
+            "parentUid" : "0aeb707c7f1e14f8d7344d4991a3fe03",
+            "status" : "skipped",
+            "time" : {
+              "start" : 1618519684772,
+              "stop" : 1618519684772,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "False", "'axc'", "'ahbgdc'" ]
+          } ],
+          "uid" : "IsSubsequence.test_is_subsequence"
+        }, {
+          "name" : "TwoSum.test_two_sum",
+          "children" : [ {
+            "name" : "test_two_sum[nums0-9-expected_result0]",
+            "uid" : "54b162dad178804a",
+            "parentUid" : "417463996e0214fb90dee0c5882fdf9e",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684775,
+              "stop" : 1618519684775,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[0, 1]", "[2, 7, 11, 15]", "9" ]
+          }, {
+            "name" : "test_two_sum[nums1-6-expected_result1]",
+            "uid" : "7d4f9c33b5e0f01",
+            "parentUid" : "417463996e0214fb90dee0c5882fdf9e",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684777,
+              "stop" : 1618519684777,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[1, 2]", "[3, 2, 4]", "6" ]
+          }, {
+            "name" : "test_two_sum[nums2-6-expected_result2]",
+            "uid" : "b7047919ebfd9c36",
+            "parentUid" : "417463996e0214fb90dee0c5882fdf9e",
+            "status" : "passed",
+            "time" : {
+              "start" : 1618519684780,
+              "stop" : 1618519684780,
+              "duration" : 0
+            },
+            "flaky" : false,
+            "newFailed" : false,
+            "parameters" : [ "[0, 1]", "[3, 3]", "6" ]
+          } ],
+          "uid" : "TwoSum.test_two_sum"
+        } ],
+        "uid" : "4bc9cee1dab9852eb94a62b3747890c5"
+      }, {
+        "name" : "medium.GasStation.test_gas_station",
+        "children" : [ {
+          "name" : "test_gas_station[gas0-cost0-3]",
+          "uid" : "c8b8b780e40b6a39",
+          "parentUid" : "c92b2fc85cbef54c37146258015ae946",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618519684783,
+            "stop" : 1618519684783,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[3, 4, 5, 1, 2]", "3", "[1, 2, 3, 4, 5]" ]
+        }, {
+          "name" : "test_gas_station[gas1-cost1--1]",
+          "uid" : "42031e2bbf723111",
+          "parentUid" : "c92b2fc85cbef54c37146258015ae946",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618519684786,
+            "stop" : 1618519684786,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[3, 4, 3]", "-1", "[2, 3, 4]" ]
+        }, {
+          "name" : "test_gas_station[gas2-cost2-3]",
+          "uid" : "f2a2e5f1a18eecc9",
+          "parentUid" : "c92b2fc85cbef54c37146258015ae946",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618519684789,
+            "stop" : 1618519684789,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[5, 9, 1, 2, 5]", "3", "[7, 1, 0, 11, 4]" ]
+        } ],
+        "uid" : "medium.GasStation.test_gas_station"
+      } ],
+      "uid" : "a0a0e33e5c6ee30e49458799dc7c2e69"
+    } ],
+    "uid" : "src.test.java"
+  } ],
+  "name" : "packages"
+}
