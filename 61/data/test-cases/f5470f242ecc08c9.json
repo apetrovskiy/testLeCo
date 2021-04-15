@@ -1,0 +1,68 @@
+{
+  "uid" : "f5470f242ecc08c9",
+  "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
+  "fullName" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation#test_check_array_formation_through_concatenation",
+  "historyId" : "2218cbf22d58ec1172738dea623b2c01",
+  "time" : {
+    "start" : 1618517334885,
+    "stop" : 1618517334885,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>>([15, 88], [[88], [15]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90> = Solution()",
+  "statusTrace" : "input_array = [15, 88], pieces = [[88], [15]], expected_result = True\n\n    @pytest.mark.parametrize(\"input_array,pieces,expected_result\", test_data)\n    def test_check_array_formation_through_concatenation(\n            input_array: List[int],\n            pieces: List[List[int]],\n            expected_result: bool):\n>       assert expected_result == Solution().canFormArray(input_array, pieces)\nE       assert True == False\nE        +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>>([15, 88], [[88], [15]])\nE        +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>.canFormArray\nE        +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90> = Solution()\n\nsrc/test/java/challenges/c20210101_20210107/CheckArrayFormationThroughConcatenation/test_check_array_formation_through_concatenation.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_array_formation_through_concatenation"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-88"
+  }, {
+    "name" : "thread",
+    "value" : "3113-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "input_array",
+    "value" : "[15, 88]"
+  }, {
+    "name" : "pieces",
+    "value" : "[[88], [15]]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f5470f242ecc08c9.json",
+  "parameterValues" : [ "True", "[15, 88]", "[[88], [15]]" ]
+}

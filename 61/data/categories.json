@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "2096bfe5a8e5865c",
+        "parentUid" : "9c36c0d89f9478629a8668ff735ae4a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334831,
+          "stop" : 1618517334832,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c36c0d89f9478629a8668ff735ae4a1"
+    }, {
+      "name" : "AssertionError: Lists differ: [[2, 2, 2, 2], [2, 3, 3], [3, 5]] != []\n\nFirst list contains 3 additional elements.\nFirst extra element 0:\n[2, 2, 2, 2]\n\n- [[2, 2, 2, 2], [2, 3, 3], [3, 5]]\n+ []",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "83d219c65c0399cf",
+        "parentUid" : "1b3f6a30bd56ce3366a2c0d71463b27d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334863,
+          "stop" : 1618517334863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b3f6a30bd56ce3366a2c0d71463b27d"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1]] != [[0]]\n\nFirst differing element 0:\n[1]\n[0]\n\n- [[1]]\n?   ^\n\n+ [[0]]\n?   ^",
+      "children" : [ {
+        "name" : "test_4",
+        "uid" : "647ba3b19863ef7",
+        "parentUid" : "a8a7cd336e05f958baac176fc0cb66bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334869,
+          "stop" : 1618517334870,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8a7cd336e05f958baac176fc0cb66bf"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+      "children" : [ {
+        "name" : "test_5",
+        "uid" : "5d2945ce03c374e9",
+        "parentUid" : "9e9e18b679ff66d0c9d4a05338b3055e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334874,
+          "stop" : 1618517334874,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e9e18b679ff66d0c9d4a05338b3055e"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c165ae80>>([85], [[85]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c165ae80>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c165ae80>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c165ae80> = Solution()",
+      "children" : [ {
+        "name" : "test_check_array_formation_through_concatenation[input_array0-pieces0-True]",
+        "uid" : "4b2b52fedf24ecdb",
+        "parentUid" : "38b77393193a503b556bf3d4bbb1dbd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334880,
+          "stop" : 1618517334880,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[85]", "[[85]]" ]
+      } ],
+      "uid" : "38b77393193a503b556bf3d4bbb1dbd2"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>>([15, 88], [[88], [15]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c1545a90> = Solution()",
+      "children" : [ {
+        "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
+        "uid" : "f5470f242ecc08c9",
+        "parentUid" : "bad28375346864da1aa268635ed12900",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334885,
+          "stop" : 1618517334885,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[15, 88]", "[[88], [15]]" ]
+      } ],
+      "uid" : "bad28375346864da1aa268635ed12900"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c14efbe0>>([91, 4, 64, 78], [[78], [4, 64], [91]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c14efbe0>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c14efbe0>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7fd3c14efbe0> = Solution()",
+      "children" : [ {
+        "name" : "test_check_array_formation_through_concatenation[input_array3-pieces3-True]",
+        "uid" : "4518b7f49b9eb84f",
+        "parentUid" : "4378f2f4d2fc6a63226f53fb219e6137",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334893,
+          "stop" : 1618517334893,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[91, 4, 64, 78]", "[[78], [4, 64], [91]]" ]
+      } ],
+      "uid" : "4378f2f4d2fc6a63226f53fb219e6137"
+    }, {
+      "name" : "AssertionError: assert <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c1576580> == <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c14ef580>\n +  where <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c14ef580> = <bound method Solution.getTargetCopy of <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7fd3c14ef910>>(<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c1609c40>, <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c160ed60>, <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c160ee80>)\n +    where <bound method Solution.getTargetCopy of <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7fd3c14ef910>> = <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7fd3c14ef910>.getTargetCopy\n +      where <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7fd3c14ef910> = Solution()",
+      "children" : [ {
+        "name" : "test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree[original0-cloned0-target0-expected_result0]",
+        "uid" : "bb598c0b09124615",
+        "parentUid" : "18aa3df7fa52b4efb4c20d936e3e1686",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334902,
+          "stop" : 1618517334902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c160ed60>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c1576580>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c1609c40>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7fd3c160ee80>" ]
+      } ],
+      "uid" : "18aa3df7fa52b4efb4c20d936e3e1686"
+    }, {
+      "name" : "AssertionError: assert [2, 3, 3, 4] == [5, 4, 9, 6]\n  At index 0 diff: 2 != 5\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_most_competitive[nums1-4-expected_result1]",
+        "uid" : "5b703b0b606c756e",
+        "parentUid" : "c02b2073c6f27fce959bd19b91c97e73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334912,
+          "stop" : 1618517334913,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
+      } ],
+      "uid" : "c02b2073c6f27fce959bd19b91c97e73"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7fd3c1574af0>>('abc', 'ahbgdc')\n +    where <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7fd3c1574af0>> = <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7fd3c1574af0>.isSubsequence\n +      where <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7fd3c1574af0> = Solution()",
+      "children" : [ {
+        "name" : "test_is_subsequence[abc-ahbgdc-True]",
+        "uid" : "b46aee6089c4338f",
+        "parentUid" : "c779b94bf293efb9d936b5cf08d61b7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618517334926,
+          "stop" : 1618517334927,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'abc'", "'ahbgdc'" ]
+      } ],
+      "uid" : "c779b94bf293efb9d936b5cf08d61b7c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
