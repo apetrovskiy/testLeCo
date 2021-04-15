@@ -12,7 +12,7 @@ class CheckArrayFormationThroughConcatenationTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     void shouldCheck(int[] arr, int[][] pieces, boolean expectedResult) {
-        final var actualResult = new Solution().canCompleteCircuit(arr, pieces);
+        final var actualResult = new Solution().canFormArray(arr, pieces);
         assertEquals(expectedResult, actualResult);
     }
 

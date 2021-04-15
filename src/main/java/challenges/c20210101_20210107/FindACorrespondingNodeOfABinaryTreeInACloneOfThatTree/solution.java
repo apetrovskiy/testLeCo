@@ -1,7 +1,7 @@
 package challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree;
 
 // Definition for a binary tree node.
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
