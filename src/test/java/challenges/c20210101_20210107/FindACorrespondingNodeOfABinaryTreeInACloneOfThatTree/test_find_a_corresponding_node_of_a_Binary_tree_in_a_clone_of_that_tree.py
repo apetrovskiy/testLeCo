@@ -9,6 +9,7 @@ test_data = [
 ]
 
 
+@pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("original,cloned,target,expected_result", test_data)
 def test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree(
         original: TreeNode,
