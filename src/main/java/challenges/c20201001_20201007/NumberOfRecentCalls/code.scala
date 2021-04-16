@@ -1,4 +1,4 @@
-class RecentCounter() {
+class RecentCounterScala() {
 
     def ping(t: Int): Int = {
         
