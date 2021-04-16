@@ -18,7 +18,7 @@ plugins {
 
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     // kotlin("multiplatform") version "1.4.10"
-    kotlin("jvm") version "1.4.10"
+    kotlin("jvm") version "1.4.32"
 
     // Apply the scala Plugin to add support for Scala.
     scala
