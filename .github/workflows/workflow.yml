@@ -43,12 +43,16 @@ jobs:
         java-version: '15'
         distribution: 'adopt'
     - name: Gradle wrapper
+      if: always()
       run: gradle wrapper
     - name: Gradle version
+      if: always()
       run: gradle --version
     - name: Grant execute permission for gradlew
+      if: always()
       run: chmod +x gradlew
     - name: Build with Gradle
+      if: always()
       run: ./gradlew build
 
     - name: Setup .NET
@@ -57,12 +61,16 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: dotnet version
+      if: always()
       run: dotnet --version
     - name: Restore dependencies
+      if: always()
       run: dotnet restore
     - name: Build
+      if: always()
       run: dotnet build --no-restore
     - name: Test
+      if: always()
       run: dotnet test --no-build --verbosity normal
 
     - name: Get Allure history
