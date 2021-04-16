@@ -29,6 +29,7 @@ jobs:
       run: |
         flake8 .
     - name: Test with pytest
+      if: always()
       run: |
         pytest --alluredir=allure-results
 #     - name: Analysing the code with pylint
@@ -37,6 +38,7 @@ jobs:
 
     - name: Set up JDK 15
       uses: actions/setup-java@v2
+      if: always()
       with:
         java-version: '15'
         distribution: 'adopt'
@@ -51,6 +53,7 @@ jobs:
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
+      if: always()
       with:
         dotnet-version: 5.0.x
     - name: dotnet version
