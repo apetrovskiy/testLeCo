@@ -1,4 +1,4 @@
-class RecentCounter() {
+class RecentCounterKt() {
 
     fun ping(t: Int): Int {
         return 0

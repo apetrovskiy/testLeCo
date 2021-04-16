@@ -42,6 +42,8 @@ jobs:
         distribution: 'adopt'
     - name: Gradle wrapper
       run: gradle wrapper
+    - name: Gradle version
+      run: gradle --version
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
@@ -51,6 +53,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
+    - name: dotnet version
+      run: dotnet --version
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
