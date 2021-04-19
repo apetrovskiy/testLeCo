@@ -16,6 +16,9 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "pg"
 # gem "database_cleaner"
 
+# probe
+gem 'rake'
+
 group :test do   # you can make groups for test, development, production..
   gem "rspec"
   gem 'rspec-expectations'
@@ -34,3 +37,15 @@ gem 'test-unit'
 gem 'minitest'
 gem 'bundler'
 # gem 'solargraph' # ruby < 3.0
+
+gem 'cucumber' #, path: '../..'
+
+gem "allure-ruby-commons"
+gem "allure-cucumber"
+gem "allure-rspec"
+
+group :test do
+  # gem 'cucumber-rails', require: false
+  # database_cleaner is not mandatory, but highly recommended
+  gem 'database_cleaner'
+end
