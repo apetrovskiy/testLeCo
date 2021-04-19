@@ -6,8 +6,21 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        ruby-version: ['2.6', '2.7', '3.0']
+
     steps:
     - uses: actions/checkout@v2
+
+    - name: Prepare Allure
+      run: |
+        sudo apt-get install allure
+        mkdir allure-results
+        mkdir allure-report
+        mkdir allure-history
+
     - name: Set up Python 3.9
       uses: actions/setup-python@v1
       with:
@@ -21,10 +34,10 @@ jobs:
         # pip install allure-pytest
         # sudo apt-add-repository ppa:qameta/allure
         # sudo apt-get update 
-        sudo apt-get install allure
-        mkdir allure-results
-        mkdir allure-report
-        mkdir allure-history
+        # sudo apt-get install allure
+        # mkdir allure-results
+        # mkdir allure-report
+        # mkdir allure-history
     - name: Lint with flake8
       run: |
         flake8 .
@@ -35,6 +48,17 @@ jobs:
 #     - name: Analysing the code with pylint
 #       run: |
 #         pylint `ls -R|grep .py$|xargs`
+
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+    # uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
+      with:
+        ruby-version: ${{ matrix.ruby-version }}
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Run tests
+      run: bundle exec rake
 
     - name: Set up JDK 15
       uses: actions/setup-java@v2
