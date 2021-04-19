@@ -1,12 +1,12 @@
 {
-  "uid" : "f7af09311e967750",
+  "uid" : "ecd5f871f4ba2cae",
   "name" : "test_contains_duplicate[input0-True]",
   "fullName" : "src.test.java.problems.easy.ContainsDuplicate.test_contains_duplicate#test_contains_duplicate",
   "historyId" : "b9b60f9af4d7b3919cbdc03bfac03084",
   "time" : {
-    "start" : 1618809938482,
-    "stop" : 1618809938483,
-    "duration" : 1
+    "start" : 1618809942245,
+    "stop" : 1618809942245,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,10 +21,10 @@
     "value" : "test_contains_duplicate"
   }, {
     "name" : "host",
-    "value" : "fv-az231-651"
+    "value" : "fv-az245-205"
   }, {
     "name" : "thread",
-    "value" : "3121-MainThread"
+    "value" : "3117-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -173,6 +173,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "f7af09311e967750.json",
+  "source" : "ecd5f871f4ba2cae.json",
   "parameterValues" : [ "True", "[1, 2, 3, 1]" ]
 }
