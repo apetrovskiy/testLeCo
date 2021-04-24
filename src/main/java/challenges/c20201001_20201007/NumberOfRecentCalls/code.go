@@ -6,7 +6,7 @@ type RecentCounter struct {
 
 
 func Constructor() RecentCounter {
-    
+    return RecentCounter{}
 }
 
 
