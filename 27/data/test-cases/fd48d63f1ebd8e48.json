@@ -1,0 +1,65 @@
+{
+  "uid" : "fd48d63f1ebd8e48",
+  "name" : "test_roman_to_integer[MCMXCIV-1994]",
+  "fullName" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer#test_roman_to_integer",
+  "historyId" : "0ecd922bebaf6796adc31f51ff7fa636",
+  "time" : {
+    "start" : 1619981529898,
+    "stop" : 1619981529898,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1994 == 0\n +  where 0 = <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>>('MCMXCIV')\n +    where <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>> = <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>.romanToInt\n +      where <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730> = Solution()",
+  "statusTrace" : "input = 'MCMXCIV', expected_result = 1994\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_roman_to_integer(input: str, expected_result: int):\n>       assert expected_result == Solution().romanToInt(input)\nE       AssertionError: assert 1994 == 0\nE        +  where 0 = <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>>('MCMXCIV')\nE        +    where <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>> = <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730>.romanToInt\nE        +      where <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1215730> = Solution()\n\nsrc/test/java/problems/easy/RomanToInteger/test_roman_to_integer.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.RomanToInteger"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_to_integer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-114"
+  }, {
+    "name" : "thread",
+    "value" : "1799-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "1994"
+  }, {
+    "name" : "input",
+    "value" : "'MCMXCIV'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fd48d63f1ebd8e48.json",
+  "parameterValues" : [ "1994", "'MCMXCIV'" ]
+}

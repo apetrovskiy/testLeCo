@@ -1,0 +1,65 @@
+{
+  "uid" : "eb925f332b1615ce",
+  "name" : "test_roman_to_integer[IX-9]",
+  "fullName" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer#test_roman_to_integer",
+  "historyId" : "44fa5399218210821429939f622b9f29",
+  "time" : {
+    "start" : 1619981529889,
+    "stop" : 1619981529889,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 9 == 0\n +  where 0 = <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>>('IX')\n +    where <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>> = <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>.romanToInt\n +      where <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00> = Solution()",
+  "statusTrace" : "input = 'IX', expected_result = 9\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_roman_to_integer(input: str, expected_result: int):\n>       assert expected_result == Solution().romanToInt(input)\nE       AssertionError: assert 9 == 0\nE        +  where 0 = <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>>('IX')\nE        +    where <bound method Solution.romanToInt of <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>> = <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00>.romanToInt\nE        +      where <src.main.java.problems.easy.RomanToInteger.roman_to_integer.Solution object at 0x7fafc1235a00> = Solution()\n\nsrc/test/java/problems/easy/RomanToInteger/test_roman_to_integer.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.RomanToInteger"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_to_integer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-114"
+  }, {
+    "name" : "thread",
+    "value" : "1799-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "9"
+  }, {
+    "name" : "input",
+    "value" : "'IX'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eb925f332b1615ce.json",
+  "parameterValues" : [ "9", "'IX'" ]
+}
