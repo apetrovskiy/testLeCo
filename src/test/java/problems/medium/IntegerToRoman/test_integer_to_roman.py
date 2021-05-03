@@ -10,7 +10,9 @@ test_data = [
     (4, "IV"),
     (9, "IX"),
     (58, "LVIII"),
-    (1994, "MCMXCIV")
+    (1994, "MCMXCIV"),
+    (3999, 'MMMCMXCIX'),
+    (1000, 'M')
 ]
 
 
