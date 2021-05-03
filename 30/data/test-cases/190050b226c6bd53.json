@@ -1,0 +1,65 @@
+{
+  "uid" : "190050b226c6bd53",
+  "name" : "test_integer_to_roman[1994-MCMXCIV]",
+  "fullName" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman#test_integer_to_roman",
+  "historyId" : "0aa5a80dd6f838af7006526b8aa2da7a",
+  "time" : {
+    "start" : 1620044775458,
+    "stop" : 1620044775458,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'MCMXCIV' == ''\n  + MCMXCIV",
+  "statusTrace" : "input = 1994, expected_result = 'MCMXCIV'\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_integer_to_roman(input: int, expected_result: str):\n>       assert expected_result == Solution().intToRoman(input)\nE       AssertionError: assert 'MCMXCIV' == ''\nE         + MCMXCIV\n\nsrc/test/java/problems/medium/IntegerToRoman/test_integer_to_roman.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.IntegerToRoman"
+  }, {
+    "name" : "suite",
+    "value" : "test_integer_to_roman"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-453"
+  }, {
+    "name" : "thread",
+    "value" : "1884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'MCMXCIV'"
+  }, {
+    "name" : "input",
+    "value" : "1994"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "190050b226c6bd53.json",
+  "parameterValues" : [ "'MCMXCIV'", "1994" ]
+}
