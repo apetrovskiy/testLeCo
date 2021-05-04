@@ -1,0 +1,106 @@
+{
+  "uid" : "2f8dbd25251a434a",
+  "name" : "test_roman_to_integer[MDLXX-1570]",
+  "fullName" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer#test_roman_to_integer",
+  "historyId" : "0e9e5be70bb3706af7acae112f828057",
+  "time" : {
+    "start" : 1620132104182,
+    "stop" : 1620132104182,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.RomanToInteger"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_to_integer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-872"
+  }, {
+    "name" : "thread",
+    "value" : "1807-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "1570"
+  }, {
+    "name" : "input",
+    "value" : "'MDLXX'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "819ac2918f21360e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/31//#testresult/819ac2918f21360e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620052282560,
+          "stop" : 1620052282560,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "df316a8d85bbc018",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/30//#testresult/df316a8d85bbc018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620044775396,
+          "stop" : 1620044775396,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c9bd5864bf2b251",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/29//#testresult/5c9bd5864bf2b251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620031341633,
+          "stop" : 1620031341633,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "28b2facf718f2326",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/28//#testresult/28b2facf718f2326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619984507759,
+          "stop" : 1619984507759,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2f8dbd25251a434a.json",
+  "parameterValues" : [ "1570", "'MDLXX'" ]
+}
