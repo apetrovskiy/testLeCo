@@ -19,8 +19,8 @@ plugins {
     application
 
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    // kotlin("multiplatform") version "1.4.10"
-    kotlin("jvm") version "1.4.32"
+    // kotlin("multiplatform") version "1.5.0"
+    kotlin("jvm") version "1.5.0"
 
     // Apply the scala Plugin to add support for Scala.
     scala
@@ -85,7 +85,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
-    // implementation("org.jetbrains.kotlin:kotlin-stdlib:1.4.20")
+    // implementation("org.jetbrains.kotlin:kotlin-stdlib:${Version.KOTLIN.id}")
 
     // Align versions of all Kotlin components
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
@@ -123,7 +123,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:${Version.JUNIT_JUPITER.id}")
 
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-test
-    // testImplementation("org.jetbrains.kotlin:kotlin-test:1.4.20")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
 
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
@@ -168,6 +168,11 @@ dependencies {
     // mainClassName = "testLeCo.App"
     mainClass.set("testLeCo.App")
 }*/
+
+val testCompile: Configuration by configurations.creating
+configurations {
+    testCompile.extendsFrom(testImplementation.get())
+}
 
 configure<AllureExtension> {
     autoconfigure = true
@@ -235,7 +240,7 @@ enum class Version(val id: String) {
     ALLURE("2.13.9"),
     ALLURE_GRADLE("2.8.1"),
     JAVA("16"),
-    KOTLIN("1.4.32"),
+    KOTLIN("1.5.0"),
     GRADLE("7.0"),
     PMD("6.21.0"),
     KTLINT_GRADLE_PLUGIN("10.0.0"),
