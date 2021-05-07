@@ -1,0 +1,278 @@
+{
+  "uid" : "7e76a0a45a281945",
+  "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
+  "fullName" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation#test_check_array_formation_through_concatenation",
+  "historyId" : "2218cbf22d58ec1172738dea623b2c01",
+  "time" : {
+    "start" : 1620396003104,
+    "stop" : 1620396003104,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testLeCo/testLeCo/src/test/java/challenges/c20210101_20210107/CheckArrayFormationThroughConcatenation/test_check_array_formation_through_concatenation.py', 16, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_array_formation_through_concatenation"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2403-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.test_check_array_formation_through_concatenation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "input_array",
+    "value" : "[15, 88]"
+  }, {
+    "name" : "pieces",
+    "value" : "[[88], [15]]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 36,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 36
+      },
+      "items" : [ {
+        "uid" : "1c2462892d873eff",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/33//#testresult/1c2462892d873eff",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620337211333,
+          "stop" : 1620337211333,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f9cc67c8ca610d86",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/32//#testresult/f9cc67c8ca610d86",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620132104124,
+          "stop" : 1620132104124,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "51724c589832e814",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/31//#testresult/51724c589832e814",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620052282521,
+          "stop" : 1620052282521,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "777c5060ed7ba8d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/30//#testresult/777c5060ed7ba8d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620044775358,
+          "stop" : 1620044775358,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bb309db7b1b4bc6f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/29//#testresult/bb309db7b1b4bc6f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620031341598,
+          "stop" : 1620031341598,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "207def272844806f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/28//#testresult/207def272844806f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619984507721,
+          "stop" : 1619984507721,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "20f273f9a282f2fa",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/27//#testresult/20f273f9a282f2fa",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619981529830,
+          "stop" : 1619981529830,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b6ecad4fa56025a1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/26//#testresult/b6ecad4fa56025a1",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619848553374,
+          "stop" : 1619848553374,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "54158c9347a2f8c8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/25//#testresult/54158c9347a2f8c8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619385805558,
+          "stop" : 1619385805558,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "afadc16f02ea95d3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/24//#testresult/afadc16f02ea95d3",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619383909820,
+          "stop" : 1619383909820,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "587426bc22c484fb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/23//#testresult/587426bc22c484fb",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619383877527,
+          "stop" : 1619383877527,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "30d6e5ad43e85512",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/22//#testresult/30d6e5ad43e85512",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619292254527,
+          "stop" : 1619292254527,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a5012a9cd951568a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/21//#testresult/a5012a9cd951568a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619266409561,
+          "stop" : 1619266409561,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e50b4541303b7de9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/20//#testresult/e50b4541303b7de9",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618979274313,
+          "stop" : 1618979274313,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8233662e1e868b7a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/19//#testresult/8233662e1e868b7a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618947906283,
+          "stop" : 1618947906283,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1bb0bead5d795440",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/18//#testresult/1bb0bead5d795440",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618943005945,
+          "stop" : 1618943005945,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9c916d7933b1d15c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/17//#testresult/9c916d7933b1d15c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618849349546,
+          "stop" : 1618849349546,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2d6961903ea1f448",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/16//#testresult/2d6961903ea1f448",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618849027596,
+          "stop" : 1618849027596,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bd9161f8d7d57920",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/15//#testresult/bd9161f8d7d57920",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618812069209,
+          "stop" : 1618812069209,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9759161c867c7aa3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/14//#testresult/9759161c867c7aa3",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618811203072,
+          "stop" : 1618811203072,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "7e76a0a45a281945.json",
+  "parameterValues" : [ "True", "[15, 88]", "[[88], [15]]" ]
+}

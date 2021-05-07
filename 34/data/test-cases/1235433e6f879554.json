@@ -1,0 +1,107 @@
+{
+  "uid" : "1235433e6f879554",
+  "name" : "test_integer_to_roman[58-LVIII]",
+  "fullName" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman#test_integer_to_roman",
+  "historyId" : "d550587dec2167212ea9fa466320db4f",
+  "time" : {
+    "start" : 1620396003207,
+    "stop" : 1620396003207,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.IntegerToRoman"
+  }, {
+    "name" : "suite",
+    "value" : "test_integer_to_roman"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2403-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'LVIII'"
+  }, {
+    "name" : "input",
+    "value" : "58"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "6cc39266cf6551fc",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/33//#testresult/6cc39266cf6551fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620337211442,
+          "stop" : 1620337211442,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e110090db8476bae",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/32//#testresult/e110090db8476bae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620132104294,
+          "stop" : 1620132104294,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb2244376c6b81f2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/31//#testresult/eb2244376c6b81f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620052282594,
+          "stop" : 1620052282594,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "912bb85a9f6b9f21",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/30//#testresult/912bb85a9f6b9f21",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'LVIII' == ''\n  + LVIII",
+        "time" : {
+          "start" : 1620044775454,
+          "stop" : 1620044775454,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1235433e6f879554.json",
+  "parameterValues" : [ "'LVIII'", "58" ]
+}
