@@ -1,9 +1,11 @@
 class RecentCounterKt() {
 
     fun ping(t: Int): Int {
+        // for ktlint only
+        println(t)
+
         return 0
     }
-
 }
 
 /**
