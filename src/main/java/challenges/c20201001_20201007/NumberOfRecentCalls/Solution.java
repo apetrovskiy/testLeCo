@@ -2,6 +2,7 @@ package challenges.c20201001_20201007.NumberOfRecentCalls;
 
 import java.util.LinkedList;
 
+@SuppressWarnings("PMD")
 class RecentCounter {
 
     LinkedList<Integer> slideWindow;

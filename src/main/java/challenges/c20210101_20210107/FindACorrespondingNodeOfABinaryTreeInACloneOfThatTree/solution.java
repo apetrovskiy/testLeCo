@@ -1,6 +1,7 @@
 package challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree;
 
 // Definition for a binary tree node.
+@SuppressWarnings("PMD")
 class TreeNode {
     int val;
     TreeNode left;

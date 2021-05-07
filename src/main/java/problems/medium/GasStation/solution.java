@@ -3,6 +3,7 @@ package problems.medium.GasStation;
 import java.util.stream.IntStream;
 
 class Solution {
+    @SuppressWarnings("PMD")
     public int canCompleteCircuit(int[] gas, int[] cost) {
         var differences = IntStream.range(0, gas.length).map(index -> gas[index] - cost[index]);
         if (differences.sum() < 0)
