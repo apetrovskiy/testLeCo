@@ -15,7 +15,9 @@ class Solution:
             self.result += 1000
         return self.result
 
-    def calculate_part(self, s: str, one: str, half: str, next_digit: str, multiplier: int) -> str:
+    def calculate_part(
+            self, s: str, one: str, half: str,
+            next_digit: str, multiplier: int) -> str:
         if s is None or s == "":
             return ""
         if one + next_digit in s:
