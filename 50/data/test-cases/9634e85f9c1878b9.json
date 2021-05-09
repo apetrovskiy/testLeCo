@@ -1,0 +1,103 @@
+{
+  "uid" : "9634e85f9c1878b9",
+  "name" : "case 01",
+  "fullName" : "Two Sum.case 01",
+  "historyId" : "47f87f429fcb80f66e397b20750116b5",
+  "time" : {
+    "start" : 1620575532976,
+    "stop" : 1620575532984,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "statusTrace" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Two Sum"
+  }, {
+    "name" : "testClass",
+    "value" : "Two Sum"
+  }, {
+    "name" : "testMethod",
+    "value" : "case 01"
+  }, {
+    "name" : "package",
+    "value" : "Two Sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ca8901242ac85930",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/49//#testresult/ca8901242ac85930",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620575052049,
+          "stop" : 1620575052056,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "fd6e17196ed90338",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/48//#testresult/fd6e17196ed90338",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620574009160,
+          "stop" : 1620574009169,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "2db9bf275d755de6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/47//#testresult/2db9bf275d755de6",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620567356098,
+          "stop" : 1620567356108,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "d83ac373b3c59755",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/46//#testresult/d83ac373b3c59755",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620566713055,
+          "stop" : 1620566713065,
+          "duration" : 10
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9634e85f9c1878b9.json",
+  "parameterValues" : [ ]
+}
