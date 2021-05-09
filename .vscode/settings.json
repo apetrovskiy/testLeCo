@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "python.testing.pytestArgs": [
         "src"
@@ -15,12 +14,7 @@
     "python.testing.pytestEnabled": true,
     "files.watcherExclude": {
         "**/target": true
-    }
-=======
-{
-    "files.watcherExclude": {
-        "**/target": true
     },
-    "dotnet-test-explorer.testProjectPath":"*Test.@(csproj|vbproj|fsproj)"
->>>>>>> feature/challenge-20201001-20201007
+    "rubyTestExplorer.minitestDirectory": "./src/test/java/",
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
 }

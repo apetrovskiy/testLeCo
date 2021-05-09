@@ -1,0 +1,263 @@
+<div class="question-wrapper">
+    <div class="failed-to-complete-container">
+        <h1>Challenge Notice</h1>
+        <p>This question has passed the daily deadline.</p>
+        <p>You may still solve the question, but it will not count towards the challenge, unless you use a valid <a href="/store">Time Travel Ticket</a><i class="fa fa-question-circle time-travel-description-icon" aria-hidden="true"></i>.</p>
+    </div>
+    <div class="content-title small-content-title">
+        <div class="question-title"><span><i title="Coding Question" class="fa fa-file-code-o content-icon" aria-hidden="true"></i> &nbsp;</span>Check Array Formation Through Concatenation</div><button class="answer-btn small-toggle-btn"><div>Solution</div><div><i class="fa fa-lock answer-icon"></i><span class="loading__2SyG fa fa-spinner fa-pulse fa-fw solution-loading-icon" data-show="false"></span></div></button></div>
+    <div
+        class="question-area">
+        <div class="question-detail">
+            <div class="question-description__3U1T">
+                <div>
+                    <p>You are given an array of <strong>distinct</strong> integers <code>arr</code> and an array of integer arrays <code>pieces</code>, where the integers in <code>pieces</code> are <strong>distinct</strong>. Your goal is to form <code>arr</code>                        by concatenating the arrays in <code>pieces</code> <strong>in any order</strong>. However, you are <strong>not</strong> allowed to reorder the integers in each array <code>pieces[i]</code>.</p>
+
+                    <p>Return <code>true</code> <em>if it is possible </em><em>to form the array </em><code>arr</code><em> from </em><code>pieces</code>. Otherwise, return <code>false</code>.</p>
+
+                    <p>&nbsp;</p>
+                    <p><strong>Example 1:</strong></p>
+
+                    <pre><strong>Input:</strong> arr = [85], pieces = [[85]]
+<strong>Output:</strong> true
+</pre>
+
+                    <p><strong>Example 2:</strong></p>
+
+                    <pre><strong>Input:</strong> arr = [15,88], pieces = [[88],[15]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Concatenate <code>[15]</code> then <code>[88]</code>
+</pre>
+
+                    <p><strong>Example 3:</strong></p>
+
+                    <pre><strong>Input:</strong> arr = [49,18,16], pieces = [[16,18,49]]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Even though the numbers match, we cannot reorder pieces[0].
+</pre>
+
+                    <p><strong>Example 4:</strong></p>
+
+                    <pre><strong>Input:</strong> arr = [91,4,64,78], pieces = [[78],[4,64],[91]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Concatenate <code>[91]</code> then <code>[4,64]</code> then <code>[78]</code></pre>
+
+                    <p><strong>Example 5:</strong></p>
+
+                    <pre><strong>Input:</strong> arr = [1,3,5,7], pieces = [[2,4,6,8]]
+<strong>Output:</strong> false
+</pre>
+
+                    <p>&nbsp;</p>
+                    <p><strong>Constraints:</strong></p>
+
+                    <ul>
+                        <li><code>1 &lt;= pieces.length &lt;= arr.length &lt;= 100</code></li>
+                        <li><code>sum(pieces[i].length) == arr.length</code></li>
+                        <li><code>1 &lt;= pieces[i].length &lt;= arr.length</code></li>
+                        <li><code>1 &lt;= arr[i], pieces[i][j] &lt;= 100</code></li>
+                        <li>The integers in&nbsp;<code>arr</code>&nbsp;are <strong>distinct</strong>.</li>
+                        <li>The integers in&nbsp;<code>pieces</code> are <strong>distinct</strong>&nbsp;(i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="hints-area">
+    <div class="css-haw22i">
+        <div class="expandable-panel__YLuE" style="background-color: white; margin-top: 0px;">
+            <div class="center__3_51">
+                <div class="expand-btn__2cag"><span class="text">&nbsp;</span><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span class="text">&nbsp;&nbsp;</span>Show Hint #1&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+            </div>
+            <div class="expandable-wrapper__37QK">
+                <div>
+                    <div class="line__2vww"></div>
+                    <div class="content__1q_0">
+                        <div>Note that the distinct part means that every position in the array belongs to only one piece</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="css-haw22i">
+        <div class="expandable-panel__YLuE" style="background-color: white; margin-top: 0px;">
+            <div class="center__3_51">
+                <div class="expand-btn__2cag"><span class="text">&nbsp;</span><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span class="text">&nbsp;&nbsp;</span>Show Hint #2&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></div>
+            </div>
+            <div class="expandable-wrapper__37QK">
+                <div>
+                    <div class="line__2vww"></div>
+                    <div class="content__1q_0">
+                        <div>Note that you can get the piece every position belongs to naively</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="editor-area">
+    <div tabindex="-1" style="outline: 0px;">
+        <div class="question-detail-bottom ">
+            <div class="editor-base">
+                <hr class="line solid">
+                <div class="row control-btn-bar">
+                    <div class="col-md-12">
+                        <div class="language-select-wrapper pull-left select-wrapper">
+                            <div class="Select has-value Select--single"><input name="lang-select" type="hidden" value="cpp">
+                                <div class="Select-control"><span class="Select-multi-value-wrapper" id="react-select-2--value"><div class="Select-value"><span class="Select-value-label" role="option" aria-selected="true" id="react-select-2--value-item">C++</span></div>
+                                <div aria-expanded="false"
+                                    aria-owns="" aria-activedescendant="react-select-2--value" aria-disabled="false" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
+                                </span><span class="Select-arrow-zone"><span class="Select-arrow"></span></span>
+                            </div>
+                        </div>
+                    </div><span class="hidden-xs learn-more-wrapper"><span data-toggle="modal"><span class="" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Learn more about our C++ environment" data-container="body" aria-hidden="true" style="cursor: pointer;" data-original-title="" title=""><span class="learn-more-btn fa fa-question-circle"></span></span>
+                    </span>
+                    </span><span class="pull-right editor-toolbar"><span class="hidden-xs"></span><span class="editor-popover" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Retrieve last submitted code" data-container="" aria-hidden="true"
+                        style="cursor: pointer;" data-original-title="" title=""><button class="editor-btn code-btn btn btn-default "><i class="fa fa-file-code-o"></i></button></span><span class="editor-popover" data-toggle="popover" data-trigger="hover"
+                        data-placement="top" data-content="Reset to default code definition" data-container="" aria-hidden="true" style="cursor: pointer;" data-original-title="" title=""><button class="editor-btn reset-btn btn btn-default"><i class="fa fa-refresh"></i></button></span>
+                    <div><span class="block-popover__Bye8" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Code Editor Settings" data-container="body" aria-hidden="true" style="cursor: pointer;" data-original-title="" title=""><button class="btn btn-default setting-btn__2v2k editor-btn setting-btn"><span class="fa fa-cog"></span></button>
+                        </span>
+                    </div>
+                    <form id="playground_form" target="_blank" method="post" action="/playground/new/empty" style="display: none;"><input id="playground_form_csrf" name="csrfmiddlewaretoken" type="hidden"><input id="playground_form_code" name="code" type="hidden"><input id="playground_form_question" name="question" type="hidden"><input id="playground_form_testcase"
+                            name="testcase" type="hidden"><input id="playground_form_lang" name="lang" type="hidden"><input id="playground_form_from_sub_res" name="from_submission_result" type="hidden"></form>
+                    </span>
+                </div>
+            </div>
+            <div class="ReactCodeMirror"><textarea name="lc-codemirror" autocomplete="off" style="display: none;">class Solution {
+public:
+    bool canFormArray(vector&lt;int&gt;&amp; arr, vector&lt;vector&lt;int&gt;&gt;&amp; pieces) {
+        
+    }
+};</textarea>
+                <div class="CodeMirror cm-s-textmate CodeMirror-wrap">
+                    <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5px; left: 45px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div>
+                    <div class="CodeMirror-vscrollbar"
+                        tabindex="-1" cm-not-content="true">
+                        <div style="min-width: 1px; height: 0px;"></div>
+                    </div>
+                    <div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true">
+                        <div style="height: 100%; min-height: 1px; width: 0px;"></div>
+                    </div>
+                    <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
+                    <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
+                    <div class="CodeMirror-scroll" tabindex="-1">
+                        <div class="CodeMirror-sizer" style="margin-left: 40px; margin-bottom: -16px; border-right-width: 14px; min-height: 104px; padding-right: 0px; padding-bottom: 0px;">
+                            <div style="position: relative; top: 0px;">
+                                <div class="CodeMirror-lines" role="presentation">
+                                    <div role="presentation" style="position: relative; outline: none;">
+                                        <div class="CodeMirror-measure"></div>
+                                        <div class="CodeMirror-measure"></div>
+                                        <div style="position: relative; z-index: 1;"></div>
+                                        <div class="CodeMirror-cursors">
+                                            <div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 16px;">&nbsp;</div>
+                                        </div>
+                                        <div class="CodeMirror-code" role="presentation" style="">
+                                            <div class="CodeMirror-activeline" style="position: relative;">
+                                                <div class="CodeMirror-activeline-background CodeMirror-linebackground"></div>
+                                                <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -40px; width: 40px;"></div>
+                                                <div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -40px;">
+                                                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div>
+                                                    <div class="CodeMirror-gutter-elt" style="left: 29px; width: 10px;">
+                                                        <div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div>
+                                                    </div>
+                                                </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Solution</span> {</span></pre></div>
+                                            <div
+                                                style="position: relative;">
+                                                <div class="CodeMirror-gutter-wrapper" style="left: -40px;">
+                                                    <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div>
+                                                </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">public</span>:</span></pre></div>
+                                        <div style="position: relative;">
+                                            <div class="CodeMirror-gutter-wrapper" style="left: -40px;">
+                                                <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div>
+                                                <div class="CodeMirror-gutter-elt" style="left: 29px; width: 10px;">
+                                                    <div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div>
+                                                </div>
+                                            </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-type">bool</span> <span class="cm-variable">canFormArray</span>(<span class="cm-variable">vector</span><span class="cm-operator">&lt;</span><span class="cm-type">int</span><span class="cm-operator">&gt;&amp;</span> <span class="cm-variable">arr</span>, <span class="cm-variable">vector</span><span class="cm-operator">&lt;</span><span class="cm-variable">vector</span><span class="cm-operator">&lt;</span><span class="cm-type">int</span><span class="cm-operator">&gt;&gt;&amp;</span> <span class="cm-variable">pieces</span>) {</span></pre></div>
+                                        <div
+                                            style="position: relative;">
+                                            <div class="CodeMirror-gutter-wrapper" style="left: -40px;">
+                                                <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div>
+                                            </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;</span></pre></div>
+                                    <div style="position: relative;">
+                                        <div class="CodeMirror-gutter-wrapper" style="left: -40px;">
+                                            <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div>
+                                        </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div>
+                                    <div style="position: relative;">
+                                        <div class="CodeMirror-gutter-wrapper" style="left: -40px;">
+                                            <div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div>
+                                        </div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">};</span></pre></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; height: 14px; width: 1px; border-bottom: 0px solid transparent; top: 104px;"></div>
+                <div class="CodeMirror-gutters" style="height: 118px; left: 0px;">
+                    <div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div>
+                    <div class="CodeMirror-gutter CodeMirror-foldgutter"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="action">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="testcase-area">
+                    <div class="">
+                        <div class="custom-textcase"><label for="custom_testcase"><input type="checkbox" id="custom_testcase" name="custom_testcase"><span>&nbsp; Custom Testcase</span></label>
+                            <div class="contribute-btn "><span>(&nbsp;<a style="font-weight: bold; cursor: pointer;">Contribute&nbsp;<span class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" data-original-title="Contribute missing testcases and get rewarded!" aria-hidden="true" style="cursor: pointer;"></span></a>&nbsp;)</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="ds-viewer-container col-lg-12">
+                                <div id="ds-viewer"></div>
+                                <div class="hidden testcase-input-base"><textarea class="form-control testCaseInputArea" rows="5" id="textArea">[85]
+[[85]]</textarea>
+                                    <div class="row">
+                                        <div class="col-lg-12 testcase-help-label">
+                                            <div class="dropdown dropdown-inline"><a id="dLabel" class="menu-links" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;How to create a testcase<span class="caret"></span></a>
+                                                <ul
+                                                    class="dropdown-menu pull-right" aria-labelledby="dLabel">
+                                                    <li><a href="https://support.leetcode.com/hc/en-us/articles/360011883654-What-does-1-null-2-3-mean-in-binary-tree-representation-">Binary tree</a></li>
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="pull-right"><span class="hidden-xs"><div class="keyboard-shortcuts__sEqa"><span><span class="" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Show code editor shortcuts." data-container="" aria-hidden="true" style="cursor: pointer;" data-original-title="" title=""><div class="btn round"><i class="fa fa-question-circle"></i></div></span></span>
+                </div>
+                </span><span class="" data-toggle="tooltip" data-placement="top" data-original-title="Shortcut: Ctrl + '" aria-hidden="true" style="cursor: pointer;"><button class="btn btn-default btn-round" type="button" style="margin-right: 10px;"><span><i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;<span>Run<span class="hidden-xs"> Code</span></span>
+                </span>
+                </button>
+                </span><button class="btn btn-primary btn-round" type="button"><span><i class="fa fa-cloud-upload" aria-hidden="true"></i>&nbsp;Submit</span></button></div>
+        </div>
+    </div>
+    <div>
+        <div id="submit_error" class="text-danger hidden">Submit failed, try again please.</div>
+        <div id="submit_warning" class="text-danger"></div>
+    </div>
+    <div class="submission-result-base">
+        <div class="row animated hidden">
+            <hr class="line">
+            <div class="col-lg-12 run-code-status">
+                <h4><span><span>Run Code<span class="hidden-xs"> Status</span>:&nbsp;</span>
+                    </span><span class=""><span id="result_state" class="text-info"></span><span id="submit_wait" class="loading-center hidden"><img src="/static/images/loading.gif" class="img-rounded loading-image" alt="loading" width="15"></span></span>
+                </h4>
+            </div>
+            <div class="col-lg-12">
+                <div class="text-danger"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
