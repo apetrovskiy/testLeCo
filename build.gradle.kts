@@ -76,7 +76,7 @@ sourceSets.test {
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    // jcenter()
     mavenCentral()
     /*maven {
         url = uri("https://mvnrepository.com")
