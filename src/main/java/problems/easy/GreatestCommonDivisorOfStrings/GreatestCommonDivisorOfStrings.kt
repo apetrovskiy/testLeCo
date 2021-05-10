@@ -19,8 +19,8 @@ class SolutionKt {
             return result
         if (divisor == data)
             return true
-        val listOfDataParth = data.split(divisor)
-        result = listOfDataParth.all { it == "" }
+        val listOfDataParts = data.split(divisor)
+        result = listOfDataParts.all { it == "" }
         return result
     }
 }

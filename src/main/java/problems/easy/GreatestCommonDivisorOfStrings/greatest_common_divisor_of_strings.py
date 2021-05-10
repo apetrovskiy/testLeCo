@@ -15,6 +15,6 @@ class Solution:
             return result
         if divisor == data:
             return True
-        list_from_str2 = data.split(divisor)
-        result = all(x == '' for x in list_from_str2)
+        list_from_data = data.split(divisor)
+        result = all(x == '' for x in list_from_data)
         return result
