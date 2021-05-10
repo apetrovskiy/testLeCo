@@ -109,7 +109,7 @@ dependencies {
     implementation("org.clojure:clojure:1.10.2-alpha4")
 
     // Use Scala 2.13 in our library project
-    implementation("org.scala-lang:scala-library:2.13.3")
+    implementation("org.scala-lang:scala-library:${Version.SCALA.id}")
 
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api("org.apache.commons:commons-math3:3.6.1")
