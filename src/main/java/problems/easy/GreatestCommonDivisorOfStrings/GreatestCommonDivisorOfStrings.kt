@@ -5,7 +5,7 @@ class SolutionKt {
         var result: String = ""
         val maxDivisorLength: Int = listOf(str1.length, str2.length).min()!!
         var currentDivisor: String = ""
-        for (i in 1..maxDivisorLength) {
+        for (i in 0..maxDivisorLength - 1) {
             currentDivisor += str1[i]
             if (isDivisorOf(currentDivisor, str1) && isDivisorOf(currentDivisor, str2))
                 result = currentDivisor
