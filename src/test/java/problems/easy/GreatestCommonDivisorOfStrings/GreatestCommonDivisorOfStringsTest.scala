@@ -17,7 +17,7 @@ class GreatestCommonDivisorOfStringsScalaTest {
   }
 }
 
-object GreatestCommonDivisorOfStringsTest {
+object GreatestCommonDivisorOfStringsScalaTest {
   def getInputData(): java.util.stream.Stream[Arguments] = {
     java.util.stream.Stream.of(
       of("ABCABC", "ABC", "ABC"),
