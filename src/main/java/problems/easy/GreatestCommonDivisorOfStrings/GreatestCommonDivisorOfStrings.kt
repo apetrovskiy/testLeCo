@@ -3,7 +3,7 @@ package problems.easy.GreatestCommonDivisorOfStrings
 class SolutionKt {
     fun gcdOfStrings(str1: String, str2: String): String {
         var result: String = ""
-        var maxDivisorLength: Int = listOf(str1.length, str2.length).min()!!
+        val maxDivisorLength: Int = listOf(str1.length, str2.length).min()!!
         var currentDivisor: String = ""
         for (i in 1..maxDivisorLength) {
             currentDivisor += str1[i]
