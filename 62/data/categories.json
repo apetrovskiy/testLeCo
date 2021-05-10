@@ -3,177 +3,105 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+      "name" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
       "children" : [ {
-        "name" : "test_1",
-        "uid" : "8c9c6cd20d521cab",
-        "parentUid" : "9c36c0d89f9478629a8668ff735ae4a1",
+        "name" : "test_integer_to_english_words[1-One]",
+        "uid" : "fa05620ca00cc339",
+        "parentUid" : "9123ab527d641dc38f1b3f28156694cf",
         "status" : "failed",
         "time" : {
-          "start" : 1618517597263,
-          "stop" : 1618517597263,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c36c0d89f9478629a8668ff735ae4a1"
-    }, {
-      "name" : "AssertionError: Lists differ: [[2, 2, 2, 2], [2, 3, 3], [3, 5]] != []\n\nFirst list contains 3 additional elements.\nFirst extra element 0:\n[2, 2, 2, 2]\n\n- [[2, 2, 2, 2], [2, 3, 3], [3, 5]]\n+ []",
-      "children" : [ {
-        "name" : "test_2",
-        "uid" : "4da26b083d33c4ce",
-        "parentUid" : "1b3f6a30bd56ce3366a2c0d71463b27d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618517597294,
-          "stop" : 1618517597294,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1b3f6a30bd56ce3366a2c0d71463b27d"
-    }, {
-      "name" : "AssertionError: Lists differ: [[1]] != [[0]]\n\nFirst differing element 0:\n[1]\n[0]\n\n- [[1]]\n?   ^\n\n+ [[0]]\n?   ^",
-      "children" : [ {
-        "name" : "test_4",
-        "uid" : "3ed3c7095fca5701",
-        "parentUid" : "a8a7cd336e05f958baac176fc0cb66bf",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618517597300,
-          "stop" : 1618517597300,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a8a7cd336e05f958baac176fc0cb66bf"
-    }, {
-      "name" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
-      "children" : [ {
-        "name" : "test_5",
-        "uid" : "e7701da1fb6f2648",
-        "parentUid" : "9e9e18b679ff66d0c9d4a05338b3055e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618517597304,
-          "stop" : 1618517597304,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9e9e18b679ff66d0c9d4a05338b3055e"
-    }, {
-      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa40adf0>>([85], [[85]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa40adf0>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa40adf0>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa40adf0> = Solution()",
-      "children" : [ {
-        "name" : "test_check_array_formation_through_concatenation[input_array0-pieces0-True]",
-        "uid" : "d448a17085145cdb",
-        "parentUid" : "add5fe77effbbd324dcfe47628938716",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618517597309,
-          "stop" : 1618517597310,
+          "start" : 1620667135335,
+          "stop" : 1620667135336,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "True", "[85]", "[[85]]" ]
+        "parameters" : [ "'One'", "1" ]
       } ],
-      "uid" : "add5fe77effbbd324dcfe47628938716"
+      "uid" : "9123ab527d641dc38f1b3f28156694cf"
     }, {
-      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa2f3a60>>([15, 88], [[88], [15]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa2f3a60>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa2f3a60>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa2f3a60> = Solution()",
+      "name" : "expected: <> but was: <ABC>",
       "children" : [ {
-        "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
-        "uid" : "d561863b6bf9affb",
-        "parentUid" : "71bf3158c0a9880c57a7ab66e95ceec6",
+        "name" : "[1] ABCABC, ABC, ABC",
+        "uid" : "997fa9ceafbc427f",
+        "parentUid" : "7d97de652c14c4ae2bda1541e16c8454",
         "status" : "failed",
         "time" : {
-          "start" : 1618517597314,
-          "stop" : 1618517597314,
-          "duration" : 0
+          "start" : 1620667279604,
+          "stop" : 1620667279747,
+          "duration" : 143
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "True", "[15, 88]", "[[88], [15]]" ]
-      } ],
-      "uid" : "71bf3158c0a9880c57a7ab66e95ceec6"
-    }, {
-      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa29d160>>([91, 4, 64, 78], [[78], [4, 64], [91]])\n +    where <bound method Solution.canFormArray of <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa29d160>> = <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa29d160>.canFormArray\n +      where <src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution.Solution object at 0x7ff9aa29d160> = Solution()",
-      "children" : [ {
-        "name" : "test_check_array_formation_through_concatenation[input_array3-pieces3-True]",
-        "uid" : "f339ec9f28692da1",
-        "parentUid" : "9bae19b23c9afcf7320195b5ee27f5f9",
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] ABCABC, ABC, ABC",
+        "uid" : "2ea849437fdf4e14",
+        "parentUid" : "7d97de652c14c4ae2bda1541e16c8454",
         "status" : "failed",
         "time" : {
-          "start" : 1618517597321,
-          "stop" : 1618517597321,
-          "duration" : 0
+          "start" : 1620667280128,
+          "stop" : 1620667280211,
+          "duration" : 83
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "True", "[91, 4, 64, 78]", "[[78], [4, 64], [91]]" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "9bae19b23c9afcf7320195b5ee27f5f9"
+      "uid" : "7d97de652c14c4ae2bda1541e16c8454"
     }, {
-      "name" : "AssertionError: assert <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3246a0> == <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa25e8e0>\n +  where <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa25e8e0> = <bound method Solution.getTargetCopy of <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7ff9aa25e8b0>>(<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3b0160>, <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3c3fa0>, <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa324880>)\n +    where <bound method Solution.getTargetCopy of <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7ff9aa25e8b0>> = <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7ff9aa25e8b0>.getTargetCopy\n +      where <src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.Solution object at 0x7ff9aa25e8b0> = Solution()",
+      "name" : "expected: <> but was: <AB>",
       "children" : [ {
-        "name" : "test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree[original0-cloned0-target0-expected_result0]",
-        "uid" : "23a60875c8752c45",
-        "parentUid" : "03c48c10a5cb19ddefd5caa3b4f93e66",
+        "name" : "[2] ABABAB, ABAB, AB",
+        "uid" : "b1fd53f73415aedc",
+        "parentUid" : "3c03a51b2e19a19529f27fdc683d654b",
         "status" : "failed",
         "time" : {
-          "start" : 1618517597329,
-          "stop" : 1618517597329,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3c3fa0>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3246a0>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa3b0160>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7ff9aa324880>" ]
-      } ],
-      "uid" : "03c48c10a5cb19ddefd5caa3b4f93e66"
-    }, {
-      "name" : "AssertionError: assert [2, 3, 3, 4] == [5, 4, 9, 6]\n  At index 0 diff: 2 != 5\n  Use -v to get the full diff",
-      "children" : [ {
-        "name" : "test_most_competitive[nums1-4-expected_result1]",
-        "uid" : "b305b2d635c1c097",
-        "parentUid" : "c02b2073c6f27fce959bd19b91c97e73",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618517597337,
-          "stop" : 1618517597338,
+          "start" : 1620667280015,
+          "stop" : 1620667280016,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
-      } ],
-      "uid" : "c02b2073c6f27fce959bd19b91c97e73"
-    }, {
-      "name" : "AssertionError: assert True == False\n +  where False = <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7ff9aa3220a0>>('abc', 'ahbgdc')\n +    where <bound method Solution.isSubsequence of <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7ff9aa3220a0>> = <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7ff9aa3220a0>.isSubsequence\n +      where <src.main.java.problems.easy.IsSubsequence.solution3.Solution object at 0x7ff9aa3220a0> = Solution()",
-      "children" : [ {
-        "name" : "test_is_subsequence[abc-ahbgdc-True]",
-        "uid" : "47f63353712fa211",
-        "parentUid" : "39a5eaf98a4d51fc0eead064538b3b98",
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] ABABAB, ABAB, AB",
+        "uid" : "498557c3858c56a1",
+        "parentUid" : "3c03a51b2e19a19529f27fdc683d654b",
         "status" : "failed",
         "time" : {
-          "start" : 1618517597350,
-          "stop" : 1618517597350,
-          "duration" : 0
+          "start" : 1620667280053,
+          "stop" : 1620667280208,
+          "duration" : 155
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "True", "'abc'", "'ahbgdc'" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "39a5eaf98a4d51fc0eead064538b3b98"
+      "uid" : "3c03a51b2e19a19529f27fdc683d654b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "String index out of range: 4",
+      "children" : [ {
+        "name" : "[3] LEET, CODE, ",
+        "uid" : "96eb33969cfb825a",
+        "parentUid" : "9fa8ffb1cfc55692feb9896bfb70ea87",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620667280259,
+          "stop" : 1620667280260,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fa8ffb1cfc55692feb9896bfb70ea87"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
