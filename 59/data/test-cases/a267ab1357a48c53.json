@@ -1,0 +1,77 @@
+{
+  "uid" : "a267ab1357a48c53",
+  "name" : "[4] ABCDEF, ABC, ",
+  "fullName" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest.shouldFindGreatestCommonDivisorKt",
+  "historyId" : "c32a140a705b61aba57e7913d506e28",
+  "time" : {
+    "start" : 1620658072758,
+    "stop" : 1620658072774,
+    "duration" : 16
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az129-439"
+  }, {
+    "name" : "thread",
+    "value" : "3362@fv-az129-439.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldFindGreatestCommonDivisorKt"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c621f1cf714f5c24",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/58//#testresult/c621f1cf714f5c24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620657823655,
+          "stop" : 1620657823658,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a267ab1357a48c53.json",
+  "parameterValues" : [ ]
+}
