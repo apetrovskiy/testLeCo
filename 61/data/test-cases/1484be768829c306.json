@@ -1,0 +1,95 @@
+{
+  "uid" : "1484be768829c306",
+  "name" : "[3] LEET, CODE, ",
+  "fullName" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest.shouldFindGreatestCommonDivisorKt",
+  "historyId" : "8300cffa4389de49cdea80945774c486",
+  "time" : {
+    "start" : 1620664938401,
+    "stop" : 1620664938406,
+    "duration" : 5
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-801"
+  }, {
+    "name" : "thread",
+    "value" : "3446@fv-az278-801.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldFindGreatestCommonDivisorKt"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.GreatestCommonDivisorOfStrings.GreatestCommonDivisorOfStringsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4a0fbd02f4fd376d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/60//#testresult/4a0fbd02f4fd376d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620660393657,
+          "stop" : 1620660393662,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "dcfed0b74c7cb61b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/59//#testresult/dcfed0b74c7cb61b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620658072857,
+          "stop" : 1620658072859,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c569ff32301cf5ae",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/58//#testresult/c569ff32301cf5ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620657823595,
+          "stop" : 1620657823595,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1484be768829c306.json",
+  "parameterValues" : [ ]
+}
