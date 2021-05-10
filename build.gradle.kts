@@ -46,7 +46,7 @@ plugins {
     // checkstyle
     pmd
     id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
-    id("cz.alenkacz.gradle.scalafmt") version ("1.14.0")
+    id("cz.alenkacz.gradle.scalafmt") version ("1.16.2")
 }
 
 /*
@@ -233,6 +233,13 @@ tasks.withType<Pmd>() {
     ruleSets = listOf("category/java/errorprone.xml", "category/java/bestpractices.xml")
 }
 
+scalafmt {
+    // .scalafmt.conf in the project root is default value, provide only if other location is needed
+    // config file has to be relative path from current project or root project in case of multimodule projects
+    // example usage: 
+    // configFilePath = ".scalafmt.conf"
+}
+
 tasks.named<Wrapper>("wrapper") {
     gradleVersion = Version.GRADLE.id
     distributionType = Wrapper.DistributionType.ALL
@@ -264,5 +271,5 @@ enum class Version(val id: String) {
     PMD("6.21.0"),
     KTLINT_GRADLE_PLUGIN("10.0.0"),
     KTLINT("0.41.0"),
-    SCALA_FMT("1.14.0");
+    SCALA_FMT("1.16.2");
 }
