@@ -71,6 +71,12 @@ java {
 tasks.compileJava {
     options.release.set(Version.JAVA.id.toInt())
 }
+tasks.compileScala {
+    options.release.set(Version.JAVA_FOR_SCALA.id.toInt())
+}
+tasks.compileTestScala {
+    options.release.set(Version.JAVA_FOR_SCALA.id.toInt())
+}
 
 val compileKotlin: KotlinCompile by tasks
 compileKotlin.kotlinOptions.suppressWarnings = true
@@ -79,11 +85,28 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 }
 
 sourceSets.main {
-    java.srcDirs("src/main/java", "src/main/kotlin", "src/main/scala", "src/main/groovy")
+    java.srcDirs(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
 }
 
 sourceSets.test {
-    java.srcDirs("src/test/java", "src/test/sckotlin", "src/test/scala", "src/test/groovy")
+    java.srcDirs(SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path)
+}
+
+sourceSets {
+    main {
+        withConvention(ScalaSourceSet::class) {
+            scala {
+                setSrcDirs(listOf(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_SCALA.path))
+            }
+        }
+    }
+    test {
+        withConvention(ScalaSourceSet::class) {
+            scala {
+                setSrcDirs(listOf(SourceSet.TEST_JAVA.path, SourceSet.TEST_SCALA.path))
+            }
+        }
+    }
 }
 
 repositories {
@@ -275,11 +298,23 @@ enum class Version(val id: String) {
     CUCUMBER_JUNIT("6.10.2"),
     ALLURE("2.13.9"),
     ALLURE_GRADLE("2.8.1"),
-    JAVA("16"),
+    JAVA("11"),
+    JAVA_FOR_SCALA("11"),
     KOTLIN("1.4.32"),
     GRADLE("7.0"),
     PMD("6.21.0"),
     KTLINT_GRADLE_PLUGIN("10.0.0"),
     KTLINT("0.41.0"),
     SCALA_FMT("1.16.2");
+}
+
+enum class SourceSet(val path: String) {
+    MAIN_JAVA("src/main/java"),
+    MAIN_KOTLIN("src/main/kotlin"),
+    MAIN_SCALA("src/main/scala"),
+    MAIN_GROOVY("src/main/groovy"),
+    TEST_JAVA("src/test/java"),
+    TEST_KOTLIN("src/test/kotlin"),
+    TEST_SCALA("src/test/scala"),
+    TEST_GROOVY("src/test/groovy");
 }

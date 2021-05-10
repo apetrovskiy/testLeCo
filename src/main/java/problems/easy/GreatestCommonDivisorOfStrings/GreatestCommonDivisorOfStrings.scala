@@ -5,7 +5,7 @@ object SolutionScala {
     var result = ""
     val maxDivisorLength = List(str1.size, str2.size).min
     var currentDivisor = ""
-    for (i <- maxDivisorLength - 1) {
+    for (i <- 0 to maxDivisorLength - 1) {
       currentDivisor += str1(i)
       if (
         isDivisorOf(currentDivisor, str1) && isDivisorOf(currentDivisor, str2)
@@ -22,7 +22,7 @@ object SolutionScala {
     if (divisor == data)
       true
     val listFromData = data.split(divisor)
-    result = listFromData.forall(_ => _ == "")
+    result = listFromData.forall(x => x == "")
     result
   }
 }
