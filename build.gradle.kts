@@ -92,7 +92,7 @@ sourceSets.test {
     java.srcDirs(SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path)
 }
 
-sourceSets {
+/*sourceSets {
     main {
         withConvention(ScalaSourceSet::class) {
             scala {
@@ -107,7 +107,7 @@ sourceSets {
             }
         }
     }
-}
+}*/
 
 repositories {
     // Use jcenter for resolving dependencies.
@@ -298,7 +298,7 @@ enum class Version(val id: String) {
     CUCUMBER_JUNIT("6.10.2"),
     ALLURE("2.13.9"),
     ALLURE_GRADLE("2.8.1"),
-    JAVA("11"),
+    JAVA("16"),
     JAVA_FOR_SCALA("11"),
     KOTLIN("1.4.32"),
     GRADLE("7.0"),
