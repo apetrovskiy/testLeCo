@@ -10,4 +10,4 @@ class Solution:
         return "-"
 
     def is_divisor_of(str1: str, str2: str) -> bool:
-        
+        return False
