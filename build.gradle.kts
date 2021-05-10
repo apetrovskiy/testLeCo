@@ -7,7 +7,6 @@
  */
 
 import io.qameta.allure.gradle.AllureExtension
-// import org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -72,12 +71,7 @@ tasks.compileJava {
     options.release.set(Version.JAVA.id.toInt())
 }
 
-/*(kotlinOptions as KotlinJvmOptions).apply {
-    jvmTarget = JavaVersion.VERSION_1_8.toString()
-}*/
-// kotlin.setJvmTargetFromAndroidCompileOptions = true
 val compileKotlin: KotlinCompile by tasks
-
 compileKotlin.kotlinOptions.suppressWarnings = true
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8.toString() }

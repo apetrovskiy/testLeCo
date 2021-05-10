@@ -10,7 +10,13 @@ import java.util.stream.Stream
 class GreatestCommonDivisorOfStringsTest {
     @ParameterizedTest
     @MethodSource("getInputData")
-    fun shouldFindGreatesCommonDivisor(str1: String, str2: String, expectedResult: String) {
+    fun shouldFindGreatestCommonDivisor(str1: String, str2: String, expectedResult: String) {
+        val solution = Solution()
+        assertEquals(solution.gcdOfStrings(str1, str2), expectedResult)
+    }
+    @ParameterizedTest
+    @MethodSource("getInputData")
+    fun shouldFindGreatestCommonDivisorKt(str1: String, str2: String, expectedResult: String) {
         val solution = SolutionKt()
         assertEquals(solution.gcdOfStrings(str1, str2), expectedResult)
     }
