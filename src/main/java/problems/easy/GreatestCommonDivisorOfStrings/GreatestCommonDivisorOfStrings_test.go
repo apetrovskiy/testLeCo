@@ -1,1 +1,1 @@
-package noname
+package GreatestCommonDivisorOfStrings_test
