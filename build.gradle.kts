@@ -47,6 +47,7 @@ plugins {
     pmd
     id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
     id("cz.alenkacz.gradle.scalafmt") version ("1.16.2")
+    id("com.github.sherter.google-java-format") version("0.9")
 }
 
 /*
