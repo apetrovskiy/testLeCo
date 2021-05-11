@@ -85,65 +85,42 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
     kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8.toString() }
 }
 
-/*sourceSets.main {
-    java.srcDirs(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
-}
-
-sourceSets.test {
-    java.srcDirs(SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path)
-}*/
-
-// compileKotlin.dependsOn(compileScala)
-
 sourceSets {
     main {
         withConvention(ScalaSourceSet::class) {
             scala {
-                // classpath = sourceSets.main.get().compileClasspath
-                setSrcDirs(listOf(SourceSet.MAIN_JAVA.path)) // , SourceSet.MAIN_SCALA.path))
-                // .destinationDirectory.exclude("*.java", "*.kt")
-                // sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
+                setSrcDirs(listOf(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_SCALA.path))
             }
-            // sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
         }
-        /*java {
-            classpath += files(sourceSets.main.get().withConvention(ScalaSourceSet::class) { scala }.classesDirectory)
-            srcDirs(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
-        }*/
-        java.srcDirs(listOf<String>()) // SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
-        // main.sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
+        // java.srcDirs(listOf<String>()) // SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
+        java.srcDirs(listOf(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path))
     }
     test {
         withConvention(ScalaSourceSet::class) {
             scala {
-                setSrcDirs(listOf(SourceSet.TEST_JAVA.path)) // , SourceSet.TEST_SCALA.path))
-                // sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
+                setSrcDirs(listOf(SourceSet.TEST_JAVA.path, SourceSet.TEST_SCALA.path))
             }
-            // sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
         }
-        java.srcDirs(listOf<String>()) // SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path)
-        // test.sourceSet.sourceDirectorySet.destinationDirectory.excludes("*.java", "*.kt")
+        // java.srcDirs(listOf<String>()) // SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path)
+        java.srcDirs(listOf(SourceSet.TEST_JAVA.path, SourceSet.TEST_KOTLIN.path, SourceSet.TEST_SCALA.path, SourceSet.TEST_GROOVY.path))
     }
 }
 
 tasks.named<AbstractCompile>("compileScala") {
-    // Groovy only needs the declared dependencies
+    // Scala only needs the declared dependencies
     // (and not longer the output of compileJava)
     classpath = sourceSets.main.get().compileClasspath
-    // classpath += files(compileKotlin.destinationDirectory)
 }
 tasks.named<AbstractCompile>("compileJava") {
-    // Java also depends on the result of Groovy compilation
+    // Java also depends on the result of Scala compilation
     // (which automatically makes it depend of compileGroovy)
     classpath += files(sourceSets.main.get().withConvention(ScalaSourceSet::class) { scala }.classesDirectory)
-    // srcDirs(SourceSet.MAIN_JAVA.path, SourceSet.MAIN_KOTLIN.path, SourceSet.MAIN_SCALA.path, SourceSet.MAIN_GROOVY.path)
 }
 
 val compileScala = tasks.named<AbstractCompile>("compileScala")
 compileKotlin.dependsOn(compileScala)
 compileKotlin.classpath += files(compileScala.get().destinationDir)
 tasks.compileJava.get().dependsOn(compileKotlin)
-// tasks.compileScala.get().dependsOn().remove(tasks.compileJava.get())
 tasks.named<org.gradle.jvm.tasks.Jar>("jar") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
