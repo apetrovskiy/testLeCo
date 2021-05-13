@@ -6,6 +6,6 @@ class SolutionKt {
         listOf(candidates).forEach { println(it) }
         println(target)
 
-        return listOf()
+        return listOf(listOf(0))
     }
 }
