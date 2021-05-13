@@ -1,0 +1,321 @@
+{
+  "uid" : "9cc1788f100782a4",
+  "name" : "test_5",
+  "fullName" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest#test_5",
+  "historyId" : "3af37c042a475669fd2e17839a27bbc1",
+  "time" : {
+    "start" : 1620933783499,
+    "stop" : 1620933783500,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+  "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_5>\n\n    def test_5(self):\n        actual_result = self.solution.combinationSum(candidates=[1], target=2)\n        print(actual_result)\n>       self.assertEquals([[1, 1]], actual_result)\nE       AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\nE       \nE       First differing element 0:\nE       [1, 1]\nE       [0, 1]\nE       \nE       - [[1, 1]]\nE       ?   ^\nE       \nE       + [[0, 1]]\nE       ?   ^\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:41: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest",
+    "time" : {
+      "start" : 1620933783454,
+      "stop" : 1620933783455,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+    "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_5>\n\n    def test_5(self):\n        actual_result = self.solution.combinationSum(candidates=[1], target=2)\n        print(actual_result)\n>       self.assertEquals([[1, 1]], actual_result)\nE       AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\nE       \nE       First differing element 0:\nE       [1, 1]\nE       [0, 1]\nE       \nE       - [[1, 1]]\nE       ?   ^\nE       \nE       + [[0, 1]]\nE       ?   ^\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:41: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1f098d5bffcaff4",
+      "name" : "stdout",
+      "source" : "a1f098d5bffcaff4.txt",
+      "type" : "text/plain",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest::0",
+    "time" : {
+      "start" : 1620933783502,
+      "stop" : 1620933783502,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum"
+  }, {
+    "name" : "suite",
+    "value" : "test_combination_sum"
+  }, {
+    "name" : "subSuite",
+    "value" : "SolutionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-689"
+  }, {
+    "name" : "thread",
+    "value" : "1810-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 78,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 82
+      },
+      "items" : [ {
+        "uid" : "6c9708f3b9654144",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/81//#testresult/6c9708f3b9654144",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+        "time" : {
+          "start" : 1620932215204,
+          "stop" : 1620932215205,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b39a916464fca3f6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/80//#testresult/b39a916464fca3f6",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620930890342,
+          "stop" : 1620930890342,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "70d5930e75cdbd9e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/79//#testresult/70d5930e75cdbd9e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620930662594,
+          "stop" : 1620930662594,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1cf49b1e09d28ff5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/77//#testresult/1cf49b1e09d28ff5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+        "time" : {
+          "start" : 1620928276814,
+          "stop" : 1620928276815,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "353bf44b5f576159",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/76//#testresult/353bf44b5f576159",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+        "time" : {
+          "start" : 1620921979747,
+          "stop" : 1620921979748,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "787f6d076e1e37f7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/75//#testresult/787f6d076e1e37f7",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620917261811,
+          "stop" : 1620917261811,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "890b2100534a09e2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/74//#testresult/890b2100534a09e2",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620917014167,
+          "stop" : 1620917014167,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "92c51085d8493aa2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/73//#testresult/92c51085d8493aa2",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620895024120,
+          "stop" : 1620895024120,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "56745800bd692e4e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/72//#testresult/56745800bd692e4e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620765531636,
+          "stop" : 1620765531636,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d0f2c95fc5529e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/71//#testresult/6d0f2c95fc5529e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620718600815,
+          "stop" : 1620718600815,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "af5a5193b972a6ae",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/70//#testresult/af5a5193b972a6ae",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620713841655,
+          "stop" : 1620713841655,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a32b3e2a071eee3b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/69//#testresult/a32b3e2a071eee3b",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620686166200,
+          "stop" : 1620686166200,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "641454769b09df6e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/68//#testresult/641454769b09df6e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620679521178,
+          "stop" : 1620679521178,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e691868fddb03937",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/67//#testresult/e691868fddb03937",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620675286818,
+          "stop" : 1620675286818,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "97ea10b52013e0c5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/66//#testresult/97ea10b52013e0c5",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620674015818,
+          "stop" : 1620674015818,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4b76d8d99fffa64b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/65//#testresult/4b76d8d99fffa64b",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620672019003,
+          "stop" : 1620672019003,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "99ff2e2e485d0ad9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/64//#testresult/99ff2e2e485d0ad9",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620669416520,
+          "stop" : 1620669416520,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3cd0791811a3593b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/63//#testresult/3cd0791811a3593b",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620669228622,
+          "stop" : 1620669228622,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "50e105d7648c55ba",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/62//#testresult/50e105d7648c55ba",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620667135262,
+          "stop" : 1620667135262,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2f87915dc8c6548e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/61//#testresult/2f87915dc8c6548e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1620664799752,
+          "stop" : 1620664799752,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9cc1788f100782a4.json",
+  "parameterValues" : [ ]
+}
