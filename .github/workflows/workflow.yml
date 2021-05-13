@@ -1,4 +1,4 @@
-name: Python 3.9, Ruby 2.7, Java 15, .NET 5, Go 1.16, Swift, Dart, allure
+name: Python 3.9, Ruby 2.7, Java 16, .NET 5, Go 1.16, Swift, Dart, allure
 
 on: [push]
 
@@ -206,17 +206,50 @@ jobs:
     #     name: allure-reports
     #     path: allure-reports
 
+  # scala:
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - uses: ./.github/actions/allure-prep
+  #   - name: Set up JDK 11
+  #     uses: actions/setup-java@v2
+  #     with:
+  #       java-version: '11'
+  #       distribution: 'adopt'
+  #   - name: Run tests
+  #     if: always()
+  #     run: sbt test
+
+  #   - name: Look at Allure
+  #     if: always()
+  #     uses: ./.github/actions/allure-show
+
+  #   # TODO: de-duplicate
+  #   - name: Archive Allure results
+  #     if: always()
+  #     uses: actions/upload-artifact@v2
+  #     with:
+  #       name: allure-results
+  #       path: allure-results
+  #   # - name: Archive Allure reports
+  #   #   if: always()
+  #   #   uses: actions/upload-artifact@v2
+  #   #   with:
+  #   #     name: allure-reports
+  #   #     path: allure-reports
+
   jdk:
     runs-on: ubuntu-latest
     needs: build
     steps:
     - uses: actions/checkout@v2
     - uses: ./.github/actions/allure-prep
-    - name: Set up JDK 15
+    - name: Set up JDK 16
       uses: actions/setup-java@v2
       if: always()
       with:
-        java-version: '15'
+        java-version: '16'
         distribution: 'adopt'
     - name: Run check style
       uses: nikitasavinov/checkstyle-action@master
@@ -399,6 +432,7 @@ jobs:
       - ruby
       - node
       - golang
+      # - scala
       - jdk
       - dotnet
       - swift
