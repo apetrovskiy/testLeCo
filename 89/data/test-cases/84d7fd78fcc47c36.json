@@ -1,0 +1,75 @@
+{
+  "uid" : "84d7fd78fcc47c36",
+  "name" : "gas = 1,2,3,4,5, cost = 3,4,5,1,2, returns 3",
+  "fullName" : "canCompleteCircuit(1, 3) should equal to 3.gas = 1,2,3,4,5, cost = 3,4,5,1,2, returns 3",
+  "historyId" : "11071c363bd81488ac61b3eb55aababb",
+  "time" : {
+    "start" : 1620949494478,
+    "stop" : 1620949494479,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "canCompleteCircuit(1, 3) should equal to 3"
+  }, {
+    "name" : "testClass",
+    "value" : "canCompleteCircuit(1, 3) should equal to 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "gas = 1,2,3,4,5, cost = 3,4,5,1,2, returns 3"
+  }, {
+    "name" : "package",
+    "value" : "canCompleteCircuit(1, 3) should equal to 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "884aaa4dd78028a4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/88//#testresult/884aaa4dd78028a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620949481103,
+          "stop" : 1620949481104,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b712a038a5e838d6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/84//#testresult/b712a038a5e838d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620948935724,
+          "stop" : 1620948935725,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "84d7fd78fcc47c36.json",
+  "parameterValues" : [ ]
+}
