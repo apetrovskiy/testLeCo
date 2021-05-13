@@ -9,8 +9,7 @@ var canCompleteCircuit = function(gas, cost) {
         differences[i] = gas[i] - cost[i];
     }
 
-    if (differences.reduce((sum, current) => sum + current, 0) < 0)
-        return -1;
+    if (differences.reduce((sum, current) => sum + current, 0) < 0) return -1;
     let starting = 0;
     let tank = 0;
     for (let i = 0; i < gas.length; i++) {
@@ -23,3 +22,5 @@ var canCompleteCircuit = function(gas, cost) {
 
     return starting;
 };
+
+module.exports = { canCompleteCircuit };
