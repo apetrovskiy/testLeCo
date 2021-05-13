@@ -1,0 +1,83 @@
+{
+  "uid" : "b36969fdd63c4860",
+  "name" : "candidates = 1, target = 1, returns 1",
+  "fullName" : "combinationSum([ 1, [length]: 1 ], 1) should equal 1.candidates = 1, target = 1, returns 1",
+  "historyId" : "db881d7b3411808b8ffcea3b52648380",
+  "time" : {
+    "start" : 1620932211951,
+    "stop" : 1620932211953,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 3\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -   ],\n                +   Array [],\n                  ]",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 3\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -   ],\n                +   Array [],\n                  ]\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/challenges/c20201001_20201007/CombinationSum/combination_sum.test.js:35:56)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "combinationSum([ 1, [length]: 1 ], 1) should equal 1"
+  }, {
+    "name" : "testClass",
+    "value" : "combinationSum([ 1, [length]: 1 ], 1) should equal 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "candidates = 1, target = 1, returns 1"
+  }, {
+    "name" : "package",
+    "value" : "combinationSum([ 1, [length]: 1 ], 1) should equal 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9dba6311c45e87f9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/77//#testresult/9dba6311c45e87f9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 3\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -   ],\n                +   Array [],\n                  ]",
+        "time" : {
+          "start" : 1620928268333,
+          "stop" : 1620928268335,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "bd3f457860e0a3d9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/76//#testresult/bd3f457860e0a3d9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 3\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -   ],\n                +   Array [],\n                  ]",
+        "time" : {
+          "start" : 1620921941100,
+          "stop" : 1620921941102,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b36969fdd63c4860.json",
+  "parameterValues" : [ ]
+}
