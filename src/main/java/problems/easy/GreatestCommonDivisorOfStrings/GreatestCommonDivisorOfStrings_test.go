@@ -1,1 +1,0 @@
-package GreatestCommonDivisorOfStrings_test
