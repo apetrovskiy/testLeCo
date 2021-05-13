@@ -1,6 +1,6 @@
 class RecentCounterScala() {
 
-  def ping(t: Int): Int = {}
+  def ping(t: Int): Int = { 0 }
 
 }
 
