@@ -1,5 +1,5 @@
 package problems.easy.MaximumSubarray
-object Solution {
+object SolutionScala {
   def maxSubArray(nums: Array[Int]): Int = {
     0
   }

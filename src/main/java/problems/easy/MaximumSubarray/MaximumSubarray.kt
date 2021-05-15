@@ -1,6 +1,6 @@
 package problems.easy.MaximumSubarray
-class Solution {
+class SolutionKt {
     fun maxSubArray(nums: IntArray): Int {
-return 0
+        return 0
     }
 }
