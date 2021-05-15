@@ -1,0 +1,276 @@
+{
+  "uid" : "2c11cec1dbdf6f29",
+  "name" : "test_integer_to_english_words[1-One]",
+  "fullName" : "src.test.java.problems.hard.IntegerToEnglishWords.test_integer_to_english_words#test_integer_to_english_words",
+  "historyId" : "30382c16e971af1efe175d5e77baeded",
+  "time" : {
+    "start" : 1621115127482,
+    "stop" : 1621115127482,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+  "statusTrace" : "input = 1, expected_result = 'One'\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_integer_to_english_words(input: int, expected_result: str):\n>       assert expected_result == Solution().numberToWords(input)\nE       AssertionError: assert 'One' == 'Zero'\nE         - Zero\nE         + One\n\nsrc/test/java/problems/hard/IntegerToEnglishWords/test_integer_to_english_words.py:14: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.hard.IntegerToEnglishWords"
+  }, {
+    "name" : "suite",
+    "value" : "test_integer_to_english_words"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-243"
+  }, {
+    "name" : "thread",
+    "value" : "1815-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.hard.IntegerToEnglishWords.test_integer_to_english_words"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'One'"
+  }, {
+    "name" : "input",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 61,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 61
+      },
+      "items" : [ {
+        "uid" : "a436ab646d7a90dc",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/94//#testresult/a436ab646d7a90dc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1621111413244,
+          "stop" : 1621111413245,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "53e2d32c39a0c440",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/93//#testresult/53e2d32c39a0c440",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1621086586729,
+          "stop" : 1621086586730,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "965fb7a68c4344f0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/92//#testresult/965fb7a68c4344f0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1621005606712,
+          "stop" : 1621005606713,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "63e8e517c340681c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/91//#testresult/63e8e517c340681c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620986007174,
+          "stop" : 1620986007174,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ee4b3a865ce2e4e2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/90//#testresult/ee4b3a865ce2e4e2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620980155006,
+          "stop" : 1620980155006,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2a0e79e10d3920ac",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/89//#testresult/2a0e79e10d3920ac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620949510562,
+          "stop" : 1620949510562,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba0ec6bb689bdd2b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/88//#testresult/ba0ec6bb689bdd2b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620949479435,
+          "stop" : 1620949479436,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "af9726237fa80411",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/86//#testresult/af9726237fa80411",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620949303782,
+          "stop" : 1620949303782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b6f168f8823a124",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/85//#testresult/8b6f168f8823a124",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620949269484,
+          "stop" : 1620949269484,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8d17b419cfd5ee8b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/84//#testresult/8d17b419cfd5ee8b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620948931927,
+          "stop" : 1620948931927,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "36be57bb2261aec7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/83//#testresult/36be57bb2261aec7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620935858762,
+          "stop" : 1620935858762,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a32967872de5ba68",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/82//#testresult/a32967872de5ba68",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620933783563,
+          "stop" : 1620933783564,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3c1bdac19ff9014c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/81//#testresult/3c1bdac19ff9014c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620932215271,
+          "stop" : 1620932215271,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a77fe9af3dcc9ddb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/80//#testresult/a77fe9af3dcc9ddb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620930890410,
+          "stop" : 1620930890410,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "be517c711fa12e8f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/79//#testresult/be517c711fa12e8f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620930662661,
+          "stop" : 1620930662662,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "22ab1b6315c3cc75",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/77//#testresult/22ab1b6315c3cc75",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620928276863,
+          "stop" : 1620928276864,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "71857f61fd04ddd0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/76//#testresult/71857f61fd04ddd0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620921979811,
+          "stop" : 1620921979811,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "86ccb47e1da94440",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/75//#testresult/86ccb47e1da94440",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620917261874,
+          "stop" : 1620917261875,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7f7bdf3c01cf4d4e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/74//#testresult/7f7bdf3c01cf4d4e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620917014223,
+          "stop" : 1620917014223,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9a3425babc7d3794",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/73//#testresult/9a3425babc7d3794",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1620895024185,
+          "stop" : 1620895024185,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2c11cec1dbdf6f29.json",
+  "parameterValues" : [ "'One'", "1" ]
+}

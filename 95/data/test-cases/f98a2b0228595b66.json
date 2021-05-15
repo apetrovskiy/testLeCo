@@ -1,0 +1,77 @@
+{
+  "uid" : "f98a2b0228595b66",
+  "name" : "[1] 1, 1",
+  "fullName" : "problems.easy.ClimbingStairs.ClimbingStairsTest.testClimbingStairs",
+  "historyId" : "4e61633afb0a07d5d02b2949938797a7",
+  "time" : {
+    "start" : 1621115327847,
+    "stop" : 1621115327964,
+    "duration" : 117
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-439"
+  }, {
+    "name" : "thread",
+    "value" : "2977@fv-az278-439.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.ClimbingStairs.ClimbingStairsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.ClimbingStairs.ClimbingStairsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClimbingStairs"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.ClimbingStairs.ClimbingStairsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7245ab1c867619f5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/94//#testresult/7245ab1c867619f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621111613154,
+          "stop" : 1621111613307,
+          "duration" : 153
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f98a2b0228595b66.json",
+  "parameterValues" : [ ]
+}

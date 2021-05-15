@@ -1,0 +1,1252 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "combinationSum([ 2, 3, 6, 7, [length]: 4 ], 8) should equal 2",
+    "children" : [ {
+      "name" : "candidates = 2,3,6,7, target = 8, returns 2,2,3,7",
+      "uid" : "272c4e5aecf08dec",
+      "parentUid" : "14f53c4bbafc2fb5650cb0383313ad37",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122500,
+        "stop" : 1621115122509,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14f53c4bbafc2fb5650cb0383313ad37"
+  }, {
+    "name" : "combinationSum([ 2, 3, 5, [length]: 3 ], 8) should equal 2",
+    "children" : [ {
+      "name" : "candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5",
+      "uid" : "da71d13494763835",
+      "parentUid" : "dbd56e06f38540113b42062cd431ef5c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122514,
+        "stop" : 1621115122516,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dbd56e06f38540113b42062cd431ef5c"
+  }, {
+    "name" : "combinationSum([ 2, [length]: 1 ], 1) should equal NaN",
+    "children" : [ {
+      "name" : "candidates = 2, target = 1, returns ",
+      "uid" : "4bb4a437d085e7de",
+      "parentUid" : "d2a74207cd3a875393a55b2fba94221e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122518,
+        "stop" : 1621115122519,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d2a74207cd3a875393a55b2fba94221e"
+  }, {
+    "name" : "combinationSum([ 1, [length]: 1 ], 1) should equal 1",
+    "children" : [ {
+      "name" : "candidates = 1, target = 1, returns 1",
+      "uid" : "bf65a07eeaa201f6",
+      "parentUid" : "981e09f7c598880baf92b2ded085cc59",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122520,
+        "stop" : 1621115122522,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "981e09f7c598880baf92b2ded085cc59"
+  }, {
+    "name" : "combinationSum([ 1, [length]: 1 ], 2) should equal 1",
+    "children" : [ {
+      "name" : "candidates = 1, target = 2, returns 1,1",
+      "uid" : "b4e303db29316fa9",
+      "parentUid" : "742fd708549dffcb930e6641bef1970d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122524,
+        "stop" : 1621115122525,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "742fd708549dffcb930e6641bef1970d"
+  }, {
+    "name" : "canCompleteCircuit(1, 3) should equal to 3",
+    "children" : [ {
+      "name" : "gas = 1,2,3,4,5, cost = 3,4,5,1,2, returns 3",
+      "uid" : "590648957cc7e952",
+      "parentUid" : "48f9f382b3dfaa9255bbc1045f89822e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115122732,
+        "stop" : 1621115122732,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "48f9f382b3dfaa9255bbc1045f89822e"
+  }, {
+    "name" : "canCompleteCircuit(7, 5) should equal to 3",
+    "children" : [ {
+      "name" : "gas = 7,1,0,11,4, cost = 5,9,1,2,5, returns 3",
+      "uid" : "7f16763adde7d98f",
+      "parentUid" : "2c1a8b7aa3eb20e2e35a5678d08bf1f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115122734,
+        "stop" : 1621115122735,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2c1a8b7aa3eb20e2e35a5678d08bf1f4"
+  }, {
+    "name" : "canCompleteCircuit(2, 3) should equal to -1",
+    "children" : [ {
+      "name" : "gas = 2,3,4, cost = 3,4,3, returns -1",
+      "uid" : "b1edc423b26b5083",
+      "parentUid" : "a9da3dc9968722c76d772d3502096cd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115122734,
+        "stop" : 1621115122734,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a9da3dc9968722c76d772d3502096cd2"
+  }, {
+    "name" : "Two Sum",
+    "children" : [ {
+      "name" : "case 01",
+      "uid" : "ab805629378a099d",
+      "parentUid" : "55b04a88a5c3b0e6fc50efed0fd57e61",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122894,
+        "stop" : 1621115122898,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "case 02",
+      "uid" : "637455b21cee563e",
+      "parentUid" : "55b04a88a5c3b0e6fc50efed0fd57e61",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122898,
+        "stop" : 1621115122899,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "case 03",
+      "uid" : "5b52750179e5b0ee",
+      "parentUid" : "55b04a88a5c3b0e6fc50efed0fd57e61",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621115122899,
+        "stop" : 1621115122909,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55b04a88a5c3b0e6fc50efed0fd57e61"
+  }, {
+    "name" : "src.test.java.challenges.c20201001_20201007.CombinationSum",
+    "children" : [ {
+      "name" : "test_combination_sum",
+      "children" : [ {
+        "name" : "SolutionTest",
+        "children" : [ {
+          "name" : "test_1",
+          "uid" : "80f9e7ca4359f083",
+          "parentUid" : "b627986f59cc542c8566db33717e6c7b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621115127382,
+            "stop" : 1621115127382,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_2",
+          "uid" : "bfa2a6c0fbe92276",
+          "parentUid" : "b627986f59cc542c8566db33717e6c7b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621115127408,
+            "stop" : 1621115127409,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_3",
+          "uid" : "1498202dab127b28",
+          "parentUid" : "b627986f59cc542c8566db33717e6c7b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621115127412,
+            "stop" : 1621115127412,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_4",
+          "uid" : "2b8b45a49bd44779",
+          "parentUid" : "b627986f59cc542c8566db33717e6c7b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621115127413,
+            "stop" : 1621115127414,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_5",
+          "uid" : "fc452a6e12519a30",
+          "parentUid" : "b627986f59cc542c8566db33717e6c7b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1621115127417,
+            "stop" : 1621115127418,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b627986f59cc542c8566db33717e6c7b"
+      } ],
+      "uid" : "ee9dab21921e0e8c356040b77412af83"
+    } ],
+    "uid" : "fc836c311aeea477586c427c41fe893d"
+  }, {
+    "name" : "src.test.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation",
+    "children" : [ {
+      "name" : "test_check_array_formation_through_concatenation",
+      "children" : [ {
+        "name" : "test_check_array_formation_through_concatenation[input_array0-pieces0-True]",
+        "uid" : "5f8464befe4afb77",
+        "parentUid" : "cc725a0b1e8545d94747d6410c6ac6ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127421,
+          "stop" : 1621115127421,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[85]", "[[85]]" ]
+      }, {
+        "name" : "test_check_array_formation_through_concatenation[input_array1-pieces1-True]",
+        "uid" : "6f457dfd4ac41506",
+        "parentUid" : "cc725a0b1e8545d94747d6410c6ac6ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127422,
+          "stop" : 1621115127422,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[15, 88]", "[[88], [15]]" ]
+      }, {
+        "name" : "test_check_array_formation_through_concatenation[input_array2-pieces2-False]",
+        "uid" : "4d66e95e77aa8c75",
+        "parentUid" : "cc725a0b1e8545d94747d6410c6ac6ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127423,
+          "stop" : 1621115127423,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "[49, 18, 16]", "[[16, 18, 49]]" ]
+      }, {
+        "name" : "test_check_array_formation_through_concatenation[input_array3-pieces3-True]",
+        "uid" : "7c7311d398dd2fb2",
+        "parentUid" : "cc725a0b1e8545d94747d6410c6ac6ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127425,
+          "stop" : 1621115127425,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[91, 4, 64, 78]", "[[78], [4, 64], [91]]" ]
+      }, {
+        "name" : "test_check_array_formation_through_concatenation[input_array4-pieces4-False]",
+        "uid" : "199a7b51cf210c3e",
+        "parentUid" : "cc725a0b1e8545d94747d6410c6ac6ea",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127426,
+          "stop" : 1621115127426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "[1, 3, 5, 7]", "[[2, 4, 6, 8]]" ]
+      } ],
+      "uid" : "cc725a0b1e8545d94747d6410c6ac6ea"
+    } ],
+    "uid" : "db050acd92cba41625a43e99c6a93214"
+  }, {
+    "name" : "src.test.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree",
+    "children" : [ {
+      "name" : "test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree",
+      "children" : [ {
+        "name" : "test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree[original0-cloned0-target0-expected_result0]",
+        "uid" : "f61e5c07cfbf1c7e",
+        "parentUid" : "d53dcd2963c412faf1115eb2f612f946",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127428,
+          "stop" : 1621115127428,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f3acae8dd30>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f3acae3afa0>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f3acae8de20>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f3acae3ae50>" ]
+      } ],
+      "uid" : "d53dcd2963c412faf1115eb2f612f946"
+    } ],
+    "uid" : "306c26f00ea6425b5954733f3f3c7f6d"
+  }, {
+    "name" : "src.test.java.challenges.c20210115_20210121.FindTheMostCompetitiveSubsequence",
+    "children" : [ {
+      "name" : "test_find_the_most_competitive_subsequence",
+      "children" : [ {
+        "name" : "test_most_competitive[nums0-2-expected_result0]",
+        "uid" : "32bc9a3d38511c70",
+        "parentUid" : "49a6f159a7f79ee926f12082d5bbb97e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127430,
+          "stop" : 1621115127430,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 6]", "2", "[3, 5, 2, 6]" ]
+      }, {
+        "name" : "test_most_competitive[nums1-4-expected_result1]",
+        "uid" : "20afc1fceadfbd5f",
+        "parentUid" : "49a6f159a7f79ee926f12082d5bbb97e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127431,
+          "stop" : 1621115127431,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
+      } ],
+      "uid" : "49a6f159a7f79ee926f12082d5bbb97e"
+    } ],
+    "uid" : "c6f094e645a95e1bddf53484888a3145"
+  }, {
+    "name" : "src.test.java.problems.easy.ClimbingStairs",
+    "children" : [ {
+      "name" : "test_climbing_stairs",
+      "children" : [ {
+        "name" : "test_climbing_stairs[1-1]",
+        "uid" : "188752619871cf9c",
+        "parentUid" : "f346f9f0bd4f5367ed0ec4075b561e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127434,
+          "stop" : 1621115127434,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      }, {
+        "name" : "test_climbing_stairs[2-2]",
+        "uid" : "99c64647adf1e5f3",
+        "parentUid" : "f346f9f0bd4f5367ed0ec4075b561e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127436,
+          "stop" : 1621115127436,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "2" ]
+      }, {
+        "name" : "test_climbing_stairs[3-3]",
+        "uid" : "d344a9e9a11cf8b0",
+        "parentUid" : "f346f9f0bd4f5367ed0ec4075b561e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127438,
+          "stop" : 1621115127438,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "3" ]
+      }, {
+        "name" : "test_climbing_stairs[4-5]",
+        "uid" : "e1936b74443d8ca9",
+        "parentUid" : "f346f9f0bd4f5367ed0ec4075b561e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127440,
+          "stop" : 1621115127440,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5", "4" ]
+      }, {
+        "name" : "test_climbing_stairs[5-8]",
+        "uid" : "1c336ffc2cb8edfa",
+        "parentUid" : "f346f9f0bd4f5367ed0ec4075b561e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127442,
+          "stop" : 1621115127442,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8", "5" ]
+      } ],
+      "uid" : "f346f9f0bd4f5367ed0ec4075b561e27"
+    } ],
+    "uid" : "356b737082acf3cd490846d7ac57f3d2"
+  }, {
+    "name" : "src.test.java.problems.easy.ContainsDuplicate",
+    "children" : [ {
+      "name" : "test_contains_duplicate",
+      "children" : [ {
+        "name" : "test_contains_duplicate[input0-True]",
+        "uid" : "4b6fbe52b6e894a1",
+        "parentUid" : "dce7cc890e4d6970ef330984c1a3f65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127444,
+          "stop" : 1621115127444,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[1, 2, 3, 1]" ]
+      }, {
+        "name" : "test_contains_duplicate[input1-False]",
+        "uid" : "c03d878b94c96ea7",
+        "parentUid" : "dce7cc890e4d6970ef330984c1a3f65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127446,
+          "stop" : 1621115127446,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "[1, 2, 3, 4]" ]
+      }, {
+        "name" : "test_contains_duplicate[input2-True]",
+        "uid" : "cf89807796e73881",
+        "parentUid" : "dce7cc890e4d6970ef330984c1a3f65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127449,
+          "stop" : 1621115127449,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[1, 1, 1, 3, 3, 4, 3, 2, 4, 2]" ]
+      } ],
+      "uid" : "dce7cc890e4d6970ef330984c1a3f65e"
+    } ],
+    "uid" : "5ec1d8ee42b54a28ca4ffd0c7649fa1c"
+  }, {
+    "name" : "src.test.java.problems.easy.IsSubsequence",
+    "children" : [ {
+      "name" : "test_is_subsequence",
+      "children" : [ {
+        "name" : "test_is_subsequence[abc-ahbgdc-True]",
+        "uid" : "777aeb1a1611db21",
+        "parentUid" : "0a8a20fb69db5e6282ef1a3de441d514",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127450,
+          "stop" : 1621115127450,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'abc'", "'ahbgdc'" ]
+      }, {
+        "name" : "test_is_subsequence[axc-ahbgdc-False]",
+        "uid" : "6598074c268d9d31",
+        "parentUid" : "0a8a20fb69db5e6282ef1a3de441d514",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127451,
+          "stop" : 1621115127451,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'axc'", "'ahbgdc'" ]
+      } ],
+      "uid" : "0a8a20fb69db5e6282ef1a3de441d514"
+    } ],
+    "uid" : "cc12bc91ee8a569383ac28907ccf53f8"
+  }, {
+    "name" : "src.test.java.problems.easy.RomanToInteger",
+    "children" : [ {
+      "name" : "test_roman_to_integer",
+      "children" : [ {
+        "name" : "test_roman_to_integer[-0]",
+        "uid" : "74b9d6e4f8ba2fd7",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127454,
+          "stop" : 1621115127454,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "''" ]
+      }, {
+        "name" : "test_roman_to_integer[III-3]",
+        "uid" : "f91cf78c8f01160a",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127456,
+          "stop" : 1621115127456,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "'III'" ]
+      }, {
+        "name" : "test_roman_to_integer[IV-4]",
+        "uid" : "7de2ce6c32925adc",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127458,
+          "stop" : 1621115127458,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'IV'" ]
+      }, {
+        "name" : "test_roman_to_integer[IX-9]",
+        "uid" : "89664d288c4476d",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127460,
+          "stop" : 1621115127460,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9", "'IX'" ]
+      }, {
+        "name" : "test_roman_to_integer[LVIII-58]",
+        "uid" : "8ed0bd8d08223b5e",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127462,
+          "stop" : 1621115127462,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "58", "'LVIII'" ]
+      }, {
+        "name" : "test_roman_to_integer[MCMXCIV-1994]",
+        "uid" : "ceeab5f280f0b617",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127464,
+          "stop" : 1621115127464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1994", "'MCMXCIV'" ]
+      }, {
+        "name" : "test_roman_to_integer[MDLXX-1570]",
+        "uid" : "3fafcb21c6397985",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127466,
+          "stop" : 1621115127467,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1570", "'MDLXX'" ]
+      }, {
+        "name" : "test_roman_to_integer[MMMDCCLXV-3765]",
+        "uid" : "c84adb384e2d869c",
+        "parentUid" : "1cd0b626233a8fe5157cedb139b33b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127469,
+          "stop" : 1621115127469,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3765", "'MMMDCCLXV'" ]
+      } ],
+      "uid" : "1cd0b626233a8fe5157cedb139b33b58"
+    } ],
+    "uid" : "c31028e936c76531208faad187c706d2"
+  }, {
+    "name" : "src.test.java.problems.easy.TwoSum",
+    "children" : [ {
+      "name" : "test_two_sum",
+      "children" : [ {
+        "name" : "test_two_sum[nums0-9-expected_result0]",
+        "uid" : "a43061bc47621fd7",
+        "parentUid" : "ada4842b9bca715c9f142f98ccb33f2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127471,
+          "stop" : 1621115127472,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0, 1]", "[2, 7, 11, 15]", "9" ]
+      }, {
+        "name" : "test_two_sum[nums1-6-expected_result1]",
+        "uid" : "c2ef60123d339be5",
+        "parentUid" : "ada4842b9bca715c9f142f98ccb33f2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127474,
+          "stop" : 1621115127474,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 2]", "[3, 2, 4]", "6" ]
+      }, {
+        "name" : "test_two_sum[nums2-6-expected_result2]",
+        "uid" : "27d0c38c7b38a5fd",
+        "parentUid" : "ada4842b9bca715c9f142f98ccb33f2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127477,
+          "stop" : 1621115127477,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0, 1]", "[3, 3]", "6" ]
+      } ],
+      "uid" : "ada4842b9bca715c9f142f98ccb33f2f"
+    } ],
+    "uid" : "81108a0bf0cc8c99522faa56ca7f911d"
+  }, {
+    "name" : "src.test.java.problems.hard.IntegerToEnglishWords",
+    "children" : [ {
+      "name" : "test_integer_to_english_words",
+      "children" : [ {
+        "name" : "test_integer_to_english_words[0-Zero]",
+        "uid" : "9439de19a7bd137b",
+        "parentUid" : "03bc06bbbf1904f562c7698deae8bf5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127480,
+          "stop" : 1621115127480,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zero'", "0" ]
+      }, {
+        "name" : "test_integer_to_english_words[1-One]",
+        "uid" : "b62777be391efb5f",
+        "parentUid" : "03bc06bbbf1904f562c7698deae8bf5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621115127482,
+          "stop" : 1621115127482,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'One'", "1" ]
+      } ],
+      "uid" : "03bc06bbbf1904f562c7698deae8bf5a"
+    } ],
+    "uid" : "e78ffade9f6a65de1a2cdb7427410bc4"
+  }, {
+    "name" : "src.test.java.problems.hard.MaximumPerformanceOfATeam",
+    "children" : [ {
+      "name" : "test_maximum_performance_of_a_team",
+      "children" : [ {
+        "name" : "test_max_performance_of_a_team[num_of_eng0-speed0-efficiency0-team_size0-expected_result0]",
+        "uid" : "ce2206f8de17e198",
+        "parentUid" : "56feee6941c0ba5a14ea07818d09f1d9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621115127485,
+          "stop" : 1621115127485,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>" ]
+      } ],
+      "uid" : "56feee6941c0ba5a14ea07818d09f1d9"
+    } ],
+    "uid" : "187f7f6948df3f3c587f0a669370baf5"
+  }, {
+    "name" : "src.test.java.problems.medium.GasStation",
+    "children" : [ {
+      "name" : "test_gas_station",
+      "children" : [ {
+        "name" : "test_gas_station[gas0-cost0-3]",
+        "uid" : "352f5ad2aa26e438",
+        "parentUid" : "f404cad7fb1e2e95ed5d816fbdc37ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127489,
+          "stop" : 1621115127490,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 4, 5, 1, 2]", "3", "[1, 2, 3, 4, 5]" ]
+      }, {
+        "name" : "test_gas_station[gas1-cost1--1]",
+        "uid" : "b154b89d047b60ef",
+        "parentUid" : "f404cad7fb1e2e95ed5d816fbdc37ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127493,
+          "stop" : 1621115127493,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 4, 3]", "-1", "[2, 3, 4]" ]
+      }, {
+        "name" : "test_gas_station[gas2-cost2-3]",
+        "uid" : "aa9618e89f5c5a9",
+        "parentUid" : "f404cad7fb1e2e95ed5d816fbdc37ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127496,
+          "stop" : 1621115127496,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 9, 1, 2, 5]", "3", "[7, 1, 0, 11, 4]" ]
+      } ],
+      "uid" : "f404cad7fb1e2e95ed5d816fbdc37ade"
+    } ],
+    "uid" : "ff1e6aaaa49250bc18998b2c7f70fa6b"
+  }, {
+    "name" : "src.test.java.problems.medium.IntegerToRoman",
+    "children" : [ {
+      "name" : "test_integer_to_roman",
+      "children" : [ {
+        "name" : "test_integer_to_roman[0-]",
+        "uid" : "80f622148ebe85c5",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127499,
+          "stop" : 1621115127499,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "0" ]
+      }, {
+        "name" : "test_integer_to_roman[1-I]",
+        "uid" : "3e9cf7aa770f85a0",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127501,
+          "stop" : 1621115127502,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'I'", "1" ]
+      }, {
+        "name" : "test_integer_to_roman[3-III]",
+        "uid" : "9537b9fe0f2075df",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127504,
+          "stop" : 1621115127504,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'III'", "3" ]
+      }, {
+        "name" : "test_integer_to_roman[4-IV]",
+        "uid" : "9c0ae3fc51f373e1",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127506,
+          "stop" : 1621115127507,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IV'", "4" ]
+      }, {
+        "name" : "test_integer_to_roman[9-IX]",
+        "uid" : "9a53f1b965cab95",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127510,
+          "stop" : 1621115127510,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IX'", "9" ]
+      }, {
+        "name" : "test_integer_to_roman[58-LVIII]",
+        "uid" : "157b10d14e8726d3",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127512,
+          "stop" : 1621115127512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'LVIII'", "58" ]
+      }, {
+        "name" : "test_integer_to_roman[1994-MCMXCIV]",
+        "uid" : "17c7ff12e787579c",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127515,
+          "stop" : 1621115127515,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MCMXCIV'", "1994" ]
+      }, {
+        "name" : "test_integer_to_roman[3999-MMMCMXCIX]",
+        "uid" : "6c3060496ea2ad9e",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127517,
+          "stop" : 1621115127517,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MMMCMXCIX'", "3999" ]
+      }, {
+        "name" : "test_integer_to_roman[1000-M]",
+        "uid" : "8b8d7a5ee99939b0",
+        "parentUid" : "468a6b9e8e027020d8ef877c30e0cec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621115127519,
+          "stop" : 1621115127519,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'M'", "1000" ]
+      } ],
+      "uid" : "468a6b9e8e027020d8ef877c30e0cec6"
+    } ],
+    "uid" : "67f1aa84f55057e154e4c47ab5a96e5c"
+  }, {
+    "name" : "problems.medium.GasStation.GasStationTest",
+    "children" : [ {
+      "name" : "[1] [1, 2, 3, 4, 5], [3, 4, 5, 1, 2], 3",
+      "uid" : "5aafb48af03bf187",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115327692,
+        "stop" : 1621115327851,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] [2, 3, 4], [3, 4, 3], -1",
+      "uid" : "dbaa74f7eda23e20",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328167,
+        "stop" : 1621115328172,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] [7, 1, 0, 11, 4], [5, 9, 1, 2, 5], 3",
+      "uid" : "1dfacaa64b778212",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328211,
+        "stop" : 1621115328214,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] [1, 2, 3, 4, 5], [3, 4, 5, 1, 2], 3",
+      "uid" : "eb25ba5502e60e3c",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328232,
+        "stop" : 1621115328381,
+        "duration" : 149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] [2, 3, 4], [3, 4, 3], -1",
+      "uid" : "c71d403c860804a4",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328402,
+        "stop" : 1621115328403,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] [7, 1, 0, 11, 4], [5, 9, 1, 2, 5], 3",
+      "uid" : "3ecb95ad59fa12f5",
+      "parentUid" : "b29237927cfbec084c1edb8332ccd0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328415,
+        "stop" : 1621115328417,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b29237927cfbec084c1edb8332ccd0b5"
+  }, {
+    "name" : "problems.easy.ClimbingStairs.ClimbingStairsTest",
+    "children" : [ {
+      "name" : "[1] 1, 1",
+      "uid" : "7d79dc491787ef66",
+      "parentUid" : "e31477c8c32e3527a3599400f08261c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115327847,
+        "stop" : 1621115327964,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 2, 2",
+      "uid" : "fb64c76a04fb398f",
+      "parentUid" : "e31477c8c32e3527a3599400f08261c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328259,
+        "stop" : 1621115328260,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] 3, 3",
+      "uid" : "4c6c7ad6de73e51e",
+      "parentUid" : "e31477c8c32e3527a3599400f08261c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328288,
+        "stop" : 1621115328297,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] 4, 5",
+      "uid" : "a90f556454d809d7",
+      "parentUid" : "e31477c8c32e3527a3599400f08261c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328300,
+        "stop" : 1621115328301,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] 5, 8",
+      "uid" : "fb4e83701d898df4",
+      "parentUid" : "e31477c8c32e3527a3599400f08261c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328311,
+        "stop" : 1621115328312,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e31477c8c32e3527a3599400f08261c6"
+  }, {
+    "name" : "challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest",
+    "children" : [ {
+      "name" : "shouldCheck(int[], int[][], boolean)",
+      "uid" : "21bedb67a4b96674",
+      "parentUid" : "36bc4aaed09ad25f45ddac848fc315ce",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621115328333,
+        "stop" : 1621115328333,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "36bc4aaed09ad25f45ddac848fc315ce"
+  }, {
+    "name" : "problems.easy.ClimbingStairs.ClimbingStairsScalaTest",
+    "children" : [ {
+      "name" : "[1] input=1, expectedResult=1",
+      "uid" : "2e0349e2c2abda08",
+      "parentUid" : "bd9b460d53dedd837126fd09c4f111d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328360,
+        "stop" : 1621115328376,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] input=2, expectedResult=2",
+      "uid" : "f4ce853a13a8bdfc",
+      "parentUid" : "bd9b460d53dedd837126fd09c4f111d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328379,
+        "stop" : 1621115328379,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] input=3, expectedResult=3",
+      "uid" : "caefc843e19274a8",
+      "parentUid" : "bd9b460d53dedd837126fd09c4f111d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328394,
+        "stop" : 1621115329002,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] input=4, expectedResult=5",
+      "uid" : "e787e55c420588a7",
+      "parentUid" : "bd9b460d53dedd837126fd09c4f111d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115329011,
+        "stop" : 1621115329013,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] input=5, expectedResult=8",
+      "uid" : "9447a023e4a98cb6",
+      "parentUid" : "bd9b460d53dedd837126fd09c4f111d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115329021,
+        "stop" : 1621115329023,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd9b460d53dedd837126fd09c4f111d1"
+  }, {
+    "name" : "challenges.c20201001_20201007.NumberOfRecentCalls.NumberOfRecentCallsTest",
+    "children" : [ {
+      "name" : "testNumberOfRecentCalls()",
+      "uid" : "3a06ef7f23ae7bf2",
+      "parentUid" : "5724096ae4121cefc7c4bc2b0e0dd269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328435,
+        "stop" : 1621115328437,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5724096ae4121cefc7c4bc2b0e0dd269"
+  }, {
+    "name" : "problems.easy.ClimbingStairs.ClimbingStairsKtTest",
+    "children" : [ {
+      "name" : "[1] 1, 1",
+      "uid" : "73548887c2bf1f93",
+      "parentUid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328461,
+        "stop" : 1621115328463,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 2, 2",
+      "uid" : "f498caff4bfe180f",
+      "parentUid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328468,
+        "stop" : 1621115328470,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] 3, 3",
+      "uid" : "d3ae5b443042556",
+      "parentUid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328478,
+        "stop" : 1621115328482,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] 4, 5",
+      "uid" : "661a2fa6db8dda52",
+      "parentUid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328493,
+        "stop" : 1621115328494,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] 5, 8",
+      "uid" : "96451f3f9970693",
+      "parentUid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621115328500,
+        "stop" : 1621115328501,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07bb3a4c1ac2fb2c92ca715dd84a48d8"
+  } ],
+  "name" : "suites"
+}
