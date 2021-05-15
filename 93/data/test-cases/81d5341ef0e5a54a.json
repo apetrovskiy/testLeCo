@@ -1,0 +1,59 @@
+{
+  "uid" : "81d5341ef0e5a54a",
+  "name" : "test_climbing_stairs[5-8]",
+  "fullName" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs#test_climbing_stairs",
+  "historyId" : "cce66d80be3135d1744cfb05bdff96d9",
+  "time" : {
+    "start" : 1621086586680,
+    "stop" : 1621086586680,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.ClimbingStairs"
+  }, {
+    "name" : "suite",
+    "value" : "test_climbing_stairs"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-359"
+  }, {
+    "name" : "thread",
+    "value" : "2178-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "8"
+  }, {
+    "name" : "input",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81d5341ef0e5a54a.json",
+  "parameterValues" : [ "8", "5" ]
+}
