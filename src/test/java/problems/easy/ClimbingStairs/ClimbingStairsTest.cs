@@ -4,10 +4,17 @@ namespace problems.easy.ClimbingStairs
     using NUnit.Framework;
     public class ClimbingStairsTest
     {
+        private Solution cut;
+        [SetUp]
+        public void SetUp()
+        {
+            cut = new Solution();
+        }
+
         [Test, TestCaseSource("GetInputData")]
         public void ShouldCalculateStairs(int input, int expectedResult)
         {
-            Assert.AreEqual(expectedResult, new Solution().ClimbStairs(input));
+            Assert.AreEqual(expectedResult, cut.ClimbStairs(input));
         }
         public static IEnumerable<TestCaseData> GetInputData()
         {
