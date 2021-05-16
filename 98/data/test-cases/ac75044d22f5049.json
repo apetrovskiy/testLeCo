@@ -1,0 +1,66 @@
+{
+  "uid" : "ac75044d22f5049",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "fullName" : "climbStairs(1) should equal 1.input = {input}, returns = {expectedResult}",
+  "historyId" : "10a8893b7b2aa09b310fdb3197c053e2",
+  "time" : {
+    "start" : 1621191221056,
+    "stop" : 1621191221056,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "testClass",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "input = {input}, returns = {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bf970bf91637c5b5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/96//#testresult/bf970bf91637c5b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621126672012,
+          "stop" : 1621126672012,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac75044d22f5049.json",
+  "parameterValues" : [ ]
+}
