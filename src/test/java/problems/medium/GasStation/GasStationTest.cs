@@ -1,8 +1,8 @@
 namespace problems.medium.GasStation
 {
-
+    using NUnit.Allure.Core;
     using NUnit.Framework;
-
+    [AllureNUnit]
     class GasStationTest
     {
         private Solution cut;

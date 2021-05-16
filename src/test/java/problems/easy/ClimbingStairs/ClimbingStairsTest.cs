@@ -1,7 +1,10 @@
 namespace problems.easy.ClimbingStairs
 {
     using System.Collections.Generic;
+    using NUnit.Allure.Core;
     using NUnit.Framework;
+
+    [AllureNUnit]
     public class ClimbingStairsTest
     {
         private Solution cut;
