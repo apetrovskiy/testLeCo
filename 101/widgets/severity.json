@@ -1,0 +1,541 @@
+[ {
+  "uid" : "e26afcfa67ffc675",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "time" : {
+    "start" : 1621355539984,
+    "stop" : 1621355539984,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de02fc41187b0bfc",
+  "name" : "[4] input=4, expectedResult=5",
+  "time" : {
+    "start" : 1621355728467,
+    "stop" : 1621355728476,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb3569800247e50",
+  "name" : "[2] [2, 3, 4], [3, 4, 3], -1",
+  "time" : {
+    "start" : 1621355726871,
+    "stop" : 1621355726871,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc6c585de9facded",
+  "name" : "[2] 2, 2",
+  "time" : {
+    "start" : 1621355726928,
+    "stop" : 1621355726929,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c49243d3630f446e",
+  "name" : "[3] inputArray=[5, 4, -1, 7, 8], expectedResult=23",
+  "time" : {
+    "start" : 1621355728376,
+    "stop" : 1621355728377,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5595ed048620309",
+  "name" : "[3] [7, 1, 0, 11, 4], [5, 9, 1, 2, 5], 3",
+  "time" : {
+    "start" : 1621355726879,
+    "stop" : 1621355726880,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68f7e6582e886c23",
+  "name" : "candidates = 2, target = 1, returns ",
+  "time" : {
+    "start" : 1621355539475,
+    "stop" : 1621355539476,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cef5a7eb9eaa658",
+  "name" : "[2] 2, 2",
+  "time" : {
+    "start" : 1621355727236,
+    "stop" : 1621355727242,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3aa4666a431757",
+  "name" : "[1] 1, 1",
+  "time" : {
+    "start" : 1621355726920,
+    "stop" : 1621355726922,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb79826943b0418",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "time" : {
+    "start" : 1621355539985,
+    "stop" : 1621355539985,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ae7ae9ecedca57",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "time" : {
+    "start" : 1621355539982,
+    "stop" : 1621355539982,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73a81e04a01f0099",
+  "name" : "TestGasStation([2, 3, 4],[3, 4, 3],-1)",
+  "time" : {
+    "start" : 1621355538782,
+    "stop" : 1621355538782,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce958e033fb764d8",
+  "name" : "candidates = 1, target = 1, returns 1",
+  "time" : {
+    "start" : 1621355539478,
+    "stop" : 1621355539479,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "654787a397746454",
+  "name" : "ShouldCalculateStairs(1,1)",
+  "time" : {
+    "start" : 1621355538774,
+    "stop" : 1621355538775,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcca30bccf0e940c",
+  "name" : "testNumberOfRecentCalls()",
+  "time" : {
+    "start" : 1621355726890,
+    "stop" : 1621355726894,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeb3ead4e5f947f5",
+  "name" : "[5] inputArray=[6, -7, 6, -3, 5], expectedResult=8",
+  "time" : {
+    "start" : 1621355728598,
+    "stop" : 1621355728604,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0c9c65f25d00cfa",
+  "name" : "ShouldCalculateStairs(4,5)",
+  "time" : {
+    "start" : 1621355538777,
+    "stop" : 1621355538778,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f57fa3df5eca160b",
+  "name" : "[1] inputArray=[-2, 1, -3, 4, -1, 2, 1, -5, 4], expectedResult=6",
+  "time" : {
+    "start" : 1621355727062,
+    "stop" : 1621355728353,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba1a37570d05be5f",
+  "name" : "[4] inputArray=[5, -3, 6, -7, 6], expectedResult=8",
+  "time" : {
+    "start" : 1621355728381,
+    "stop" : 1621355728382,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c82f8ee2de7e081",
+  "name" : "[3] 3, 3",
+  "time" : {
+    "start" : 1621355727277,
+    "stop" : 1621355727279,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0834d6f28b1ac7",
+  "name" : "PingTest",
+  "time" : {
+    "start" : 1621355538715,
+    "stop" : 1621355538729,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a32792fa9c6cef07",
+  "name" : "[4] 4, 5",
+  "time" : {
+    "start" : 1621355727283,
+    "stop" : 1621355727284,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c79c6630b9a012d8",
+  "name" : "candidates = 1, target = 2, returns 1,1",
+  "time" : {
+    "start" : 1621355539481,
+    "stop" : 1621355539483,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3640b7074a120235",
+  "name" : "gas = 7,1,0,11,4, cost = 5,9,1,2,5, returns 3",
+  "time" : {
+    "start" : 1621355539703,
+    "stop" : 1621355539703,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb593a1ac7220ffb",
+  "name" : "[5] 5, 8",
+  "time" : {
+    "start" : 1621355726952,
+    "stop" : 1621355726955,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d9bd4ae1aafb5d9",
+  "name" : "gas = 2,3,4, cost = 3,4,3, returns -1",
+  "time" : {
+    "start" : 1621355539702,
+    "stop" : 1621355539702,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad49d55f7fca61e",
+  "name" : "[3] 3, 3",
+  "time" : {
+    "start" : 1621355726934,
+    "stop" : 1621355726939,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9b2190fe5e3793d",
+  "name" : "[6] inputArray=[-2, -3, 4, -1, -2, 1, 5, -3], expectedResult=7",
+  "time" : {
+    "start" : 1621355728607,
+    "stop" : 1621355728616,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee33d03d86457b89",
+  "name" : "[4] 4, 5",
+  "time" : {
+    "start" : 1621355726949,
+    "stop" : 1621355726949,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c19bdd772959f2d",
+  "name" : "[2] inputArray=[1], expectedResult=1",
+  "time" : {
+    "start" : 1621355728362,
+    "stop" : 1621355728365,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c22258a96f1be1d",
+  "name" : "candidates = 2,3,6,7, target = 8, returns 2,2,3,7",
+  "time" : {
+    "start" : 1621355539456,
+    "stop" : 1621355539465,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac9d3f6b86b6afa",
+  "name" : "[5] 5, 8",
+  "time" : {
+    "start" : 1621355727294,
+    "stop" : 1621355727303,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a9452fa58eec83c",
+  "name" : "[3] input=3, expectedResult=3",
+  "time" : {
+    "start" : 1621355727368,
+    "stop" : 1621355728443,
+    "duration" : 1075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26152dea4ef236db",
+  "name" : "shouldCheck(int[], int[][], boolean)",
+  "time" : {
+    "start" : 1621355727314,
+    "stop" : 1621355727314,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "45cad8d1ebf9b4b4",
+  "name" : "[1] input=1, expectedResult=1",
+  "time" : {
+    "start" : 1621355727342,
+    "stop" : 1621355727356,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2845bede7701388f",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "time" : {
+    "start" : 1621355539987,
+    "stop" : 1621355539987,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b38bf644459dab4",
+  "name" : "[1] [1, 2, 3, 4, 5], [3, 4, 5, 1, 2], 3",
+  "time" : {
+    "start" : 1621355726714,
+    "stop" : 1621355726861,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9faf77dc4f42fb2a",
+  "name" : "[2] input=2, expectedResult=2",
+  "time" : {
+    "start" : 1621355727360,
+    "stop" : 1621355727361,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4100a4b6a8ba256",
+  "name" : "ShouldCalculateStairs(2,2)",
+  "time" : {
+    "start" : 1621355538776,
+    "stop" : 1621355538776,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c18060c19ef981bc",
+  "name" : "case 01",
+  "time" : {
+    "start" : 1621355539860,
+    "stop" : 1621355539863,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8837d91f5f224ba",
+  "name" : "ShouldCalculateStairs(5,8)",
+  "time" : {
+    "start" : 1621355538778,
+    "stop" : 1621355538778,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45734bd30fafc827",
+  "name" : "[5] input=5, expectedResult=8",
+  "time" : {
+    "start" : 1621355728488,
+    "stop" : 1621355728492,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdc78ef7660b18e8",
+  "name" : "[3] [7, 1, 0, 11, 4], [5, 9, 1, 2, 5], 3",
+  "time" : {
+    "start" : 1621355726689,
+    "stop" : 1621355726692,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71bdc229f87769ad",
+  "name" : "[1] [1, 2, 3, 4, 5], [3, 4, 5, 1, 2], 3",
+  "time" : {
+    "start" : 1621355726164,
+    "stop" : 1621355726315,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fe97ccf2ba84ade",
+  "name" : "case 03",
+  "time" : {
+    "start" : 1621355539865,
+    "stop" : 1621355539865,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef057d7dd266c0f1",
+  "name" : "[1] 1, 1",
+  "time" : {
+    "start" : 1621355726663,
+    "stop" : 1621355726816,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a52e02fd91af8518",
+  "name" : "candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5",
+  "time" : {
+    "start" : 1621355539471,
+    "stop" : 1621355539473,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b21cddd9c4402e1",
+  "name" : "ShouldCalculateStairs(3,3)",
+  "time" : {
+    "start" : 1621355538777,
+    "stop" : 1621355538777,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736e50d59f3239e8",
+  "name" : "TestGasStation([7, 1, 0, 11, 4],[5, 9, 1, 2, 5],3)",
+  "time" : {
+    "start" : 1621355538783,
+    "stop" : 1621355538783,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db3a2610698f83e4",
+  "name" : "gas = 1,2,3,4,5, cost = 3,4,5,1,2, returns 3",
+  "time" : {
+    "start" : 1621355539700,
+    "stop" : 1621355539701,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "721264aee470f754",
+  "name" : "[2] [2, 3, 4], [3, 4, 3], -1",
+  "time" : {
+    "start" : 1621355726641,
+    "stop" : 1621355726647,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a791f147b0fb61ce",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "time" : {
+    "start" : 1621355539986,
+    "stop" : 1621355539986,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b213102538e0619c",
+  "name" : "case 02",
+  "time" : {
+    "start" : 1621355539863,
+    "stop" : 1621355539864,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25e0ebb76542fab9",
+  "name" : "TestGasStation([1, 2, 3, 4, 5],[3, 4, 5, 1, 2],3)",
+  "time" : {
+    "start" : 1621355538779,
+    "stop" : 1621355538781,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
