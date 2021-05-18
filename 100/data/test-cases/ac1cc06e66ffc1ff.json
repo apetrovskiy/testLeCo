@@ -1,0 +1,84 @@
+{
+  "uid" : "ac1cc06e66ffc1ff",
+  "name" : "input = {input}, returns = {expectedResult}",
+  "fullName" : "climbStairs(4) should equal 5.input = {input}, returns = {expectedResult}",
+  "historyId" : "75028fdb053278546db2caca370341d2",
+  "time" : {
+    "start" : 1621343408347,
+    "stop" : 1621343408347,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "climbStairs(4) should equal 5"
+  }, {
+    "name" : "testClass",
+    "value" : "climbStairs(4) should equal 5"
+  }, {
+    "name" : "testMethod",
+    "value" : "input = {input}, returns = {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "climbStairs(4) should equal 5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1d4caa9f43a6a5d6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/99//#testresult/1d4caa9f43a6a5d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621193871777,
+          "stop" : 1621193871778,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "163186a2f5ceaf9d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/98//#testresult/163186a2f5ceaf9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621191221061,
+          "stop" : 1621191221061,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cf932341159a5d8e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/96//#testresult/cf932341159a5d8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621126672016,
+          "stop" : 1621126672016,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac1cc06e66ffc1ff.json",
+  "parameterValues" : [ ]
+}
