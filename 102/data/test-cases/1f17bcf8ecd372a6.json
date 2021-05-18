@@ -1,0 +1,140 @@
+{
+  "uid" : "1f17bcf8ecd372a6",
+  "name" : "TestGasStation([2, 3, 4],[3, 4, 3],-1)",
+  "fullName" : "problems.medium.GasStation.GasStationTest.TestGasStation([2, 3, 4],[3, 4, 3],-1)",
+  "historyId" : "problems.medium.GasStation.GasStationTest.TestGasStation([2, 3, 4],[3, 4, 3],-1)",
+  "time" : {
+    "start" : 1621364323904,
+    "stop" : 1621364323905,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1621364323904,
+      "stop" : 1621364323904,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TestGasStation([2, 3, 4],[3, 4, 3],-1)",
+      "time" : {
+        "start" : 1621364323904,
+        "stop" : 1621364323905,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abab119660d5772e",
+        "name" : "Console Output",
+        "source" : "abab119660d5772e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-119"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.medium.GasStation.GasStationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestGasStation"
+  }, {
+    "name" : "package",
+    "value" : "problems.medium.GasStation.GasStationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #1",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #2",
+    "value" : "-1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "73a81e04a01f0099",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/101//#testresult/73a81e04a01f0099",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621355538782,
+          "stop" : 1621355538782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cd6cd3ff70961944",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/100//#testresult/cd6cd3ff70961944",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621343407021,
+          "stop" : 1621343407021,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e85d55f2bb5806ec",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/99//#testresult/e85d55f2bb5806ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621193877987,
+          "stop" : 1621193877987,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f17bcf8ecd372a6.json",
+  "parameterValues" : [ "System.Int32[]", "System.Int32[]", "-1" ]
+}

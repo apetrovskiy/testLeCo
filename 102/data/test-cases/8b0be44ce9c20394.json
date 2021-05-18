@@ -1,0 +1,137 @@
+{
+  "uid" : "8b0be44ce9c20394",
+  "name" : "ShouldCalculateStairs(2,2)",
+  "fullName" : "problems.easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(2,2)",
+  "historyId" : "problems.easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(2,2)",
+  "time" : {
+    "start" : 1621364323898,
+    "stop" : 1621364323899,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1621364323898,
+      "stop" : 1621364323898,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ShouldCalculateStairs(2,2)",
+      "time" : {
+        "start" : 1621364323898,
+        "stop" : 1621364323899,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9385cf4aa4264199",
+        "name" : "Console Output",
+        "source" : "9385cf4aa4264199.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-119"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.ClimbingStairs.ClimbingStairsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldCalculateStairs"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.ClimbingStairs.ClimbingStairsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "2"
+  }, {
+    "name" : "Param #1",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e4100a4b6a8ba256",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/101//#testresult/e4100a4b6a8ba256",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621355538776,
+          "stop" : 1621355538776,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "76c5f5d5e28f018",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/100//#testresult/76c5f5d5e28f018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621343407016,
+          "stop" : 1621343407016,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61168133c2413a49",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/99//#testresult/61168133c2413a49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621193877980,
+          "stop" : 1621193877981,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8b0be44ce9c20394.json",
+  "parameterValues" : [ "2", "2" ]
+}

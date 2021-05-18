@@ -1,0 +1,367 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 6\n                + Received  + 2\n                \n                  Array [\n                +   Array [],\n                    Array [\n                -     2,\n                -     2,\n                -     3,\n                -   ],\n                -   Array [\n                -     7,\n                +     0,\n                    ],\n                  ]",
+      "children" : [ {
+        "name" : "candidates = 2,3,6,7, target = 8, returns 2,2,3,7",
+        "uid" : "47e72d15d7979bc2",
+        "parentUid" : "57baabc65f338daa9c82adf6cfedafd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364323606,
+          "stop" : 1621364323615,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57baabc65f338daa9c82adf6cfedafd2"
+    }, {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+      "children" : [ {
+        "name" : "candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5",
+        "uid" : "6959197de984b2eb",
+        "parentUid" : "bf39b58d10084f2cf8a2b260f405ffd9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364323621,
+          "stop" : 1621364323623,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf39b58d10084f2cf8a2b260f405ffd9"
+    }, {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+      "children" : [ {
+        "name" : "candidates = 2, target = 1, returns ",
+        "uid" : "d76ba4ff8b8c77be",
+        "parentUid" : "dd18a6410f330819d4cb6d857101e2d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364323625,
+          "stop" : 1621364323626,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd18a6410f330819d4cb6d857101e2d4"
+    }, {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 3\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -   ],\n                +   Array [],\n                  ]",
+      "children" : [ {
+        "name" : "candidates = 1, target = 1, returns 1",
+        "uid" : "369a67310d4a2508",
+        "parentUid" : "db3af75dbca067702946593b2149aaec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364323628,
+          "stop" : 1621364323629,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db3af75dbca067702946593b2149aaec"
+    }, {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 4\n                + Received  + 1\n                \n                  Array [\n                -   Array [\n                -     1,\n                -     1,\n                -   ],\n                +   Array [],\n                  ]",
+      "children" : [ {
+        "name" : "candidates = 1, target = 2, returns 1,1",
+        "uid" : "3467d85cf86c30d5",
+        "parentUid" : "7332368859b3c8ef5c666464cca9b17f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364323631,
+          "stop" : 1621364323632,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7332368859b3c8ef5c666464cca9b17f"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:6:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "case 01",
+        "uid" : "66870c6c2c1d11cf",
+        "parentUid" : "80ec54a5eb12547673125d53132c38c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364324033,
+          "stop" : 1621364324037,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80ec54a5eb12547673125d53132c38c3"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [1, 2]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 1, 2 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   1,\n                -   2,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:9:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "case 02",
+        "uid" : "39e5c1e984e7c7a4",
+        "parentUid" : "d36619d941a99f6913d5ce83fabc086b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364324037,
+          "stop" : 1621364324038,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d36619d941a99f6913d5ce83fabc086b"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [0, 1]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 0, 1 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   0,\n                -   1,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "case 03",
+        "uid" : "9b8f93689ee76321",
+        "parentUid" : "ba6673e5b21682426f2040c851338e02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364324038,
+          "stop" : 1621364324051,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba6673e5b21682426f2040c851338e02"
+    }, {
+      "name" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "8a08964d5a9d8dee",
+        "parentUid" : "9c36c0d89f9478629a8668ff735ae4a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364327000,
+          "stop" : 1621364327000,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c36c0d89f9478629a8668ff735ae4a1"
+    }, {
+      "name" : "AssertionError: Lists differ: [[2, 2, 2, 2], [2, 3, 3], [3, 5]] != []\n\nFirst list contains 3 additional elements.\nFirst extra element 0:\n[2, 2, 2, 2]\n\n- [[2, 2, 2, 2], [2, 3, 3], [3, 5]]\n+ []",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "3b40c116383344",
+        "parentUid" : "1b3f6a30bd56ce3366a2c0d71463b27d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364327038,
+          "stop" : 1621364327039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b3f6a30bd56ce3366a2c0d71463b27d"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1]] != [[0]]\n\nFirst differing element 0:\n[1]\n[0]\n\n- [[1]]\n?   ^\n\n+ [[0]]\n?   ^",
+      "children" : [ {
+        "name" : "test_4",
+        "uid" : "99ef9aee5f917eb7",
+        "parentUid" : "a8a7cd336e05f958baac176fc0cb66bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364327044,
+          "stop" : 1621364327045,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8a7cd336e05f958baac176fc0cb66bf"
+    }, {
+      "name" : "AssertionError: Lists differ: [[1, 1]] != [[0, 1]]\n\nFirst differing element 0:\n[1, 1]\n[0, 1]\n\n- [[1, 1]]\n?   ^\n\n+ [[0, 1]]\n?   ^",
+      "children" : [ {
+        "name" : "test_5",
+        "uid" : "f5b5fd1590821217",
+        "parentUid" : "9e9e18b679ff66d0c9d4a05338b3055e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364327049,
+          "stop" : 1621364327050,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e9e18b679ff66d0c9d4a05338b3055e"
+    }, {
+      "name" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+      "children" : [ {
+        "name" : "test_integer_to_english_words[1-One]",
+        "uid" : "287abfdc9b55bff0",
+        "parentUid" : "9123ab527d641dc38f1b3f28156694cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364327143,
+          "stop" : 1621364327143,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'One'", "1" ]
+      } ],
+      "uid" : "9123ab527d641dc38f1b3f28156694cf"
+    }, {
+      "name" : "expected: <6> but was: <5>",
+      "children" : [ {
+        "name" : "[1] [-2, 1, -3, 4, -1, 2, 1, -5, 4], 6",
+        "uid" : "8a11f11a71d8f4f6",
+        "parentUid" : "b4129c1233232ba6047ace69405d3f62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364489373,
+          "stop" : 1621364489553,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4129c1233232ba6047ace69405d3f62"
+    }, {
+      "name" : "expected: <8> but was: <7>",
+      "children" : [ {
+        "name" : "[4] [5, -3, 6, -7, 6], 8",
+        "uid" : "ba718f0b9155af3e",
+        "parentUid" : "6ee559836ea728c58fbd3859346e5db0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364490093,
+          "stop" : 1621364490095,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ee559836ea728c58fbd3859346e5db0"
+    }, {
+      "name" : "expected: <7> but was: <4>",
+      "children" : [ {
+        "name" : "[6] [-2, -3, 4, -1, -2, 1, 5, -3], 7",
+        "uid" : "519efdf171fce2c3",
+        "parentUid" : "496b44d8f514227b93236ec70cca5fa3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621364490144,
+          "stop" : 1621364490155,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "496b44d8f514227b93236ec70cca5fa3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+      "children" : [ {
+        "name" : "[1] [-2, 1, -3, 4, -1, 2, 1, -5, 4], 6",
+        "uid" : "6c351ce8a2abc2f2",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490012,
+          "stop" : 1621364490021,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] [1], 1",
+        "uid" : "888a978b5f9793a3",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490050,
+          "stop" : 1621364490093,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] [5, 4, -1, 7, 8], 23",
+        "uid" : "9589391d3c7f7954",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490101,
+          "stop" : 1621364490104,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] [5, -3, 6, -7, 6], 8",
+        "uid" : "d218f976ced513b0",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490116,
+          "stop" : 1621364490129,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] [6, -7, 6, -3, 5], 8",
+        "uid" : "f51a5fbf7975447d",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490455,
+          "stop" : 1621364490462,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] [-2, -3, 4, -1, -2, 1, 5, -3], 7",
+        "uid" : "6c0a53ccb9ffb655",
+        "parentUid" : "5851c2d127bda8770e70e90ded08fb17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621364490493,
+          "stop" : 1621364490494,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5851c2d127bda8770e70e90ded08fb17"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

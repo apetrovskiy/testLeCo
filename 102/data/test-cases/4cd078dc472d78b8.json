@@ -1,0 +1,79 @@
+{
+  "uid" : "4cd078dc472d78b8",
+  "name" : "test_maximum_subarray[input_array5-7]",
+  "fullName" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray#test_maximum_subarray",
+  "historyId" : "991f00759e237b8d39e4c29ef6fc27a7",
+  "time" : {
+    "start" : 1621364327106,
+    "stop" : 1621364327106,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.MaximumSubarray"
+  }, {
+    "name" : "suite",
+    "value" : "test_maximum_subarray"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-689"
+  }, {
+    "name" : "thread",
+    "value" : "1925-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "7"
+  }, {
+    "name" : "input_array",
+    "value" : "[-2, -3, 4, -1, -2, 1, 5, -3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f27265017f919bf8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/100//#testresult/f27265017f919bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621343406492,
+          "stop" : 1621343406492,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4cd078dc472d78b8.json",
+  "parameterValues" : [ "7", "[-2, -3, 4, -1, -2, 1, 5, -3]" ]
+}
