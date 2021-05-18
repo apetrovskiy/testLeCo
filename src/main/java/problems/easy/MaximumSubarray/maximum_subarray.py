@@ -1,10 +1,10 @@
 from typing import List
-from sys import maxint
+from sys import maxsize
 
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        current_max = -maxint - 1
+        current_max = -maxsize - 1
         current_max_plus_next = 0
         for i in range(len(nums)):
             current_max_plus_next += nums[i]

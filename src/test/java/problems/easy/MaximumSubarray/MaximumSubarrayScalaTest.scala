@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.Arguments.of
 import org.junit.jupiter.params.provider.MethodSource
 import java.util.stream.Stream
 
-class MaximumSubarrayTest {
+class MaximumSubarrayScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
   def shouldCalculateMaximumSubarray(
@@ -18,7 +18,7 @@ class MaximumSubarrayTest {
   }
 }
 
-object MaximumSubarrayTest {
+object MaximumSubarrayScalaTest {
   def getInputData(): Stream[Arguments] = {
     Stream.of(
       of(Array(-2, 1, -3, 4, -1, 2, 1, -5, 4), 6),

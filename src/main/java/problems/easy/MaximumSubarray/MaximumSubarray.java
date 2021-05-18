@@ -1,7 +1,10 @@
 package problems.easy.MaximumSubarray;
+
+import java.util.Arrays;
+
 @SuppressWarnings("PMD")
 class Solution {
     public int maxSubArray(int[] nums) {
-return 0;
+        return Arrays.stream(nums).reduce(0, (subtotal, next) -> Math.max(0, subtotal + next));
     }
 }
