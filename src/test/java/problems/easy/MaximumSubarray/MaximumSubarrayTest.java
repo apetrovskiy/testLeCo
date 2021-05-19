@@ -20,6 +20,6 @@ class MaximumSubarrayTest {
 
                 of(new int[] { 5, -3, 6, -7, 6 }, 8), of(new int[] { 6, -7, 6, -3, 5 }, 8),
 
-                of(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 }, 7),of(new int[] { -1 }, -1));
+                of(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 }, 7),of(new int[] { -1 }, -1),of(new int[]{-2,-1},-1));
     }
 }
