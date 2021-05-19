@@ -1,0 +1,149 @@
+{
+  "uid" : "e9ece0d2fee934b",
+  "name" : "TestGasStation([1, 2, 3, 4, 5],[3, 4, 5, 1, 2],3)",
+  "fullName" : "problems.medium.GasStation.GasStationTest.TestGasStation([1, 2, 3, 4, 5],[3, 4, 5, 1, 2],3)",
+  "historyId" : "problems.medium.GasStation.GasStationTest.TestGasStation([1, 2, 3, 4, 5],[3, 4, 5, 1, 2],3)",
+  "time" : {
+    "start" : 1621422938181,
+    "stop" : 1621422938183,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1621422938183,
+      "stop" : 1621422938183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TestGasStation([1, 2, 3, 4, 5],[3, 4, 5, 1, 2],3)",
+      "time" : {
+        "start" : 1621422938181,
+        "stop" : 1621422938183,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4f84854c12c00c6",
+        "name" : "Console Output",
+        "source" : "b4f84854c12c00c6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-908"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.medium.GasStation.GasStationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestGasStation"
+  }, {
+    "name" : "package",
+    "value" : "problems.medium.GasStation.GasStationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #1",
+    "value" : "System.Int32[]"
+  }, {
+    "name" : "Param #2",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ed6d925e88fac0b1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/102//#testresult/ed6d925e88fac0b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621364323901,
+          "stop" : 1621364323904,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "25e0ebb76542fab9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/101//#testresult/25e0ebb76542fab9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621355538779,
+          "stop" : 1621355538781,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "b8f9f479cb059975",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/100//#testresult/b8f9f479cb059975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621343407019,
+          "stop" : 1621343407021,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d73d489b5f51a750",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/99//#testresult/d73d489b5f51a750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621193877983,
+          "stop" : 1621193877986,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e9ece0d2fee934b.json",
+  "parameterValues" : [ "System.Int32[]", "System.Int32[]", "3" ]
+}
