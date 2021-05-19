@@ -23,7 +23,8 @@ class MaximumSubarrayKtTest {
                 of(arrayOf(5, 4, -1, 7, 8), 23),
                 of(arrayOf(5, -3, 6, -7, 6), 8),
                 of(arrayOf(6, -7, 6, -3, 5), 8),
-                of(arrayOf(-2, -3, 4, -1, -2, 1, 5, -3), 7)
+                of(arrayOf(-2, -3, 4, -1, -2, 1, 5, -3), 7),
+                of(arrayOf(-1), 1)
             )
         }
     }

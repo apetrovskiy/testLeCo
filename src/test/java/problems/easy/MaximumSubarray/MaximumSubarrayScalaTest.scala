@@ -26,7 +26,8 @@ object MaximumSubarrayScalaTest {
       of(Array(5, 4, -1, 7, 8), 23),
       of(Array(5, -3, 6, -7, 6), 8),
       of(Array(6, -7, 6, -3, 5), 8),
-      of(Array(-2, -3, 4, -1, -2, 1, 5, -3), 7)
+      of(Array(-2, -3, 4, -1, -2, 1, 5, -3), 7),
+      of(Array(-1))
     )
   }
 }
