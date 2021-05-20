@@ -27,6 +27,6 @@ describe.each([
     ],
 ])("maxSubArray(%o) should equal %i", (inputArray, expectedResult) => {
     test(`inputArray = {inputArray}, returns {expectedResult}`, () => {
-        expect(maxSubArray(inputArray)).toBe(expectedResult);
+        expect(maxSubArray(inputArray)).toEqual(expectedResult);
     });
 });

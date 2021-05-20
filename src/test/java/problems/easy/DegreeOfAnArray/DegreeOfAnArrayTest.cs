@@ -1,0 +1,3 @@
+namespaceproblems.easy.DegreeOfAnArray{
+
+}

@@ -1,4 +1,4 @@
-const { climbStairs } = require('./climbing_stairs');
+const { climbStairs } = require("./climbing_stairs");
 
 describe.each([
     [1, 1],
@@ -8,6 +8,6 @@ describe.each([
     [5, 8],
 ])("climbStairs(%i) should equal %i", (input, expectedResult) => {
     test(`input = {input}, returns = {expectedResult}`, () => {
-        expect(climbStairs(input)).toBe(expectedResult);
+        expect(climbStairs(input)).toEqual(expectedResult);
     });
 });

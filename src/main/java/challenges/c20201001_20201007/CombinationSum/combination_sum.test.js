@@ -32,7 +32,7 @@ describe.each([
     "combinationSum(%o, %i) should equal %i",
     (candidates, target, expectedResult) => {
         test(`candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
-            expect(combinationSum(candidates, target)).toBe(expectedResult);
+            expect(combinationSum(candidates, target)).toEqual(expectedResult);
         });
     }
 );
