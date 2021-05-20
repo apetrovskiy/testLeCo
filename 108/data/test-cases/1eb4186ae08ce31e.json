@@ -1,0 +1,75 @@
+{
+  "uid" : "1eb4186ae08ce31e",
+  "name" : "inputArray = {inputArray}, returns {expectedResult}",
+  "fullName" : "maxSubArray([ 1, [length]: 1 ]) should equal 1.inputArray = {inputArray}, returns {expectedResult}",
+  "historyId" : "2552cb57bad9c1c000b5c1b1bd6af135",
+  "time" : {
+    "start" : 1621494220960,
+    "stop" : 1621494220960,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "testClass",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "inputArray = {inputArray}, returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7d49e304776273e6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/107//#testresult/7d49e304776273e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621454856895,
+          "stop" : 1621454856896,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fecd89b77dbeee9a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/106//#testresult/fecd89b77dbeee9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621452382134,
+          "stop" : 1621452382134,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1eb4186ae08ce31e.json",
+  "parameterValues" : [ ]
+}

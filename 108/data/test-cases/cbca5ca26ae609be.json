@@ -1,0 +1,272 @@
+{
+  "uid" : "cbca5ca26ae609be",
+  "name" : "shouldCheck(int[], int[][], boolean)",
+  "fullName" : "challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck",
+  "historyId" : "f03aefc5cb3cc5903ee228a9c4136956",
+  "time" : {
+    "start" : 1621494412736,
+    "stop" : 1621494412736,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az193-740"
+  }, {
+    "name" : "thread",
+    "value" : "3189@fv-az193-740.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheck"
+  }, {
+    "name" : "suite",
+    "value" : "challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 68,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 68
+      },
+      "items" : [ {
+        "uid" : "ca749bab157fb733",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/103//#testresult/ca749bab157fb733",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621423145673,
+          "stop" : 1621423145673,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e50279c48ea0390b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/102//#testresult/e50279c48ea0390b",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621364489961,
+          "stop" : 1621364489961,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26152dea4ef236db",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/101//#testresult/26152dea4ef236db",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621355727314,
+          "stop" : 1621355727314,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9f4011f98685c615",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/100//#testresult/9f4011f98685c615",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621343585106,
+          "stop" : 1621343585106,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "750d10f759c01adc",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/99//#testresult/750d10f759c01adc",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621194066624,
+          "stop" : 1621194066624,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d1b37498b054d7f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/98//#testresult/d1b37498b054d7f",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621191396528,
+          "stop" : 1621191396528,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fd7a8b54c5e3922b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/96//#testresult/fd7a8b54c5e3922b",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621126882991,
+          "stop" : 1621126882991,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "21bedb67a4b96674",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/95//#testresult/21bedb67a4b96674",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621115328333,
+          "stop" : 1621115328333,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "748e2587dcd07216",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/94//#testresult/748e2587dcd07216",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1621111613830,
+          "stop" : 1621111613830,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b189bdd9ee895605",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/91//#testresult/b189bdd9ee895605",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620986204573,
+          "stop" : 1620986204573,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "32a9487b676bf219",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/90//#testresult/32a9487b676bf219",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620980336992,
+          "stop" : 1620980336992,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b5492b30fda773c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/89//#testresult/8b5492b30fda773c",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620949680584,
+          "stop" : 1620949680585,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d2596e4e010b577e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/88//#testresult/d2596e4e010b577e",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620949653792,
+          "stop" : 1620949653792,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "79ff843594b0f021",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/86//#testresult/79ff843594b0f021",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620949502179,
+          "stop" : 1620949502179,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4d4644658bc63afb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/85//#testresult/4d4644658bc63afb",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620949467870,
+          "stop" : 1620949467870,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "28237d6afe2da501",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/84//#testresult/28237d6afe2da501",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620949116421,
+          "stop" : 1620949116421,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f82587f524807a9e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/83//#testresult/f82587f524807a9e",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620936033712,
+          "stop" : 1620936033712,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a82dc5cf59a2ef57",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/82//#testresult/a82dc5cf59a2ef57",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620933963960,
+          "stop" : 1620933963960,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c0ec85b949ad6798",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/81//#testresult/c0ec85b949ad6798",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620932462454,
+          "stop" : 1620932462454,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "38899c3d6083700d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/80//#testresult/38899c3d6083700d",
+        "status" : "skipped",
+        "statusDetails" : "void challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.CheckArrayFormationThroughConcatenationTest.shouldCheck(int[],int[][],boolean) is @Disabled",
+        "time" : {
+          "start" : 1620931103239,
+          "stop" : 1620931103239,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cbca5ca26ae609be.json",
+  "parameterValues" : [ ]
+}
