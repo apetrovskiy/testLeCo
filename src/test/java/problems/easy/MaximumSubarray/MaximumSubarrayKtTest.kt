@@ -18,14 +18,14 @@ class MaximumSubarrayKtTest {
         @JvmStatic
         fun getInputData(): Stream<Arguments> {
             return Stream.of(
-                of(arrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4), 6),
-                of(arrayOf(1), 1),
-                of(arrayOf(5, 4, -1, 7, 8), 23),
-                of(arrayOf(5, -3, 6, -7, 6), 8),
-                of(arrayOf(6, -7, 6, -3, 5), 8),
-                of(arrayOf(-2, -3, 4, -1, -2, 1, 5, -3), 7),
-                of(arrayOf(-1), 1),
-                of(arrayOf(-2, -1), 1)
+                of(intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4), 6),
+                of(intArrayOf(1), 1),
+                of(intArrayOf(5, 4, -1, 7, 8), 23),
+                of(intArrayOf(5, -3, 6, -7, 6), 8),
+                of(intArrayOf(6, -7, 6, -3, 5), 8),
+                of(intArrayOf(-2, -3, 4, -1, -2, 1, 5, -3), 7),
+                of(intArrayOf(-1), 1),
+                of(intArrayOf(-2, -1), 1)
             )
         }
     }

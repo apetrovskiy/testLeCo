@@ -18,8 +18,8 @@ class DegreeOfAnArrayKtTest {
         @JvmStatic
         fun getInputData(): Stream<Arguments> {
             return Stream.of(
-                of(arrayOf(1, 2, 2, 3, 1), 2),
-                of(arrayOf(1, 2, 2, 3, 1, 4, 2), 6)
+                of(intArrayOf(1, 2, 2, 3, 1), 2),
+                of(intArrayOf(1, 2, 2, 3, 1, 4, 2), 6)
             )
         }
     }
