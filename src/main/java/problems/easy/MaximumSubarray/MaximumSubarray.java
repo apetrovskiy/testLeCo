@@ -1,7 +1,5 @@
 package problems.easy.MaximumSubarray;
 
-import java.util.Arrays;
-
 @SuppressWarnings("PMD")
 class Solution {
     public int maxSubArray(int[] nums) {
