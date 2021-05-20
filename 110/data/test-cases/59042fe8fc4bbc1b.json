@@ -1,0 +1,73 @@
+{
+  "uid" : "59042fe8fc4bbc1b",
+  "name" : "inputArray = {inputArray} returns {expectedResult}",
+  "fullName" : "findShortestSubArray([ 1, 2, 2, 3, 1, [length]: 5 ]) should equal 2.inputArray = {inputArray} returns {expectedResult}",
+  "historyId" : "870af828b7bc218dbead8479d141e798",
+  "time" : {
+    "start" : 1621504835127,
+    "stop" : 1621504835129,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 2\n                Received: 0",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 2\n                Received: 0\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/DegreeOfAnArray/degree_of_an_array.test.js:12:50)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "findShortestSubArray([ 1, 2, 2, 3, 1, [length]: 5 ]) should equal 2"
+  }, {
+    "name" : "testClass",
+    "value" : "findShortestSubArray([ 1, 2, 2, 3, 1, [length]: 5 ]) should equal 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "inputArray = {inputArray} returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "findShortestSubArray([ 1, 2, 2, 3, 1, [length]: 5 ]) should equal 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5c70726323a756d8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/109//#testresult/5c70726323a756d8",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 2\n                Received: 0",
+        "time" : {
+          "start" : 1621500011957,
+          "stop" : 1621500011958,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "59042fe8fc4bbc1b.json",
+  "parameterValues" : [ ]
+}
