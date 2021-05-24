@@ -1,0 +1,117 @@
+{
+  "uid" : "12b54af61fe8a0d5",
+  "name" : "[5] [6, -7, 6, -3, 5], 8",
+  "fullName" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest.shouldCalculateMaximumSubarray",
+  "historyId" : "e7016d868d71fdf99e3551ee369cd337",
+  "time" : {
+    "start" : 1621855414528,
+    "stop" : 1621855414529,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az199-475"
+  }, {
+    "name" : "thread",
+    "value" : "3094@fv-az199-475.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateMaximumSubarray"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "60718315aa4a9142",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/110//#testresult/60718315aa4a9142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621505006818,
+          "stop" : 1621505006819,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "751fd496d9e8ed53",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/109//#testresult/751fd496d9e8ed53",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621500248308,
+          "stop" : 1621500248308,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "17f662a4ad881234",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/108//#testresult/17f662a4ad881234",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621494412932,
+          "stop" : 1621494412935,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "be96d3e5d4315c95",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/103//#testresult/be96d3e5d4315c95",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621423146061,
+          "stop" : 1621423146065,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "f51a5fbf7975447d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/102//#testresult/f51a5fbf7975447d",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621364490455,
+          "stop" : 1621364490462,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12b54af61fe8a0d5.json",
+  "parameterValues" : [ ]
+}
