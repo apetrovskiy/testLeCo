@@ -1,0 +1,122 @@
+{
+  "uid" : "b639211c6ad4bf11",
+  "name" : "[1] inputArray=[-2, 1, -3, 4, -1, 2, 1, -5, 4], expectedResult=6",
+  "fullName" : "problems.easy.MaximumSubarray.MaximumSubarrayScalaTest.shouldCalculateMaximumSubarray",
+  "historyId" : "ae4a8665a34a66a16e6b384327a3d10",
+  "time" : {
+    "start" : 1621855827227,
+    "stop" : 1621855827282,
+    "duration" : 55
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az193-263"
+  }, {
+    "name" : "thread",
+    "value" : "3165@fv-az193-263.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayScalaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayScalaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateMaximumSubarray"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayScalaTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "896fa00b4e6d6589",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/111//#testresult/896fa00b4e6d6589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621855415172,
+          "stop" : 1621855415226,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "f269bdca042abe25",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/110//#testresult/f269bdca042abe25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621505007394,
+          "stop" : 1621505007433,
+          "duration" : 39
+        }
+      }, {
+        "uid" : "78bf8e95cd712c4c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/109//#testresult/78bf8e95cd712c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621500249194,
+          "stop" : 1621500249248,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "f9aa3b074d1b9ebe",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/108//#testresult/f9aa3b074d1b9ebe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494413002,
+          "stop" : 1621494413640,
+          "duration" : 638
+        }
+      }, {
+        "uid" : "d1916beab112bef6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/103//#testresult/d1916beab112bef6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621423146141,
+          "stop" : 1621423146921,
+          "duration" : 780
+        }
+      }, {
+        "uid" : "44b653b233fd8fe2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/102//#testresult/44b653b233fd8fe2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621364490536,
+          "stop" : 1621364491139,
+          "duration" : 603
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b639211c6ad4bf11.json",
+  "parameterValues" : [ ]
+}
