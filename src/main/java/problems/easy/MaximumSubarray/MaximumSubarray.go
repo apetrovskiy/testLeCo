@@ -1,7 +1,5 @@
 package MaximumSubarray
 
-import "math"
-
 func maxSubArray(nums []int) int {
 	currentMax := -2_000_000_000
 	currentMaxPlusNext := 0
