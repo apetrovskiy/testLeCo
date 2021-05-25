@@ -1,0 +1,66 @@
+{
+  "uid" : "a5bdaaff82bfec55",
+  "name" : "input = {inputArray}, returns {expectedResult}",
+  "fullName" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2.input = {inputArray}, returns {expectedResult}",
+  "historyId" : "c42a3f427a3818d4523c6d1d63b3bb28",
+  "time" : {
+    "start" : 1621980508769,
+    "stop" : 1621980508770,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "testClass",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "input = {inputArray}, returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9ed6e65dc8fa5e32",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/118//#testresult/9ed6e65dc8fa5e32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621974939863,
+          "stop" : 1621974939863,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a5bdaaff82bfec55.json",
+  "parameterValues" : [ ]
+}
