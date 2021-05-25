@@ -1,1 +1,1 @@
-package noname
+package problems.easy.MajorityElement
