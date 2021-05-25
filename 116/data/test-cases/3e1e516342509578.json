@@ -1,0 +1,65 @@
+{
+  "uid" : "3e1e516342509578",
+  "name" : "test_majority_element[input_array0-3]",
+  "fullName" : "src.test.java.problems.easy.MajorityElement.test_majority_element#test_majority_element",
+  "historyId" : "eb222acc3c58323e6147d90752321e07",
+  "time" : {
+    "start" : 1621959378723,
+    "stop" : 1621959378723,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'int' object has no attribute 'value'",
+  "statusTrace" : "input_array = [3, 2, 3], expected_result = 3\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_majority_element(input_array: List[int], expected_result: int):\n>       assert expected_result == Solution().majorityElement(input_array)\n\nsrc/test/java/problems/easy/MajorityElement/test_majority_element.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <src.main.java.problems.easy.MajorityElement.majority_element.Solution object at 0x7fc4f3474100>\nnums = [3, 2, 3]\n\n    def majorityElement(self, nums: List[int]) -> int:\n        min_number_needed = len(nums) // 2 + 1\n        results = {}\n        for i in range(len(nums)):\n            if i in results.keys():\n                results[i] += 1\n            else:\n                results[i] = 1\n        # return max([x[0] for x in results if x[1] >= min_number_needed])\n        for i in range(len(results)):\n>           if i.value >= min_number_needed:\nE           AttributeError: 'int' object has no attribute 'value'\n\nsrc/main/java/problems/easy/MajorityElement/majority_element.py:15: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.MajorityElement"
+  }, {
+    "name" : "suite",
+    "value" : "test_majority_element"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-111"
+  }, {
+    "name" : "thread",
+    "value" : "1824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.MajorityElement.test_majority_element"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input_array",
+    "value" : "[3, 2, 3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e1e516342509578.json",
+  "parameterValues" : [ "3", "[3, 2, 3]" ]
+}
