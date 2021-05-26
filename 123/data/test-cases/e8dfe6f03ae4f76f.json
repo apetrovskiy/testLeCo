@@ -1,0 +1,225 @@
+{
+  "uid" : "e8dfe6f03ae4f76f",
+  "name" : "[2] [1], 1",
+  "fullName" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest.shouldCalculateMaximumSubarray",
+  "historyId" : "34ce80dcc80934dbbde48b6b30884c09",
+  "time" : {
+    "start" : 1622041487022,
+    "stop" : 1622041487026,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az173-111"
+  }, {
+    "name" : "thread",
+    "value" : "2962@fv-az173-111.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "testClass",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCalculateMaximumSubarray"
+  }, {
+    "name" : "suite",
+    "value" : "problems.easy.MaximumSubarray.MaximumSubarrayKtTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "5c452e58cec729b3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/122//#testresult/5c452e58cec729b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622040609336,
+          "stop" : 1622040609337,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9698459d50a8cb93",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/121//#testresult/9698459d50a8cb93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622015890206,
+          "stop" : 1622015890208,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "8ba305b606ae32b6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/120//#testresult/8ba305b606ae32b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622015596997,
+          "stop" : 1622015596998,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c200b8efbc06e8c1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/119//#testresult/c200b8efbc06e8c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621980723764,
+          "stop" : 1621980723771,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "ebf226d6f957231",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/118//#testresult/ebf226d6f957231",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621975147345,
+          "stop" : 1621975147347,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f7376fd8b995cb91",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/117//#testresult/f7376fd8b995cb91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621970528523,
+          "stop" : 1621970528524,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "125edf57c767d2be",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/116//#testresult/125edf57c767d2be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621959613679,
+          "stop" : 1621959613680,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "70ed1df068a181f6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/115//#testresult/70ed1df068a181f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621858194686,
+          "stop" : 1621858194687,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b416049ea14330ee",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/114//#testresult/b416049ea14330ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621857435541,
+          "stop" : 1621857435542,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ab09637999130556",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/113//#testresult/ab09637999130556",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621856797446,
+          "stop" : 1621856797447,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8cde8b454fcb9555",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/112//#testresult/8cde8b454fcb9555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621855826470,
+          "stop" : 1621855826470,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9fc3e7a1d1ca3480",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/111//#testresult/9fc3e7a1d1ca3480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621855414510,
+          "stop" : 1621855414511,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bda369caa93a5106",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/110//#testresult/bda369caa93a5106",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621505006810,
+          "stop" : 1621505006810,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1eec517337dd7914",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/109//#testresult/1eec517337dd7914",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621500248259,
+          "stop" : 1621500248260,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8a9a959c18514b67",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/108//#testresult/8a9a959c18514b67",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621494412775,
+          "stop" : 1621494412776,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "372cb1dcc8c2e6a2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/103//#testresult/372cb1dcc8c2e6a2",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621423145740,
+          "stop" : 1621423145742,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "888a978b5f9793a3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/102//#testresult/888a978b5f9793a3",
+        "status" : "broken",
+        "statusDetails" : "Error converting parameter at index 0: No implicit conversion to convert object of type [Ljava.lang.Integer; to type [I",
+        "time" : {
+          "start" : 1621364490050,
+          "stop" : 1621364490093,
+          "duration" : 43
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e8dfe6f03ae4f76f.json",
+  "parameterValues" : [ ]
+}
