@@ -1,5 +1,5 @@
 package MajorityElement
 
 func majorityElement(nums []int) int {
-    return 0
+	return 0
 }
