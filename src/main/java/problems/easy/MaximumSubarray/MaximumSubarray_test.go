@@ -1,12 +1,13 @@
 package MaximumSubarray
 
 import (
+	"log"
+	"testing"
+
 	"github.com/dailymotion/allure-go"
 	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"log"
-	"testing"
 )
 
 var _ = Describe("CountBits()", func() {
@@ -28,7 +29,7 @@ var _ = Describe("CountBits()", func() {
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
 		log.Fatalf("Error loading .env file")
@@ -46,12 +47,26 @@ func TestStepBitCounting(t *testing.T) {
 	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})).To(Equal(6))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{1})).To(Equal(1))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{5, 4, -1, 7, 8})).To(Equal(23))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{5, -3, 6, -7, 6})).To(Equal(8))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{6, -7, 6, -3, 5})).To(Equal(8))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{-2, -3, 4, -1, -2, 1, 5, -3})).To(Equal(7))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{-1})).To(Equal(1))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{-2, -1})).To(Equal(1))
 	}))
 }
