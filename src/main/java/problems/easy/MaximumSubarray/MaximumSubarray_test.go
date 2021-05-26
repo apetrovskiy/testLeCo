@@ -44,7 +44,7 @@ func dotest(input []int, exp int) {
 }
 
 func TestStepBitCounting(t *testing.T) {
-	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})).To(Equal(6))
 	}))
