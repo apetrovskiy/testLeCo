@@ -21,7 +21,8 @@ plugins {
 
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     // kotlin("multiplatform") version "1.5.0"
-    kotlin("jvm") version "1.4.32"
+    // kotlin("jvm") version "1.4.32"
+    kotlin("jvm") version "1.5.31"
 
     // Apply the scala Plugin to add support for Scala.
     scala
@@ -82,7 +83,14 @@ tasks.compileTestScala {
 val compileKotlin: KotlinCompile by tasks
 compileKotlin.kotlinOptions.suppressWarnings = true
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
-    kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8.toString() }
+    // kotlinOptions { jvmTarget = JavaVersion.VERSION_15.toString() }
+    kotlinOptions { jvmTarget = Version.JAVA_FOR_KOTLIN.id }
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions.suppressWarnings = true
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+    // kotlinOptions { jvmTarget = JavaVersion.VERSION_15.toString() }
+    kotlinOptions { jvmTarget = Version.JAVA_FOR_KOTLIN.id }
 }
 
 sourceSets {
@@ -295,32 +303,33 @@ tasks.named<Wrapper>("wrapper") {
 }
 
 enum class Version(val id: String) {
-    GATLING("3.5.1"),
-    JUNIT_JUPITER("5.7.1"),
-    JUNIT_PLATFORM("1.7.1"),
+    GATLING("3.6.1"),
+    JUNIT_JUPITER("5.8.1"),
+    JUNIT_PLATFORM("1.8.1"),
     JUNIT4("4.13.2"),
-    SCALA("2.13.5"),
-    SCALA_TEST("3.2.0"),
+    SCALA("2.13.6"),
+    SCALA_TEST("3.2.10"),
     SCALA_TEST_PLUS("3.2.0.0"),
     JACKSON("2.12.2"),
     SNAKEYAML("1.28"),
-    JOOQ("3.14.8"),
+    JOOQ("3.15.3"),
     POSTGRESQL("42.2.19"),
     REST_ASSURED("4.3.3"),
     HAMCREST("2.2"),
     JAVAFAKER("1.0.2"),
-    AWAITILITY("4.0.3"),
-    CUCUMBER("6.8.1"),
-    CUCUMBER_JUNIT("6.10.2"),
-    ALLURE("2.13.9"),
+    AWAITILITY("4.1.0"),
+    CUCUMBER("6.11.0"),
+    CUCUMBER_JUNIT("6.11.0"),
+    ALLURE("2.15.0"),
     ALLURE_GRADLE("2.8.1"),
     JAVA("16"),
     JAVA_FOR_SCALA("11"),
-    KOTLIN("1.4.32"),
-    GRADLE("7.0"),
-    PMD("6.21.0"),
-    KTLINT_GRADLE_PLUGIN("10.0.0"),
-    KTLINT("0.41.0"),
+    JAVA_FOR_KOTLIN("15"),
+    KOTLIN("1.5.31"),
+    GRADLE("7.2"),
+    PMD("6.39.0"),
+    KTLINT_GRADLE_PLUGIN("10.2.0"),
+    KTLINT("0.42.1"),
     SCALA_FMT("1.16.2");
 }
 
