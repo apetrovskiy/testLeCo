@@ -11,7 +11,7 @@ class MaximumSubarrayKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     fun shouldCalculateMaximumSubarray(inputArray: IntArray, expectedResult: Int) {
-        assertEquals(expectedResult, SolutionKt().maxSubArray(inputArray))
+        assertEquals(expectedResult, MaximumSubarray().maxSubArray(inputArray))
     }
 
     companion object {

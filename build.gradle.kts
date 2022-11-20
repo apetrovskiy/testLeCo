@@ -47,10 +47,9 @@ plugins {
     jacoco
     // checkstyle
     pmd
-    id("com.diffplug.spotless") version "6.8.0"
-    id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
+    id("com.diffplug.spotless") version "6.11.0"
+    // id("org.jlleitschuh.gradle.ktlint") version ("10.0.0")
     id("cz.alenkacz.gradle.scalafmt") version ("1.16.2")
-    id("com.github.sherter.google-java-format") version("0.9")
 }
 
 /*
@@ -167,7 +166,7 @@ dependencies {
     implementation("org.clojure:clojure:1.10.2-alpha4")
 
     // Use Scala 2.13 in our library project
-    implementation("org.scala-lang:scala-library:${Version.SCALA.id}")
+    implementation("org.scala-lang:scala3-library_3:${Version.SCALA.id}")
 
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api("org.apache.commons:commons-math3:3.6.1")
@@ -184,7 +183,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
 
     // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
+    // testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
@@ -210,7 +209,8 @@ dependencies {
 
     // Use Scalatest for testing our library
     // testImplementation("junit:junit:4.12")
-    testImplementation("org.scalatest:scalatest_2.13:${Version.SCALA_TEST.id}")
+    testImplementation("org.scalactic:scalactic_3:${Version.SCALA_TEST.id}")
+    testImplementation("org.scalatest:scalatest_3:${Version.SCALA_TEST.id}")
     testImplementation("org.scalatestplus:junit-4-12_2.13:${Version.SCALA_TEST_PLUS.id}")
     testImplementation("org.scalatest:scalatest-freespec_2.13:${Version.SCALA_TEST.id}")
     testImplementation("org.scalatest:scalatest-funsuite_2.13:${Version.SCALA_TEST.id}")
@@ -290,15 +290,6 @@ tasks.withType<Checkstyle>().configureEach {
     }
 }
 
-tasks.googleJavaFormat {
-    // source = sourceSets*.allJava
-    // source = sourceSets.get(allJava)
-    source("src/special_dir")
-    include("**/*.java")
-    exclude("**/*Template.java")
-    exclude("src/test/template_*")
-}
-
 tasks.withType<Pmd> {
     isConsoleOutput = true
     // toolVersion = Version.PMD.id
@@ -335,7 +326,7 @@ configure<com.diffplug.gradle.spotless.SpotlessExtension> {
         trimTrailingWhitespace()
         indentWithSpaces(4)
         googleJavaFormat("1.15.0").aosp().reflowLongStrings()
-        // palantirJavaFormat("2.24.0")
+        // palantirJavaFormat("2.28.0")
         // eclipse().configFile("config/spotless.eclipseformat.xml")
         // eclipse().configFile("config/google.eclipseformat.xml")
         // clangFormat()
@@ -344,8 +335,7 @@ configure<com.diffplug.gradle.spotless.SpotlessExtension> {
 
     kotlin {
         // ktfmt(Version.KTFMT.id)
-        ktlint(Version.KTLINT.id)
-            .setUseExperimental(true)
+        ktlint(Version.KTLINT.id).setUseExperimental(true)
         // diktat(Version.DIKTAT.id)
     }
 
@@ -364,8 +354,8 @@ enum class Version(val id: String) {
     JUNIT_JUPITER("5.9.1"),
     JUNIT_PLATFORM("1.9.1"),
     JUNIT4("4.13.2"),
-    SCALA("2.13.6"),
-    SCALA_TEST("3.2.10"),
+    SCALA("3.2.1"),
+    SCALA_TEST("3.2.14"),
     SCALA_TEST_PLUS("3.2.0.0"),
     JACKSON("2.13.3"),
     SNAKEYAML("1.30"),
@@ -378,10 +368,10 @@ enum class Version(val id: String) {
     CUCUMBER("6.11.0"),
     CUCUMBER_JUNIT("6.11.0"),
     ALLURE("2.19.0"),
-    ALLURE_GRADLE("2.8.1"),
-    JAVA("16"),
+    ALLURE_GRADLE("2.10.0"),
+    JAVA("17"),
     JAVA_FOR_SCALA("11"),
-    JAVA_FOR_KOTLIN("15"),
+    JAVA_FOR_KOTLIN("17"),
     KOTLIN("1.7.21"),
     GRADLE("7.4.1"),
     PMD("6.50.0"),

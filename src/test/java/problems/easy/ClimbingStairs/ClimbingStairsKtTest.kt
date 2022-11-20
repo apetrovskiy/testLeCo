@@ -9,7 +9,7 @@ class ClimbingStairsKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     fun testClimbingStairs(input: Int, expectedResult: Int) {
-        assertEquals(expectedResult, SolutionKt().climbStairs(input))
+        assertEquals(expectedResult, ClimbingStairs().climbStairs(input))
     }
 
     companion object {
