@@ -11,7 +11,7 @@ class DegreeOfAnArrayKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     fun testDegreeOfAnArray(inputArray: IntArray, expectedResult: Int) {
-        assertEquals(expectedResult, SolutionKt().findShortestSubArray(inputArray))
+        assertEquals(expectedResult, DegreeOfAnArray().findShortestSubArray(inputArray))
     }
 
     companion object {

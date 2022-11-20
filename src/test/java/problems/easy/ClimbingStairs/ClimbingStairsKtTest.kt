@@ -16,7 +16,11 @@ class ClimbingStairsKtTest {
         @JvmStatic
         fun getInputData(): Stream<Arguments> {
             return Stream.of(
-                of(1, 1), of(2, 2), of(3, 3), of(4, 5), of(5, 8)
+                of(1, 1),
+                of(2, 2),
+                of(3, 3),
+                of(4, 5),
+                of(5, 8)
             )
         }
     }

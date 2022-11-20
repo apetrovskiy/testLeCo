@@ -4,8 +4,9 @@ class SolutionKt {
     fun canCompleteCircuit(gas: IntArray, cost: IntArray): Int {
         val differences = IntRange(0, gas.size - 1)
             .map { index -> gas[index] - cost[index] }
-        if (differences.sum() < 0)
+        if (differences.sum() < 0) {
             return -1
+        }
 
         var starting = 0
         var tank = 0
