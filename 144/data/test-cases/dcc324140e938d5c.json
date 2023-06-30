@@ -1,0 +1,250 @@
+{
+  "uid" : "dcc324140e938d5c",
+  "name" : "test_roman_to_integer[III-3]",
+  "fullName" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer#test_roman_to_integer",
+  "historyId" : "010bf8787f979cb5148dd25f74ac7f54",
+  "time" : {
+    "start" : 1688127183821,
+    "stop" : 1688127183821,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.RomanToInteger"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_to_integer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1128-336"
+  }, {
+    "name" : "thread",
+    "value" : "2102-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input",
+    "value" : "'III'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 110,
+        "unknown" : 0,
+        "total" : 111
+      },
+      "items" : [ {
+        "uid" : "71aa2b410e172ccd",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/143//#testresult/71aa2b410e172ccd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688119384947,
+          "stop" : 1688119384947,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8e68277441a8c2ec",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/141//#testresult/8e68277441a8c2ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688114586785,
+          "stop" : 1688114586785,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ebf396a27fa45c70",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/140//#testresult/ebf396a27fa45c70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688114480433,
+          "stop" : 1688114480433,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "48ad4df72a6f0ffe",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/139//#testresult/48ad4df72a6f0ffe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688112268545,
+          "stop" : 1688112268545,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aef6232e9c22c42c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/138//#testresult/aef6232e9c22c42c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688111567202,
+          "stop" : 1688111567202,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c51f44ab84a1a37c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/137//#testresult/c51f44ab84a1a37c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685091064592,
+          "stop" : 1685091064592,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5fc5cbfe8881e6c9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/135//#testresult/5fc5cbfe8881e6c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679133331043,
+          "stop" : 1679133331043,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "178e57ecca9a129a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/136//#testresult/178e57ecca9a129a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679133376881,
+          "stop" : 1679133376881,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f1527ace7c3fb52f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/134//#testresult/f1527ace7c3fb52f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668971746165,
+          "stop" : 1668971746165,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b147e6f7e9f584a1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/133//#testresult/b147e6f7e9f584a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668970687492,
+          "stop" : 1668970687493,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5d44ac5050230bf9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/132//#testresult/5d44ac5050230bf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668957553273,
+          "stop" : 1668957553273,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "57475346c040975e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/131//#testresult/57475346c040975e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668944159140,
+          "stop" : 1668944159140,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "466cb4a3ddfd1c56",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/130//#testresult/466cb4a3ddfd1c56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668083791711,
+          "stop" : 1668083791711,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e45693031da8fd5a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/129//#testresult/e45693031da8fd5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633007456223,
+          "stop" : 1633007456223,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fd2c363c229b542",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/128//#testresult/fd2c363c229b542",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633005480729,
+          "stop" : 1633005480729,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b6cd9fb61c1777c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/127//#testresult/8b6cd9fb61c1777c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632897218758,
+          "stop" : 1632897218758,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d64bc8813bf3a0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/126//#testresult/5d64bc8813bf3a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632854631614,
+          "stop" : 1632854631614,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1216ddb4531b1277",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/125//#testresult/1216ddb4531b1277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622041585672,
+          "stop" : 1622041585672,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fe0b4ea820c3a49d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/123//#testresult/fe0b4ea820c3a49d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622041303994,
+          "stop" : 1622041303994,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "383aafd3c1db120f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/122//#testresult/383aafd3c1db120f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622040440096,
+          "stop" : 1622040440096,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dcc324140e938d5c.json",
+  "parameterValues" : [ "3", "'III'" ]
+}
