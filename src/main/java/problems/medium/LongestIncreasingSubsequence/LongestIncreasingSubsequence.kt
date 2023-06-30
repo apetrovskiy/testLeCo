@@ -1,6 +1,6 @@
 package problems.medium.LongestIncreasingSubsequence
 
-class SolutionKt {
+class LongestIncreasingSubsequence {
     fun lengthOfLIS(nums: IntArray): Int {
         return 0
     }

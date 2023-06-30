@@ -1,6 +1,6 @@
 package problems.easy.DegreeOfAnArray
 
-class SolutionKt {
+class DegreeOfAnArray {
     fun findShortestSubArray(nums: IntArray): Int {
         return 0
     }
