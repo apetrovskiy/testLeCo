@@ -1,0 +1,2 @@
+namespace problems.easy.DegreeOfAnArray;
+
