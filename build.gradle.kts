@@ -162,10 +162,10 @@ dependencies {
     implementation("org.codehaus.groovy:groovy-all:2.5.12")
 
     // Use the Kotlin test library.
-    testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
+    // testImplementation("org.jetbrains.kotlin:kotlin-test:${Version.KOTLIN.id}")
 
     // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
+    // testImplementation("org.jetbrains.kotlin:kotlin-test-junit:${Version.KOTLIN.id}")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Version.JUNIT_JUPITER.id}")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:${Version.JUNIT_JUPITER.id}")
