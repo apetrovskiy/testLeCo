@@ -1,0 +1,263 @@
+{
+  "uid" : "2ed1d45ae5b2f572",
+  "name" : "candidates = 2, target = 1, returns ",
+  "fullName" : "combinationSum([ 2, [length]: 1 ], 1) should equal NaN.candidates = 2, target = 1, returns ",
+  "historyId" : "b98ca059c42413c8cce95938cf12201",
+  "time" : {
+    "start" : 1688119373712,
+    "stop" : 1688119373713,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/challenges/c20201001_20201007/CombinationSum/combination_sum.test.js:35:56)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "combinationSum([ 2, [length]: 1 ], 1) should equal NaN"
+  }, {
+    "name" : "testClass",
+    "value" : "combinationSum([ 2, [length]: 1 ], 1) should equal NaN"
+  }, {
+    "name" : "testMethod",
+    "value" : "candidates = 2, target = 1, returns "
+  }, {
+    "name" : "package",
+    "value" : "combinationSum([ 2, [length]: 1 ], 1) should equal NaN"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 61,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 61
+      },
+      "items" : [ {
+        "uid" : "d9b941ed9d6349c5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/141//#testresult/d9b941ed9d6349c5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1688114571577,
+          "stop" : 1688114571578,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ed836e634707a903",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/140//#testresult/ed836e634707a903",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1688114477518,
+          "stop" : 1688114477519,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7a92855c868518fc",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/139//#testresult/7a92855c868518fc",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1688112205284,
+          "stop" : 1688112205285,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ad8a960419305906",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/138//#testresult/ad8a960419305906",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1688111546006,
+          "stop" : 1688111546007,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "732a1729ea2f9e8c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/137//#testresult/732a1729ea2f9e8c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1685091044683,
+          "stop" : 1685091044684,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cf58bf615321de93",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/135//#testresult/cf58bf615321de93",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1679133332311,
+          "stop" : 1679133332312,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d5ceee085414705e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/136//#testresult/d5ceee085414705e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1679133369891,
+          "stop" : 1679133369892,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f410ac4abb4e7842",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/134//#testresult/f410ac4abb4e7842",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1668971736508,
+          "stop" : 1668971736509,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4561161b982e2bbb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/133//#testresult/4561161b982e2bbb",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1668970671598,
+          "stop" : 1668970671599,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cf3b70bfabc0efa6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/132//#testresult/cf3b70bfabc0efa6",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1668957541141,
+          "stop" : 1668957541142,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "af23100502ad7b5c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/131//#testresult/af23100502ad7b5c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1668944161610,
+          "stop" : 1668944161611,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5047d0528a912043",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/130//#testresult/5047d0528a912043",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1668083748161,
+          "stop" : 1668083748162,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3368e173c9c94980",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/129//#testresult/3368e173c9c94980",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1633007452166,
+          "stop" : 1633007452167,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9d7edbcd7deaa29c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/128//#testresult/9d7edbcd7deaa29c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1633005418960,
+          "stop" : 1633005418961,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "707c3699d6d22b4b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/127//#testresult/707c3699d6d22b4b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1632897211890,
+          "stop" : 1632897211891,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "406adbacb10f6bb7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/126//#testresult/406adbacb10f6bb7",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1632854629003,
+          "stop" : 1632854629004,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "31a53f0849262a10",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/125//#testresult/31a53f0849262a10",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1622041612030,
+          "stop" : 1622041612032,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "a5e88438bda7608a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/123//#testresult/a5e88438bda7608a",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1622041305119,
+          "stop" : 1622041305121,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "24f136ff4739ab52",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/122//#testresult/24f136ff4739ab52",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1622040430914,
+          "stop" : 1622040430916,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "44e04d61fd304ad9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/121//#testresult/44e04d61fd304ad9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 1\n                + Received  + 4\n                \n                - Array []\n                + Array [\n                +   Array [],\n                +   Array [],\n                + ]",
+        "time" : {
+          "start" : 1622015693864,
+          "stop" : 1622015693866,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2ed1d45ae5b2f572.json",
+  "parameterValues" : [ ]
+}
