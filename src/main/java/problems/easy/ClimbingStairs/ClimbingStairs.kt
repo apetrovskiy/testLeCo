@@ -1,6 +1,5 @@
 package problems.easy.ClimbingStairs
 
-
 class ClimbingStairs {
     fun climbStairs(n: Int): Int {
         if (1 == n) {

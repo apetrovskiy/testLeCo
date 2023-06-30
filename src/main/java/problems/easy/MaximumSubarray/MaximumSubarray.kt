@@ -1,6 +1,5 @@
 package problems.easy.MaximumSubarray
 
-
 class MaximumSubarray {
 
     fun maxSubArray(nums: IntArray): Int {
