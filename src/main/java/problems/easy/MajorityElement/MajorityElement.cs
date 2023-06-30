@@ -1,0 +1,3 @@
+namespace problems.easy.MajorityElement {
+
+}

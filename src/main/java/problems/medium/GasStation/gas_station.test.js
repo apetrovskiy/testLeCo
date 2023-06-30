@@ -14,7 +14,7 @@ describe.each([
         [5, 9, 1, 2, 5], 3
     ],
 ])(
-    "canCompleteCircuit(%i, %i) should equal to %i",
+    "canCompleteCircuit(%i, %i) should equal %i",
     (gas, cost, expectedResult) => {
         test(`gas = ${gas}, cost = ${cost}, returns ${expectedResult}`, () => {
             expect(canCompleteCircuit(gas, cost)).toEqual(expectedResult);

@@ -1,8 +1,10 @@
 namespace challenges.c20201001_20201007.NumberOfRecentCalls
 {
     using System.Linq;
+    using NUnit.Allure.Core;
     using NUnit.Framework;
 
+    [AllureNUnit]
     public class RecentCounterTest
     {
         [SetUp]
