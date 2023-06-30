@@ -1,11 +1,14 @@
 package problems.easy.ClimbingStairs
 
-class SolutionKt {
+
+class ClimbingStairs {
     fun climbStairs(n: Int): Int {
-        if (1 == n)
+        if (1 == n) {
             return 1
-        if (2 == n)
+        }
+        if (2 == n) {
             return 2
+        }
         var values = IntArray(n)
         values[0] = 1
         values[1] = 2

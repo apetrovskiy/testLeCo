@@ -1,4 +1,4 @@
-package challenges.c20201001_20201007.CombinationSum
+package challenges.c20201001to20201007.CombinationSum
 
 class SolutionKt {
     fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
