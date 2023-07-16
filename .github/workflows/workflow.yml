@@ -42,7 +42,7 @@ jobs:
       if: always()
       run: |
         pwd
-        pytest --alluredir=allure-results
+        pytest src/ --alluredir=allure-results
 #     - name: Analysing the code with pylint
 #       run: |
 #         pylint `ls -R|grep .py$|xargs`
