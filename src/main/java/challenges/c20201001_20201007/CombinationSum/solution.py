@@ -2,12 +2,11 @@ from typing import List
 
 
 class Solution:
-    def combinationSum(self, candidates: List[int],
-                       target: int) -> List[List[int]]:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         result: List[List[int]] = []
         candidates.sort()
         candidates.reverse()
-        if (target % candidates[0] == 0):
+        if target % candidates[0] == 0:
             temp_result = []
             print("-------------------------")
             print(int(target / candidates[0]))

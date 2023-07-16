@@ -1,18 +1,17 @@
 import pytest
-from src.main.java.problems.medium.IntegerToRoman.integer_to_roman \
-    import Solution
+from src.main.java.problems.medium.IntegerToRoman.integer_to_roman import Solution
 
 
 test_data = [
-    (0, ''),
-    (1, 'I'),
+    (0, ""),
+    (1, "I"),
     (3, "III"),
     (4, "IV"),
     (9, "IX"),
     (58, "LVIII"),
     (1994, "MCMXCIV"),
-    (3999, 'MMMCMXCIX'),
-    (1000, 'M')
+    (3999, "MMMCMXCIX"),
+    (1000, "M"),
 ]
 
 

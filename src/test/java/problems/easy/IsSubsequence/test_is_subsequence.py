@@ -2,10 +2,7 @@ from src.main.java.problems.easy.IsSubsequence.solution3 import Solution
 import pytest
 
 
-test_data = [
-    ("abc", "ahbgdc", True),
-    ("axc", "ahbgdc", False)
-]
+test_data = [("abc", "ahbgdc", True), ("axc", "ahbgdc", False)]
 
 
 @pytest.mark.skip(reason="TODO: no way of currently testing this")

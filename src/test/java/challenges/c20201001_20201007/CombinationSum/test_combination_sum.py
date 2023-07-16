@@ -1,7 +1,6 @@
 # import pytest
 import unittest
-from src.main.java.challenges.c20201001_20201007.CombinationSum.solution \
-    import Solution
+from src.main.java.challenges.c20201001_20201007.CombinationSum.solution import Solution
 
 
 class SolutionTest(unittest.TestCase):
@@ -10,15 +9,13 @@ class SolutionTest(unittest.TestCase):
 
     # @pytest.mark.skip(reason="TODO: no way of currently testing this")
     def test_1(self):
-        actual_result = self.solution.combinationSum(
-            candidates=[2, 3, 6, 7], target=8)
+        actual_result = self.solution.combinationSum(candidates=[2, 3, 6, 7], target=8)
         print(actual_result)
         self.assertEquals([[2, 2, 3], [7]], actual_result)
 
     # @pytest.mark.skip(reason="TODO: no way of currently testing this")
     def test_2(self):
-        actual_result = self.solution.combinationSum(
-            candidates=[2, 3, 5], target=8)
+        actual_result = self.solution.combinationSum(candidates=[2, 3, 5], target=8)
         print(actual_result)
         self.assertEquals([[2, 2, 2, 2], [2, 3, 3], [3, 5]], actual_result)
 

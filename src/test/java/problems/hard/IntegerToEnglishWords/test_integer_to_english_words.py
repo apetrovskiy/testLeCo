@@ -1,6 +1,7 @@
 import pytest
-from src.main.java.problems.hard.IntegerToEnglishWords. \
-    integer_to_english_words import Solution
+from src.main.java.problems.hard.IntegerToEnglishWords.integer_to_english_words import (
+    Solution,
+)
 
 
 test_data = [

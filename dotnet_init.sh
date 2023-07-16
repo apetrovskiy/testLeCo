@@ -45,7 +45,7 @@ echo "============================="
 echo "${PROJECT_TAG}"
 
 sed '$d' "${TEST_PRJ_FILE}"
-tac "${TEST_PRJ_FILE}" | tail -n +3 | tac >"${TEST_PRJ_TMP_FILE}"
+tail -r "${TEST_PRJ_FILE}" | tail -n +3 | tail -r >"${TEST_PRJ_TMP_FILE}"
 echo "${ITEM_GROUP}" >>"${TEST_PRJ_TMP_FILE}"
 mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
 

@@ -1,7 +1,6 @@
 import pytest
 from typing import List
-from src.main.java.problems.easy.MaximumSubarray.maximum_subarray \
-    import Solution
+from src.main.java.problems.easy.MaximumSubarray.maximum_subarray import Solution
 
 
 test_data = [
@@ -12,7 +11,7 @@ test_data = [
     ([6, -7, 6, -3, 5], 8),
     ([-2, -3, 4, -1, -2, 1, 5, -3], 7),
     ([-1], -1),
-    ([-2, -1], -1)
+    ([-2, -1], -1),
 ]
 
 
