@@ -11,7 +11,7 @@ class Solution:
         # return -1
 
         # the brute force way
-        '''
+        """
         for s in range(len(gas)):
             tank = 0
             possible = True
@@ -24,7 +24,7 @@ class Solution:
             if possible:
                 return s
         return -1
-        '''
+        """
 
         # the improved solution
         diff = [gas[i] - cost[i] for i in range(len(gas))]

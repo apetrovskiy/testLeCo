@@ -7,6 +7,7 @@ class TreeNode:
 
 
 class Solution:
-    def getTargetCopy(self, original: TreeNode,
-                      cloned: TreeNode, target: TreeNode) -> TreeNode:
+    def getTargetCopy(
+        self, original: TreeNode, cloned: TreeNode, target: TreeNode
+    ) -> TreeNode:
         return TreeNode(1)
