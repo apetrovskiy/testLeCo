@@ -1,6 +1,7 @@
 package problems.easy.MaximumSubarray
 
 class MaximumSubarray {
+
     fun maxSubArray(nums: IntArray): Int {
         var currentMaximum = Integer.MIN_VALUE
         var maximumAtTheEnd = 0
