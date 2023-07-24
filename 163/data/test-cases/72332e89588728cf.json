@@ -1,0 +1,321 @@
+{
+  "uid" : "72332e89588728cf",
+  "name" : "test_1",
+  "fullName" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest#test_1",
+  "historyId" : "21715a8f53ab96b93bae9517e2329f23",
+  "time" : {
+    "start" : 1690222013707,
+    "stop" : 1690222013707,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+  "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_1>\n\n    def test_1(self):\n        actual_result = self.solution.combinationSum(candidates=[2, 3, 6, 7], target=8)\n        print(actual_result)\n>       self.assertEquals([[2, 2, 3], [7]], actual_result)\nE       AssertionError: Lists differ: [[2, 2, 3], [7]] != []\nE       \nE       First list contains 2 additional elements.\nE       First extra element 0:\nE       [2, 2, 3]\nE       \nE       - [[2, 2, 3], [7]]\nE       + []\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:14: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest",
+    "time" : {
+      "start" : 1690222013706,
+      "stop" : 1690222013706,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+    "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_1>\n\n    def test_1(self):\n        actual_result = self.solution.combinationSum(candidates=[2, 3, 6, 7], target=8)\n        print(actual_result)\n>       self.assertEquals([[2, 2, 3], [7]], actual_result)\nE       AssertionError: Lists differ: [[2, 2, 3], [7]] != []\nE       \nE       First list contains 2 additional elements.\nE       First extra element 0:\nE       [2, 2, 3]\nE       \nE       - [[2, 2, 3], [7]]\nE       + []\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:14: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b1054c5bd92def7",
+      "name" : "stdout",
+      "source" : "1b1054c5bd92def7.txt",
+      "type" : "text/plain",
+      "size" : 3
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_SolutionTest::0",
+    "time" : {
+      "start" : 1690222013756,
+      "stop" : 1690222013756,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum"
+  }, {
+    "name" : "suite",
+    "value" : "test_combination_sum"
+  }, {
+    "name" : "subSuite",
+    "value" : "SolutionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az407-158"
+  }, {
+    "name" : "thread",
+    "value" : "2098-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 75,
+        "broken" : 0,
+        "skipped" : 78,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 153
+      },
+      "items" : [ {
+        "uid" : "9f49c2b031866487",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/162//#testresult/9f49c2b031866487",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1690198235882,
+          "stop" : 1690198235882,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a310b47c2484d038",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/161//#testresult/a310b47c2484d038",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1689529905198,
+          "stop" : 1689529905198,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3b51722d7d6e2c5b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/160//#testresult/3b51722d7d6e2c5b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1689528163577,
+          "stop" : 1689528163578,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2bd72716e371b5d7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/154//#testresult/2bd72716e371b5d7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688149032930,
+          "stop" : 1688149032931,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "104c373b0f76701d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/153//#testresult/104c373b0f76701d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688146958607,
+          "stop" : 1688146958607,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6a228af10d9cf339",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/152//#testresult/6a228af10d9cf339",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688145996081,
+          "stop" : 1688145996082,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d2f4801f34336af4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/151//#testresult/d2f4801f34336af4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688145948611,
+          "stop" : 1688145948611,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "304142faa3cf1f54",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/150//#testresult/304142faa3cf1f54",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688145925440,
+          "stop" : 1688145925441,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cbf8f6a733cc39d9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/149//#testresult/cbf8f6a733cc39d9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688145692889,
+          "stop" : 1688145692890,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "21f6eac978c4359",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/148//#testresult/21f6eac978c4359",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688145632462,
+          "stop" : 1688145632462,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aa080b8abd30557e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/147//#testresult/aa080b8abd30557e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688144501194,
+          "stop" : 1688144501195,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fb4fad97a179ccd2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/146//#testresult/fb4fad97a179ccd2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688142346393,
+          "stop" : 1688142346394,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cc5f13e4fa29e8f9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/145//#testresult/cc5f13e4fa29e8f9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688133736722,
+          "stop" : 1688133736722,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "71883f32a06beb4f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/144//#testresult/71883f32a06beb4f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688127183722,
+          "stop" : 1688127183722,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a167f98e092691b7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/143//#testresult/a167f98e092691b7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688119384847,
+          "stop" : 1688119384847,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7c033d4376e36dd4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/141//#testresult/7c033d4376e36dd4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688114586672,
+          "stop" : 1688114586672,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4a4164c3f087964d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/140//#testresult/4a4164c3f087964d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688114480373,
+          "stop" : 1688114480373,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2272ade330e22ca6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/139//#testresult/2272ade330e22ca6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688112268444,
+          "stop" : 1688112268444,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4a8d6ae0bc68d8bb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/138//#testresult/4a8d6ae0bc68d8bb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1688111567141,
+          "stop" : 1688111567141,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "28ccbdc5c55f9b3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/137//#testresult/28ccbdc5c55f9b3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Lists differ: [[2, 2, 3], [7]] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\n[2, 2, 3]\n\n- [[2, 2, 3], [7]]\n+ []",
+        "time" : {
+          "start" : 1685091064492,
+          "stop" : 1685091064492,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72332e89588728cf.json",
+  "parameterValues" : [ ]
+}
