@@ -31,6 +31,7 @@ public class MergeStringsAlternatelyTest
             new object[] { "abc",  "pqr", "apbqcr" },
             new object[] {  "ab","pqrs", "apbqrs" },
             new object[] { "abcd",  "pq", "apbqcd" },
+              new object[] { "",  "", "" },
             };
 }
 
