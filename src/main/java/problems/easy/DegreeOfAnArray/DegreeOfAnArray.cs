@@ -1,3 +1,4 @@
-namespace problems.easy.DegreeOfAnArray{
+namespace problems.easy.DegreeOfAnArray
+{
 
 }

@@ -7,7 +7,7 @@ namespace challenges.c20201001_20201007
         public void Test()
         {
             // TODO: make it really working
-            Assert.AreEqual(1, 1);
+            Assert.That(1, Is.EqualTo(1));
         }
     }
 }

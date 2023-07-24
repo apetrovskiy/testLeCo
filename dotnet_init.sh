@@ -51,5 +51,8 @@ mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
 
 dotnet clean
 dotnet restore
+dotnet format
 dotnet build
 dotnet test
+
+
