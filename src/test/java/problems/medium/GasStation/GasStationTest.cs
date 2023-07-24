@@ -18,7 +18,7 @@ namespace problems.medium.GasStation
         [TestCase(new int[] { 7, 1, 0, 11, 4 }, new int[] { 5, 9, 1, 2, 5 }, 3)]
         public void TestGasStation(int[] gas, int[] cost, int expectedResult)
         {
-            Assert.AreEqual(expectedResult, cut.CanCompleteCircuit(gas, cost));
+            Assert.That(cut.CanCompleteCircuit(gas, cost), Is.EqualTo(expectedResult));
         }
     }
 }

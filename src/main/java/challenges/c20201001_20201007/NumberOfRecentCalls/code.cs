@@ -16,4 +16,3 @@ public class RecentCounter {
  * RecentCounter obj = new RecentCounter();
  * int param_1 = obj.Ping(t);
  */
- 

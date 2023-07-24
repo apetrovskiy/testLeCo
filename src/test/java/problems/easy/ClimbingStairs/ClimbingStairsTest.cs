@@ -14,10 +14,10 @@ namespace problems.easy.ClimbingStairs
             cut = new Solution();
         }
 
-        [Test, TestCaseSource("GetInputData")]
+        [Test, TestCaseSource(nameof(GetInputData))]
         public void ShouldCalculateStairs(int input, int expectedResult)
         {
-            Assert.AreEqual(expectedResult, cut.ClimbStairs(input));
+            Assert.That(cut.ClimbStairs(input), Is.EqualTo(expectedResult));
         }
         public static IEnumerable<TestCaseData> GetInputData()
         {
