@@ -1,0 +1,284 @@
+{
+  "uid" : "b4dec2fd7371c063",
+  "name" : "test_max_performance_of_a_team[num_of_eng0-speed0-efficiency0-team_size0-expected_result0]",
+  "fullName" : "src.test.java.problems.hard.MaximumPerformanceOfATeam.test_maximum_performance_of_a_team#test_max_performance_of_a_team",
+  "historyId" : "f0fa8988c1bdfe8e11b6d72a887afba8",
+  "time" : {
+    "start" : 1690231466940,
+    "stop" : 1690231466940,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+  "statusTrace" : "('/home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py', 11, \"Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.hard.MaximumPerformanceOfATeam"
+  }, {
+    "name" : "suite",
+    "value" : "test_maximum_performance_of_a_team"
+  }, {
+    "name" : "host",
+    "value" : "fv-az797-545"
+  }, {
+    "name" : "thread",
+    "value" : "2097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.hard.MaximumPerformanceOfATeam.test_maximum_performance_of_a_team"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "efficiency",
+    "value" : "<NotSetType.token: 0>"
+  }, {
+    "name" : "expected_result",
+    "value" : "<NotSetType.token: 0>"
+  }, {
+    "name" : "num_of_eng",
+    "value" : "<NotSetType.token: 0>"
+  }, {
+    "name" : "speed",
+    "value" : "<NotSetType.token: 0>"
+  }, {
+    "name" : "team_size",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 122,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 122
+      },
+      "items" : [ {
+        "uid" : "982ffbdcd18b24a2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/164//#testresult/982ffbdcd18b24a2",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+        "time" : {
+          "start" : 1690229983464,
+          "stop" : 1690229983464,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b5ba96198df1291d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/163//#testresult/b5ba96198df1291d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+        "time" : {
+          "start" : 1690222013866,
+          "stop" : 1690222013866,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c2c9b0aef8ec0670",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/162//#testresult/c2c9b0aef8ec0670",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+        "time" : {
+          "start" : 1690198236040,
+          "stop" : 1690198236040,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "35e2791943a06173",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/161//#testresult/35e2791943a06173",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+        "time" : {
+          "start" : 1689529905381,
+          "stop" : 1689529905381,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4032d61316535e77",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/160//#testresult/4032d61316535e77",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10",
+        "time" : {
+          "start" : 1689528163712,
+          "stop" : 1689528163712,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e1f73af204bf74c0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/154//#testresult/e1f73af204bf74c0",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688149033061,
+          "stop" : 1688149033061,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "db73b915e5f7c479",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/153//#testresult/db73b915e5f7c479",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688146958731,
+          "stop" : 1688146958731,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5169116c09d2a9d5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/152//#testresult/5169116c09d2a9d5",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688145996205,
+          "stop" : 1688145996205,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7c9bab3cd7bbe116",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/151//#testresult/7c9bab3cd7bbe116",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688145948745,
+          "stop" : 1688145948745,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aa1b0ec00f8cab2d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/150//#testresult/aa1b0ec00f8cab2d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688145925574,
+          "stop" : 1688145925574,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "209fe8990b168003",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/149//#testresult/209fe8990b168003",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688145693073,
+          "stop" : 1688145693073,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9d2e380a7848f227",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/148//#testresult/9d2e380a7848f227",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688145632598,
+          "stop" : 1688145632598,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "356eb7fb9c8428b7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/147//#testresult/356eb7fb9c8428b7",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688144501361,
+          "stop" : 1688144501361,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "21ab4e1759a05647",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/146//#testresult/21ab4e1759a05647",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688142346529,
+          "stop" : 1688142346529,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "10edd423e682379d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/145//#testresult/10edd423e682379d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688133736848,
+          "stop" : 1688133736848,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ed741be86cf79896",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/144//#testresult/ed741be86cf79896",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688127183845,
+          "stop" : 1688127183846,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3792bdeb866956c7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/143//#testresult/3792bdeb866956c7",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688119384972,
+          "stop" : 1688119384972,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8c5c087e8840b3d2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/141//#testresult/8c5c087e8840b3d2",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688114586814,
+          "stop" : 1688114586814,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e7761cd7efff56d8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/140//#testresult/e7761cd7efff56d8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688114480457,
+          "stop" : 1688114480457,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bc33cddf75fe518f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/139//#testresult/bc33cddf75fe518f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:11",
+        "time" : {
+          "start" : 1688112268570,
+          "stop" : 1688112268570,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['num_of_eng', 'speed', 'efficiency', 'team_size', 'expected_result'], function test_max_performance_of_a_team at /home/runner/work/testLeCo/testLeCo/src/test/java/problems/hard/MaximumPerformanceOfATeam/test_maximum_performance_of_a_team.py:10')" ]
+  },
+  "source" : "b4dec2fd7371c063.json",
+  "parameterValues" : [ "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>", "<NotSetType.token: 0>" ]
+}
