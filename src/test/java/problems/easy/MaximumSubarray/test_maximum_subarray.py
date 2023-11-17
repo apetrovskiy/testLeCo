@@ -1,3 +1,4 @@
+import allure
 import pytest
 from typing import List
 from src.main.java.problems.easy.MaximumSubarray.maximum_subarray import Solution
@@ -15,6 +16,12 @@ test_data = [
 ]
 
 
+@allure.epic("epic Problems")
+@allure.feature("feature Easy")
+@allure.story("story Maximum subarray")
+@allure.parent_suite("suite Python")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.parametrize("input_array,expected_result", test_data)
 def test_maximum_subarray(input_array: List[int], expected_result: int):
     assert expected_result == Solution().maxSubArray(input_array)
