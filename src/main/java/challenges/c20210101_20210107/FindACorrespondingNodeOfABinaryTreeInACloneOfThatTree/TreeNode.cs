@@ -2,10 +2,10 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree
+namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree;
 
-    // Definition for a binary tree node.
-    public class TreeNode
+// Definition for a binary tree node.
+public class TreeNode
 {
     private int val;
     private privateTreeNode left;
@@ -16,4 +16,3 @@ namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACl
         this.val = x;
     }
 }
-

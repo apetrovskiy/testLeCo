@@ -2,9 +2,9 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree
+namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree;
 
-    public class TargetCopy
+public class TargetCopy
 {
     public TreeNode GetTargetCopy(TreeNode original, TreeNode cloned, TreeNode target)
     {
