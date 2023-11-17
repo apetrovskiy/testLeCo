@@ -4,7 +4,7 @@
 
 namespace Problems.Easy.MaximumSubarray
 {
-    public class Solution
+    public class MaximumSubarray
     {
         public int MaxSubArray(int[] nums)
         {

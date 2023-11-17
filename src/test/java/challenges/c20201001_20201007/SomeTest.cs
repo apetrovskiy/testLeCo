@@ -23,6 +23,7 @@ public class SomeTest
     public void Test()
     {
         // TODO: make it really working
-        Assert.That(1, Is.EqualTo(1));
+        val actual = 2 - 1
+        Assert.That(actual, Is.EqualTo(3 - 2));
     }
 }
