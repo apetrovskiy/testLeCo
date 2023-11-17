@@ -8,7 +8,17 @@ namespace Problems.Easy.ClimbingStairs
     using NUnit.Allure.Core;
     using NUnit.Framework;
 
+    using NUnit.Allure.Attributes;
+    using NUnit.Allure.Core;
+    using NUnit.Framework;
+
+    [TestFixture]
     [AllureNUnit]
+    [AllureEpic("epic Problems")]
+    [AllureFeature("feature Easy")]
+    [AllureStory("story Climbing stairs")]
+    [AllureSuite("suite C#")]
+    [AllureTag("tag C#")]
     public class ClimbingStairsTest
     {
         private Solution cut;
@@ -30,6 +40,7 @@ namespace Problems.Easy.ClimbingStairs
 
         [Test]
         [TestCaseSource(nameof(GetInputData))]
+        [AllureName("test Climbing stairs")]
         public void ShouldCalculateStairs(int input, int expectedResult)
         {
             Assert.That(this.cut.ClimbStairs(input), Is.EqualTo(expectedResult));
