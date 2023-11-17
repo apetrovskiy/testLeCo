@@ -1,4 +1,8 @@
-namespace problems.easy.MaximumSubarray
+// <copyright file="MaximumSubarray.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Problems.Easy.MaximumSubarray
 {
     public class Solution
     {

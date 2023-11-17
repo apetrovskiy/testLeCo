@@ -1,12 +1,16 @@
+// <copyright file="code.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 /*
 public class RecentCounter {
 
     public RecentCounter() {
-        
+
     }
-    
+
     public int Ping(int t) {
-        
+
     }
 }
 */

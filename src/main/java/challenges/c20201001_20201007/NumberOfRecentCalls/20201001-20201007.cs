@@ -1,4 +1,8 @@
-namespace challenges.c20201001_20201007.NumberOfRecentCalls
+// <copyright file="20201001-20201007.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.C20201001_20201007.NumberOfRecentCalls
 {
     using System;
     using System.Collections.Generic;
@@ -8,30 +12,31 @@ namespace challenges.c20201001_20201007.NumberOfRecentCalls
         private const int MaximumTime = 3000;
         private int counter;
         private List<int> requests;
+
         public RecentCounter()
         {
-            counter = 0;
-            requests = new List<int>();
+            this.counter = 0;
+            this.requests = new List<int>();
         }
 
         public int Ping(int t)
         {
-            requests.Add(t);
+            this.requests.Add(t);
             var sum = 0;
-            counter = 0;
-            for (var i = requests.Count - 1; i >= 0; i--)
+            this.counter = 0;
+            for (var i = this.requests.Count - 1; i >= 0; i--)
             {
-                sum += requests[i];
-                Console.WriteLine($"req -> {requests[i]}");
-                counter++;
-                Console.WriteLine($"counter -> {counter}");
-                if (MaximumTime <= sum)
+                sum += this.requests[i];
+                Console.WriteLine($"req -> {this.requests[i]}");
+                this.counter++;
+                Console.WriteLine($"counter -> {this.counter}");
+                if (sum >= MaximumTime)
                 {
                     break;
                 }
             }
-            return counter;
+
+            return this.counter;
         }
     }
-
 }

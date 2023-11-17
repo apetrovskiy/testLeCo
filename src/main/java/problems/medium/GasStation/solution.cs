@@ -1,4 +1,8 @@
-namespace problems.medium.GasStation
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Problems.Medium.GasStation
 {
     using System.Linq;
 
@@ -10,7 +14,9 @@ namespace problems.medium.GasStation
             .Select(index => gas[index] - cost[index])
             .ToList();
             if (differences.Sum() < 0)
+            {
                 return -1;
+            }
 
             var starting = 0;
             var tank = 0;
