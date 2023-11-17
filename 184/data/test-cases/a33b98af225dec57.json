@@ -1,0 +1,293 @@
+{
+  "uid" : "a33b98af225dec57",
+  "name" : "test Python",
+  "fullName" : "src.test.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree#test_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree",
+  "historyId" : "36ad12fa6b16a4c0fb77008ccb9be043",
+  "time" : {
+    "start" : 1700264538850,
+    "stop" : 1700264538850,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testLeCo/testLeCo/src/test/java/challenges/c20210101_20210107/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree/test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree.py', 12, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature 20210202-20210107"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "story",
+    "value" : "story Find a corresponding node of a binary tree in a clone of that tree"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "suite",
+    "value" : "test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1269-522"
+  }, {
+    "name" : "thread",
+    "value" : "2197-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.test_find_a_corresponding_node_of_a_Binary_tree_in_a_clone_of_that_tree"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cloned",
+    "value" : "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674c10>"
+  }, {
+    "name" : "expected_result",
+    "value" : "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674f40>"
+  }, {
+    "name" : "original",
+    "value" : "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674130>"
+  }, {
+    "name" : "target",
+    "value" : "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674eb0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 172,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 172
+      },
+      "items" : [ {
+        "uid" : "6f572c0300c57075",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/183//#testresult/6f572c0300c57075",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700264269623,
+          "stop" : 1700264269623,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d00708910b838ae",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/182//#testresult/6d00708910b838ae",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700263263408,
+          "stop" : 1700263263408,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "388249202b2c0d01",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/181//#testresult/388249202b2c0d01",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700260660564,
+          "stop" : 1700260660564,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5cca4f39e71492f4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/180//#testresult/5cca4f39e71492f4",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700260315471,
+          "stop" : 1700260315471,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26db2534404b7304",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/179//#testresult/26db2534404b7304",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700259842061,
+          "stop" : 1700259842061,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b24a5730fac70a37",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/178//#testresult/b24a5730fac70a37",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700258773615,
+          "stop" : 1700258773615,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "82755f7f5f61ecf0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/177//#testresult/82755f7f5f61ecf0",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700258593320,
+          "stop" : 1700258593320,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5368b3380eefa157",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/176//#testresult/5368b3380eefa157",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700256943466,
+          "stop" : 1700256943466,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dac4f66336d4f63e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/175//#testresult/dac4f66336d4f63e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700256225856,
+          "stop" : 1700256225856,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b450e18c6954592",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/174//#testresult/b450e18c6954592",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700255889749,
+          "stop" : 1700255889749,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f660685c06639c84",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/173//#testresult/f660685c06639c84",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700246147141,
+          "stop" : 1700246147141,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6ef2b0cc12f988e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/172//#testresult/6ef2b0cc12f988e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700245813519,
+          "stop" : 1700245813519,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "51816447573ae20f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/170//#testresult/51816447573ae20f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1699397258677,
+          "stop" : 1699397258677,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2f73b220e0255a24",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/168//#testresult/2f73b220e0255a24",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690238457254,
+          "stop" : 1690238457254,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3511b95e7f337102",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/167//#testresult/3511b95e7f337102",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690236515155,
+          "stop" : 1690236515155,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3900ff6e71b0298e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/166//#testresult/3900ff6e71b0298e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690232406600,
+          "stop" : 1690232406600,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c3e0adc48f2ca250",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/165//#testresult/c3e0adc48f2ca250",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690231466824,
+          "stop" : 1690231466824,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b983051223cd7beb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/164//#testresult/b983051223cd7beb",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690229983379,
+          "stop" : 1690229983379,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8d0f11f9ff671c6e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/163//#testresult/8d0f11f9ff671c6e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690222013766,
+          "stop" : 1690222013766,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7c75686e4801b14d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/162//#testresult/7c75686e4801b14d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1690198235941,
+          "stop" : 1690198235941,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python", "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "a33b98af225dec57.json",
+  "parameterValues" : [ "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674c10>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674f40>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674130>", "<src.main.java.challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.solution3.TreeNode object at 0x7f65f2674eb0>" ]
+}
