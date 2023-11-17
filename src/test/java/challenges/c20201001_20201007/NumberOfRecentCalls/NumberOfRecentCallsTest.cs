@@ -1,4 +1,8 @@
-namespace challenges.c20201001_20201007.NumberOfRecentCalls
+// <copyright file="NumberOfRecentCallsTest.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.C20201001_20201007.NumberOfRecentCalls
 {
     using System.Linq;
     using NUnit.Allure.Core;

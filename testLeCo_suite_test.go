@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestTestCoWa(t *testing.T) {
+func TestTestLeCo(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "TestLeCo Suite")
 }

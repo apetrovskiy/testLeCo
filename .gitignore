@@ -933,7 +933,7 @@ dmypy.json
 ### Ruby ###
 *.gem
 *.rbc
-/.config
+# /.config
 /coverage/
 /InstalledFiles
 /pkg/
@@ -1198,8 +1198,8 @@ build
 .metals/metals.h2.db
 .metals/metals.lock.db
 .bloop/
-.bloop/CodeSignTest.json
-.bloop/CodeSignTest-test.json
+.bloop/testLeCo.json
+.bloop/testLeCo-test.json
 
 allure-reports/*
 allure-results/*

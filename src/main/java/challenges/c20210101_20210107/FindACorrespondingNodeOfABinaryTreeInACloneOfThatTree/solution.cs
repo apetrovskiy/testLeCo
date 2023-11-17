@@ -1,14 +1,21 @@
-namespace challenges.c20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree
+// <copyright file="solution.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree
 {
     // Definition for a binary tree node.
     public class TreeNode
     {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
+        public int Val;
+        public TreeNode Left;
+        public TreeNode Right;
 
+        public TreeNode(int x)
+        {
+            this.Val = x;
+        }
+    }
 
     public class Solution
     {
