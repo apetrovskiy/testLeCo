@@ -8,8 +8,8 @@ namespace Challenges.C20210101_20210107.FindACorrespondingNodeOfABinaryTreeInACl
 public class TreeNode
 {
     private int val;
-    private privateTreeNode left;
-    private privateTreeNode right;
+    private TreeNode left;
+    private TreeNode right;
 
     public TreeNode(int x)
     {
