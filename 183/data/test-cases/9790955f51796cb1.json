@@ -1,0 +1,147 @@
+{
+  "uid" : "9790955f51796cb1",
+  "name" : "test Climbing stairs",
+  "fullName" : "Problems.Easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(5,8)",
+  "historyId" : "Problems.Easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(5,8)",
+  "time" : {
+    "start" : 1700264274380,
+    "stop" : 1700264274380,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusMessage" : "ShouldCalculateStairs(5,8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1700264274380,
+      "stop" : 1700264274380,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "ShouldCalculateStairs(5,8)",
+    "steps" : [ {
+      "name" : "ShouldCalculateStairs(5,8)",
+      "time" : {
+        "start" : 1700264274380,
+        "stop" : 1700264274380,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fe7fdb516962639",
+        "name" : "Console Output",
+        "source" : "5fe7fdb516962639.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1501-928"
+  }, {
+    "name" : "package",
+    "value" : "Problems.Easy.ClimbingStairs"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldCalculateStairs"
+  }, {
+    "name" : "testClass",
+    "value" : "ClimbingStairsTest"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "suite",
+    "value" : "suite C#"
+  }, {
+    "name" : "tag",
+    "value" : "tag C#"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "5"
+  }, {
+    "name" : "Param #1",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3fa6c7920221115f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/182//#testresult/3fa6c7920221115f",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(5,8)",
+        "time" : {
+          "start" : 1700263287735,
+          "stop" : 1700263287735,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "96db867805ff9889",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/181//#testresult/96db867805ff9889",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(5,8)",
+        "time" : {
+          "start" : 1700260648431,
+          "stop" : 1700260648431,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag C#" ]
+  },
+  "source" : "9790955f51796cb1.json",
+  "parameterValues" : [ "5", "8" ]
+}
