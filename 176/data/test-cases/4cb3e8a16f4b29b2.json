@@ -1,0 +1,276 @@
+{
+  "uid" : "4cb3e8a16f4b29b2",
+  "name" : "test_degree_of_an_subarray[input_array1-6]",
+  "fullName" : "src.test.java.problems.easy.DegreeOfAnArray.test_degree_of_an_array#test_degree_of_an_subarray",
+  "historyId" : "6be7472b5962dce581d4cc0f15974637",
+  "time" : {
+    "start" : 1700256943488,
+    "stop" : 1700256943488,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00> = Solution()",
+  "statusTrace" : "input_array = [1, 2, 2, 3, 1, 4, ...], expected_result = 6\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_degree_of_an_subarray(input_array: List[int], expected_result: int):\n>       assert expected_result == Solution().findShortestSubArray(input_array)\nE       assert 6 == 0\nE        +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>>([1, 2, 2, 3, 1, 4, ...])\nE        +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00>.findShortestSubArray\nE        +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fee64499a00> = Solution()\n\nsrc/test/java/problems/easy/DegreeOfAnArray/test_degree_of_an_array.py:11: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.DegreeOfAnArray"
+  }, {
+    "name" : "suite",
+    "value" : "test_degree_of_an_array"
+  }, {
+    "name" : "host",
+    "value" : "fv-az566-171"
+  }, {
+    "name" : "thread",
+    "value" : "2333-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.DegreeOfAnArray.test_degree_of_an_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "6"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 2, 3, 1, 4, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 53,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 53
+      },
+      "items" : [ {
+        "uid" : "aa6f20eb5c2ac55e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/175//#testresult/aa6f20eb5c2ac55e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fb84ea189a0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fb84ea189a0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fb84ea189a0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fb84ea189a0> = Solution()",
+        "time" : {
+          "start" : 1700256225879,
+          "stop" : 1700256225879,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7fb8e50a011641f3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/174//#testresult/7fb8e50a011641f3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f33cae5c6a0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f33cae5c6a0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f33cae5c6a0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f33cae5c6a0> = Solution()",
+        "time" : {
+          "start" : 1700255889771,
+          "stop" : 1700255889772,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cc1f9adf3c0ebe09",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/173//#testresult/cc1f9adf3c0ebe09",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc86cd991f0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc86cd991f0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc86cd991f0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc86cd991f0> = Solution()",
+        "time" : {
+          "start" : 1700246147164,
+          "stop" : 1700246147164,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "73431ec8a2bd493",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/172//#testresult/73431ec8a2bd493",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f97fb6a76d0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f97fb6a76d0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f97fb6a76d0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f97fb6a76d0> = Solution()",
+        "time" : {
+          "start" : 1700245813542,
+          "stop" : 1700245813542,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1e315047ad688456",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/170//#testresult/1e315047ad688456",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f15b970b640>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f15b970b640>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f15b970b640>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f15b970b640> = Solution()",
+        "time" : {
+          "start" : 1699397258698,
+          "stop" : 1699397258698,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a7c1d847092b243d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/168//#testresult/a7c1d847092b243d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f7011aa1730>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f7011aa1730>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f7011aa1730>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f7011aa1730> = Solution()",
+        "time" : {
+          "start" : 1690238457282,
+          "stop" : 1690238457282,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c217c0f2c57cb04d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/167//#testresult/c217c0f2c57cb04d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fbabb9c5af0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fbabb9c5af0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fbabb9c5af0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fbabb9c5af0> = Solution()",
+        "time" : {
+          "start" : 1690236515181,
+          "stop" : 1690236515181,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8c46fd9ef16ce096",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/166//#testresult/8c46fd9ef16ce096",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f574ea40220>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f574ea40220>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f574ea40220>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f574ea40220> = Solution()",
+        "time" : {
+          "start" : 1690232406639,
+          "stop" : 1690232406639,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "180f07435a096d6c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/165//#testresult/180f07435a096d6c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fe797efc340>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fe797efc340>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fe797efc340>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fe797efc340> = Solution()",
+        "time" : {
+          "start" : 1690231466866,
+          "stop" : 1690231466866,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f73bef20fb683b75",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/164//#testresult/f73bef20fb683b75",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f644f343220>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f644f343220>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f644f343220>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f644f343220> = Solution()",
+        "time" : {
+          "start" : 1690229983406,
+          "stop" : 1690229983407,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fcc07065e930ec9c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/163//#testresult/fcc07065e930ec9c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc247e50d30>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc247e50d30>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc247e50d30>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fc247e50d30> = Solution()",
+        "time" : {
+          "start" : 1690222013798,
+          "stop" : 1690222013799,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a91ca4059e0966e4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/162//#testresult/a91ca4059e0966e4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9096f5f970>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9096f5f970>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9096f5f970>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9096f5f970> = Solution()",
+        "time" : {
+          "start" : 1690198235973,
+          "stop" : 1690198235973,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "87b197d256d08181",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/161//#testresult/87b197d256d08181",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9f3859a910>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9f3859a910>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9f3859a910>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f9f3859a910> = Solution()",
+        "time" : {
+          "start" : 1689529905304,
+          "stop" : 1689529905304,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f8e357a499d5a7c4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/160//#testresult/f8e357a499d5a7c4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7ff2c0818670>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7ff2c0818670>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7ff2c0818670>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7ff2c0818670> = Solution()",
+        "time" : {
+          "start" : 1689528163654,
+          "stop" : 1689528163655,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "886fda30eb7e7fe0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/154//#testresult/886fda30eb7e7fe0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4e88607f70>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4e88607f70>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4e88607f70>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4e88607f70> = Solution()",
+        "time" : {
+          "start" : 1688149033005,
+          "stop" : 1688149033005,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b57bcc82de06471e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/153//#testresult/b57bcc82de06471e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f620f1d95e0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f620f1d95e0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f620f1d95e0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f620f1d95e0> = Solution()",
+        "time" : {
+          "start" : 1688146958679,
+          "stop" : 1688146958679,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e29bdb283a8f457f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/152//#testresult/e29bdb283a8f457f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4f9e590580>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4f9e590580>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4f9e590580>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f4f9e590580> = Solution()",
+        "time" : {
+          "start" : 1688145996153,
+          "stop" : 1688145996153,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d933b51c9a08dfa9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/151//#testresult/d933b51c9a08dfa9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fce62558ca0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fce62558ca0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fce62558ca0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fce62558ca0> = Solution()",
+        "time" : {
+          "start" : 1688145948688,
+          "stop" : 1688145948688,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "43dbcd8bca8e2436",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/150//#testresult/43dbcd8bca8e2436",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f252aadb130>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f252aadb130>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f252aadb130>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f252aadb130> = Solution()",
+        "time" : {
+          "start" : 1688145925517,
+          "stop" : 1688145925517,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "83a8fc8f6ba0a8fd",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/149//#testresult/83a8fc8f6ba0a8fd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fdc3e73ed60>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fdc3e73ed60>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fdc3e73ed60>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7fdc3e73ed60> = Solution()",
+        "time" : {
+          "start" : 1688145692991,
+          "stop" : 1688145692992,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4cb3e8a16f4b29b2.json",
+  "parameterValues" : [ "6", "[1, 2, 2, 3, 1, 4, 2]" ]
+}
