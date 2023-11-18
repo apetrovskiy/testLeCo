@@ -1,8 +1,5 @@
 const { combinationSum } = require("./combination_sum");
 
-const { assert, expect } = require("chai");
-const { allure } = require("allure-mocha/runtime");
-
 describe.each([
   [[2, 3, 6, 7], 8, [[2, 2, 3], [7]]],
   [
@@ -20,14 +17,14 @@ describe.each([
 ])(
   "combinationSum(%o, %i) should equal %i",
   (candidates, target, expectedResult) => {
-    allure.epic("epic Challenges");
-    allure.feature("feature 20201001-20201007");
-    allure.story("story Combination sum");
-    allure.suite("suite JavaScript");
-    allure.tag("tag JavaScript");
-    test(`candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
-      allure.description("test Combination sum");
-
+    test(`test Combination sum: candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
+      reporter
+        .epic("epic Challenges")
+        .feature("feature 20201001-20201007")
+        .story("story Combination sum")
+        // .suite("suite JavaScript")
+        // .tag("tag JavaScript")
+        .description("test Combination sum");
       expect(combinationSum(candidates, target)).toEqual(expectedResult);
     });
   }
