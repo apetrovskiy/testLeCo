@@ -1,0 +1,75 @@
+{
+  "uid" : "ada8668f0c279a8d",
+  "name" : "test Climbing stairs: input = {input}, returns = {expectedResult}",
+  "fullName" : "climbStairs(5) should equal 8.test Climbing stairs: input = {input}, returns = {expectedResult}",
+  "historyId" : "85e77441621bc059805e07c09b8cc8f9",
+  "time" : {
+    "start" : 1700269707759,
+    "stop" : 1700269707759,
+    "duration" : 0
+  },
+  "description" : "test Climbing stairs",
+  "descriptionHtml" : "<p>test Climbing stairs</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "suite",
+    "value" : "climbStairs(5) should equal 8"
+  }, {
+    "name" : "testClass",
+    "value" : "climbStairs(5) should equal 8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test Climbing stairs: input = {input}, returns = {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "climbStairs(5) should equal 8"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fdcdd9c600fea18a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/186//#testresult/fdcdd9c600fea18a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700269257811,
+          "stop" : 1700269257812,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ada8668f0c279a8d.json",
+  "parameterValues" : [ ]
+}
