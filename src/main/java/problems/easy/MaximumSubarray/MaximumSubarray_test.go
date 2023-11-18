@@ -54,7 +54,7 @@ func dotest(input []int, exp int) {
 	Expect(ans).To(Equal(exp))
 }
 
-func TestStepBitCounting(t *testing.T) {
+func TestMaximumSubarray(t *testing.T) {
 	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	t.Parallel()
 	allure.Test(t,
