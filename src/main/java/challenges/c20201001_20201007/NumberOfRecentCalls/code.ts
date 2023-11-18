@@ -1,11 +1,7 @@
 class RecentCounter {
-    constructor() {
+  constructor() {}
 
-    }
-
-    ping(t: number): number {
-
-    }
+  ping(t: number): number {}
 }
 
 /**
@@ -13,4 +9,3 @@ class RecentCounter {
  * var obj = new RecentCounter()
  * var param_1 = obj.ping(t)
  */
- 

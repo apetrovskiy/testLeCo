@@ -1,3 +1,4 @@
+import allure
 import pytest
 from typing import List
 from src.main.java.challenges.c20210101_20210107.CheckArrayFormationThroughConcatenation.solution import (
@@ -14,6 +15,12 @@ test_data = [
 ]
 
 
+@allure.epic("epic Challenges")
+@allure.feature("feature 20210202-20210107")
+@allure.story("story Check array formation through concatenation")
+@allure.parent_suite("suite Python")
+@allure.title("test Python")
+@allure.tag("tag Python")
 @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("input_array,pieces,expected_result", test_data)
 def test_check_array_formation_through_concatenation(

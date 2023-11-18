@@ -2,17 +2,28 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace Challenges.C20201001_20201007
-{
-    using NUnit.Framework;
+namespace Challenges.C20201001_20201007;
 
-    public class SomeTest
+using NUnit.Framework;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
+using NUnit.Framework;
+
+[TestFixture]
+[AllureNUnit]
+[AllureEpic("epic Challenges")]
+[AllureFeature("feature 20201001-20201007")]
+[AllureStory("story Some")]
+[AllureSuite("suite C#")]
+[AllureTag("tag C#")]
+public class SomeTest
+{
+    [Test]
+    [AllureName("test Some")]
+    public void Test()
     {
-        [Test]
-        public void Test()
-        {
-            // TODO: make it really working
-            Assert.That(1, Is.EqualTo(1));
-        }
+        // TODO: make it really working
+        var actual = 2 - 1;
+        Assert.That(actual, Is.EqualTo(3 - 2));
     }
 }

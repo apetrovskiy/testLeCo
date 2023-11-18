@@ -3,6 +3,6 @@
  * @param {number[][]} pieces
  * @return {boolean}
  */
-var canFormArray = function(arr, pieces) {
-    return false;
+var canFormArray = function (arr, pieces) {
+  return false;
 };

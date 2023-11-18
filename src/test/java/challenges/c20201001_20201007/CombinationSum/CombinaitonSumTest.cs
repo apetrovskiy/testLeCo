@@ -2,9 +2,8 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace Challenges.C20201001_20201007.CombinationSum
+namespace Challenges.C20201001_20201007.CombinationSum;
+
+internal class CombinationSumTest
 {
-    internal class CombinationSumTest
-    {
-    }
 }

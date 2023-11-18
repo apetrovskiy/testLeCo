@@ -4,7 +4,7 @@
 
 namespace Problems.Medium.LongestIncreasingSubsequence
 {
-    public class Solution
+    public class LongestIncreasingSubsequence
     {
         public int LengthOfLIS(int[] nums)
         {

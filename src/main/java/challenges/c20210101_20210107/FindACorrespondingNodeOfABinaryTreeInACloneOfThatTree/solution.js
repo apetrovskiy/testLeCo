@@ -12,6 +12,4 @@
  * @return {TreeNode}
  */
 
-var getTargetCopy = function(original, cloned, target) {
-    
-};
+var getTargetCopy = function (original, cloned, target) {};
