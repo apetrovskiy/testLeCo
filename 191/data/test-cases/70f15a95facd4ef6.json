@@ -1,0 +1,74 @@
+{
+  "uid" : "70f15a95facd4ef6",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.medium.GasStation.test_gas_station#test_gas_station",
+  "historyId" : "6553743649740c13af4f9af941ebc469",
+  "time" : {
+    "start" : 1700271316651,
+    "stop" : 1700271316652,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Medium"
+  }, {
+    "name" : "story",
+    "value" : "story Gas station"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_gas_station"
+  }, {
+    "name" : "host",
+    "value" : "fv-az659-361"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.GasStation.test_gas_station"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cost",
+    "value" : "[3, 4, 3]"
+  }, {
+    "name" : "expected_result",
+    "value" : "-1"
+  }, {
+    "name" : "gas",
+    "value" : "[2, 3, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "70f15a95facd4ef6.json",
+  "parameterValues" : [ "[3, 4, 3]", "-1", "[2, 3, 4]" ]
+}

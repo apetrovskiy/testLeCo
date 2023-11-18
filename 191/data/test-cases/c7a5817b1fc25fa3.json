@@ -1,0 +1,71 @@
+{
+  "uid" : "c7a5817b1fc25fa3",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray#test_maximum_subarray",
+  "historyId" : "0df62f67f0d6359da984e3011ddd9e78",
+  "time" : {
+    "start" : 1700271316610,
+    "stop" : 1700271316610,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Maximum subarray"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_maximum_subarray"
+  }, {
+    "name" : "host",
+    "value" : "fv-az659-361"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "8"
+  }, {
+    "name" : "input_array",
+    "value" : "[6, -7, 6, -3, 5]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "c7a5817b1fc25fa3.json",
+  "parameterValues" : [ "8", "[6, -7, 6, -3, 5]" ]
+}

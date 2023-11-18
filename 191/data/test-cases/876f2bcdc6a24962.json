@@ -1,0 +1,122 @@
+{
+  "uid" : "876f2bcdc6a24962",
+  "name" : "test Combination sum 05",
+  "fullName" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest#test_5",
+  "historyId" : "00c77e52d0ffa4a202c9668643d79637",
+  "time" : {
+    "start" : 1700271316548,
+    "stop" : 1700271316548,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+  "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_5>\n\n    @allure.title(\"test Combination sum 05\")\n    def test_5(self):\n        actual_result = self.solution.combinationSum(candidates=[1], target=2)\n        print(actual_result)\n>       self.assertEquals([[1, 1]], actual_result)\nE       AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:49: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_SolutionTest",
+    "time" : {
+      "start" : 1700271316488,
+      "stop" : 1700271316488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+    "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_5>\n\n    @allure.title(\"test Combination sum 05\")\n    def test_5(self):\n        actual_result = self.solution.combinationSum(candidates=[1], target=2)\n        print(actual_result)\n>       self.assertEquals([[1, 1]], actual_result)\nE       AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:49: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37bb29e0a99534e9",
+      "name" : "stdout",
+      "source" : "37bb29e0a99534e9.txt",
+      "type" : "text/plain",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_SolutionTest::0",
+    "time" : {
+      "start" : 1700271316556,
+      "stop" : 1700271316556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "story",
+    "value" : "story Combination sum"
+  }, {
+    "name" : "feature",
+    "value" : "feature 20201001-20201007"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_combination_sum"
+  }, {
+    "name" : "subSuite",
+    "value" : "SolutionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az659-361"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "876f2bcdc6a24962.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "6271d94aa44e9ef7",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs#test_climbing_stairs",
+  "historyId" : "50524b661de51406192216e39fd1adf0",
+  "time" : {
+    "start" : 1700271316572,
+    "stop" : 1700271316572,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_climbing_stairs"
+  }, {
+    "name" : "host",
+    "value" : "fv-az659-361"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "2"
+  }, {
+    "name" : "input",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "6271d94aa44e9ef7.json",
+  "parameterValues" : [ "2", "2" ]
+}
