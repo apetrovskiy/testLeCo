@@ -1,4 +1,5 @@
 const { combinationSum } = require("./combination_sum");
+
 const { assert, expect } = require("chai");
 const { allure } = require("allure-mocha/runtime");
 
@@ -26,6 +27,7 @@ describe.each([
     allure.tag("tag JavaScript");
     test(`candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
       allure.description("test Combination sum");
+
       expect(combinationSum(candidates, target)).toEqual(expectedResult);
     });
   }

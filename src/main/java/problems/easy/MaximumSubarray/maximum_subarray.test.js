@@ -1,4 +1,5 @@
 const { maxSubArray } = require("./maximum_subarray");
+
 const { assert, expect } = require("chai");
 const { allure } = require("allure-mocha/runtime");
 
@@ -19,6 +20,7 @@ describe.each([
   allure.tag("tag JavaScript");
   test(`inputArray = {inputArray}, returns {expectedResult}`, () => {
     allure.description("test Maximum subarray");
+
     expect(maxSubArray(inputArray)).toEqual(expectedResult);
   });
 });

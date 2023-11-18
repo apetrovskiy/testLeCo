@@ -16,6 +16,7 @@ describe.each([
   allure.tag("tag JavaScript");
   test(`input = {input}, returns = {expectedResult}`, () => {
     allure.description("test Climbing stairs");
+
     expect(climbStairs(input)).toEqual(expectedResult);
   });
 });

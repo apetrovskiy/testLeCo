@@ -13,6 +13,7 @@ describe.each([
   allure.tag("tag JavaScript");
   test(`input = {inputArray}, returns {expectedResult}`, () => {
     allure.description("test Majority element");
+
     expect(majorityElement(inputArray)).toEqual(expectedResult);
   });
 });

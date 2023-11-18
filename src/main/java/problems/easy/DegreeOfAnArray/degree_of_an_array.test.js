@@ -1,5 +1,6 @@
 const { assert, expect } = require("chai");
 const { allure } = require("allure-mocha/runtime");
+
 const { findShortestSubArray } = require("./degree_of_an_array");
 
 describe.each([
@@ -13,6 +14,7 @@ describe.each([
   allure.tag("tag JavaScript");
   test(`inputArray = {inputArray} returns {expectedResult}`, () => {
     allure.description("test Degree of an array");
+
     expect(findShortestSubArray(inputArray)).toEqual(expectedResult);
   });
 });

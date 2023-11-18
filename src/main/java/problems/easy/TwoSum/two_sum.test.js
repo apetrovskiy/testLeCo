@@ -18,6 +18,7 @@ describe("Two Sum", function () {
   });
   it("case 03", function () {
     allure.description("test Two sum 03");
+
     assert.strictEqual(twoSum([3, 3], 6), [0, 1]);
   });
 });

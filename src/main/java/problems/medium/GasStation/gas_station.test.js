@@ -1,4 +1,5 @@
 const { canCompleteCircuit } = require("./gas_station");
+
 const { assert, expect } = require("chai");
 const { allure } = require("allure-mocha/runtime");
 
@@ -16,6 +17,7 @@ describe.each([
     allure.tag("tag JavaScript");
     test(`gas = ${gas}, cost = ${cost}, returns ${expectedResult}`, () => {
       allure.description("test Gas station");
+
       expect(canCompleteCircuit(gas, cost)).toEqual(expectedResult);
     });
   }
