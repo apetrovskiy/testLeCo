@@ -1,0 +1,263 @@
+{
+  "uid" : "66c964a9484576ab",
+  "name" : "candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5",
+  "fullName" : "combinationSum([ 2, 3, 5, [length]: 3 ], 8) should equal 2.candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5",
+  "historyId" : "5c54ebeaf926297a54192eb2ad7ba497",
+  "time" : {
+    "start" : 1700266767979,
+    "stop" : 1700266767980,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/challenges/c20201001_20201007/CombinationSum/combination_sum.test.js:21:50)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "combinationSum([ 2, 3, 5, [length]: 3 ], 8) should equal 2"
+  }, {
+    "name" : "testClass",
+    "value" : "combinationSum([ 2, 3, 5, [length]: 3 ], 8) should equal 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "candidates = 2,3,5, target = 8, returns 2,2,2,2,2,3,3,3,5"
+  }, {
+    "name" : "package",
+    "value" : "combinationSum([ 2, 3, 5, [length]: 3 ], 8) should equal 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 101,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 101
+      },
+      "items" : [ {
+        "uid" : "e4782c021c9318b1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/184//#testresult/e4782c021c9318b1",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700264526415,
+          "stop" : 1700264526417,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "94490594223dc1f0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/183//#testresult/94490594223dc1f0",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700264257302,
+          "stop" : 1700264257304,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f29fae58e5fc36e5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/182//#testresult/f29fae58e5fc36e5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700263258721,
+          "stop" : 1700263258723,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "a2964e93c2a6f0ce",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/181//#testresult/a2964e93c2a6f0ce",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700260631709,
+          "stop" : 1700260631711,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "6a9e4a8c1e9192d9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/180//#testresult/6a9e4a8c1e9192d9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700260304334,
+          "stop" : 1700260304336,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "138fa5acd449ca3b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/179//#testresult/138fa5acd449ca3b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700259833205,
+          "stop" : 1700259833206,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3590ab361cba1f75",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/178//#testresult/3590ab361cba1f75",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700258758969,
+          "stop" : 1700258758971,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "807fe90225b8105a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/177//#testresult/807fe90225b8105a",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700258589932,
+          "stop" : 1700258589934,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "4d3d842f96975e08",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/176//#testresult/4d3d842f96975e08",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700256934459,
+          "stop" : 1700256934460,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b5d5a439d1dce80c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/175//#testresult/b5d5a439d1dce80c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700256214443,
+          "stop" : 1700256214445,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "719ad509a0a0a470",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/174//#testresult/719ad509a0a0a470",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700255873191,
+          "stop" : 1700255873194,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "f4747b9d008a1e58",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/173//#testresult/f4747b9d008a1e58",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700246137013,
+          "stop" : 1700246137014,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "db99e981cf0d7af4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/172//#testresult/db99e981cf0d7af4",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1700245806081,
+          "stop" : 1700245806083,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "598ab607040410d7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/170//#testresult/598ab607040410d7",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1699397254482,
+          "stop" : 1699397254484,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "210bfbb28d344763",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/168//#testresult/210bfbb28d344763",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690238464404,
+          "stop" : 1690238464406,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "8cb28cb6e74f6121",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/167//#testresult/8cb28cb6e74f6121",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690236497915,
+          "stop" : 1690236497917,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "17473c78b0ee8ba9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/166//#testresult/17473c78b0ee8ba9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690232374797,
+          "stop" : 1690232374799,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "89bd1a520be5c2a3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/165//#testresult/89bd1a520be5c2a3",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690231438089,
+          "stop" : 1690231438091,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "69ad0b2d4bce5a41",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/164//#testresult/69ad0b2d4bce5a41",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690229978772,
+          "stop" : 1690229978774,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "9832114c39fcbf60",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/163//#testresult/9832114c39fcbf60",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                - Expected  - 13\n                + Received  +  2\n                \n                  Array [\n                -   Array [\n                -     2,\n                -     2,\n                -     2,\n                -     2,\n                -   ],\n                -   Array [\n                -     2,\n                -     3,\n                -     3,\n                -   ],\n                +   Array [],\n                    Array [\n                -     3,\n                -     5,\n                +     0,\n                    ],\n                  ]",
+        "time" : {
+          "start" : 1690221987546,
+          "stop" : 1690221987548,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66c964a9484576ab.json",
+  "parameterValues" : [ ]
+}

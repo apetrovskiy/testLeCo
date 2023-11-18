@@ -1,0 +1,161 @@
+{
+  "uid" : "b465227814acfe27",
+  "name" : "test Recent counter",
+  "fullName" : "Challenges.C20201001_20201007.NumberOfRecentCalls.RecentCounterTest.PingTest",
+  "historyId" : "Challenges.C20201001_20201007.NumberOfRecentCalls.RecentCounterTest.PingTest",
+  "time" : {
+    "start" : 1700266787918,
+    "stop" : 1700266787927,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "statusMessage" : "PingTest",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1700266787922,
+      "stop" : 1700266787922,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "PingTest",
+    "steps" : [ {
+      "name" : "PingTest",
+      "time" : {
+        "start" : 1700266787918,
+        "stop" : 1700266787924,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "711b62d35f7400f3",
+        "name" : "Console Output",
+        "source" : "711b62d35f7400f3.txt",
+        "type" : "text/plain",
+        "size" : 118
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "package",
+    "value" : "Challenges.C20201001_20201007.NumberOfRecentCalls"
+  }, {
+    "name" : "testMethod",
+    "value" : "PingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RecentCounterTest"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "feature",
+    "value" : "feature 20201001-20201007"
+  }, {
+    "name" : "story",
+    "value" : "story Recent counter"
+  }, {
+    "name" : "suite",
+    "value" : "suite C#"
+  }, {
+    "name" : "tag",
+    "value" : "tag C#"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "66e9d70569c7fa8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/184//#testresult/66e9d70569c7fa8",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1700264541679,
+          "stop" : 1700264541688,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "6d75c3aa6ba17393",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/183//#testresult/6d75c3aa6ba17393",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1700264274337,
+          "stop" : 1700264274346,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "bd4bf352dadb5ba6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/182//#testresult/bd4bf352dadb5ba6",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1700263287694,
+          "stop" : 1700263287703,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "b00acf9c3b53a0a1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/181//#testresult/b00acf9c3b53a0a1",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1700260648389,
+          "stop" : 1700260648398,
+          "duration" : 9
+        }
+      } ]
+    },
+    "tags" : [ "tag C#" ]
+  },
+  "source" : "b465227814acfe27.json",
+  "parameterValues" : [ ]
+}
