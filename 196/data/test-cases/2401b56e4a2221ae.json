@@ -1,0 +1,138 @@
+{
+  "uid" : "2401b56e4a2221ae",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.hard.IntegerToEnglishWords.test_integer_to_english_words#test_integer_to_english_words",
+  "historyId" : "dd509ba5a6710b9507910e11b1f2e200",
+  "time" : {
+    "start" : 1700324034150,
+    "stop" : 1700324034150,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+  "statusTrace" : "input = 1, expected_result = 'One'\n\n    @allure.epic(\"epic Problems\")\n    @allure.feature(\"feature Hard\")\n    @allure.story(\"story Integer to English words\")\n    @allure.parent_suite(\"suite Python\")\n    @allure.title(\"test Python\")\n    @allure.tag(\"tag Python\")\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_integer_to_english_words(input: int, expected_result: str):\n>       assert expected_result == Solution().numberToWords(input)\nE       AssertionError: assert 'One' == 'Zero'\nE         - Zero\nE         + One\n\nsrc/test/java/problems/hard/IntegerToEnglishWords/test_integer_to_english_words.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Hard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "story",
+    "value" : "story Integer to English words"
+  }, {
+    "name" : "suite",
+    "value" : "test_integer_to_english_words"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.hard.IntegerToEnglishWords.test_integer_to_english_words"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'One'"
+  }, {
+    "name" : "input",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "65702ceacacd2763",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/65702ceacacd2763",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1700323005607,
+          "stop" : 1700323005608,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a063e596e4fb00e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/a063e596e4fb00e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1700313027796,
+          "stop" : 1700313027796,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3cfa80d99d8db6f5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/3cfa80d99d8db6f5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1700277420396,
+          "stop" : 1700277420396,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ad00373305be87e7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/ad00373305be87e7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1700277325863,
+          "stop" : 1700277325864,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9aaa515088187069",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/9aaa515088187069",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'One' == 'Zero'\n  - Zero\n  + One",
+        "time" : {
+          "start" : 1700271316643,
+          "stop" : 1700271316643,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "2401b56e4a2221ae.json",
+  "parameterValues" : [ "'One'", "1" ]
+}

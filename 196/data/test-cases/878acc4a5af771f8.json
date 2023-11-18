@@ -1,0 +1,140 @@
+{
+  "uid" : "878acc4a5af771f8",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.IsSubsequence.test_is_subsequence#test_is_subsequence",
+  "historyId" : "b3d83eb5e5cd733f746689972fad8c1a",
+  "time" : {
+    "start" : 1700324034098,
+    "stop" : 1700324034098,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testLeCo/testLeCo/src/test/java/problems/easy/IsSubsequence/test_is_subsequence.py', 9, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Is subsequence"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "suite",
+    "value" : "test_is_subsequence"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.IsSubsequence.test_is_subsequence"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "s",
+    "value" : "'abc'"
+  }, {
+    "name" : "t",
+    "value" : "'ahbgdc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "337aacc10d83211f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/337aacc10d83211f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700323005546,
+          "stop" : 1700323005546,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2b66c21ba57f70bb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/2b66c21ba57f70bb",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700313027746,
+          "stop" : 1700313027746,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8ffdb50eb3faf125",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/8ffdb50eb3faf125",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700277420347,
+          "stop" : 1700277420347,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "297695a69e085702",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/297695a69e085702",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700277325814,
+          "stop" : 1700277325814,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dfa2cad886da78d3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/dfa2cad886da78d3",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700271316594,
+          "stop" : 1700271316594,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python", "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "878acc4a5af771f8.json",
+  "parameterValues" : [ "True", "'abc'", "'ahbgdc'" ]
+}

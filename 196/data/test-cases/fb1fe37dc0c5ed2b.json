@@ -1,0 +1,183 @@
+{
+  "uid" : "fb1fe37dc0c5ed2b",
+  "name" : "test Combination sum 01",
+  "fullName" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest#test_1",
+  "historyId" : "e1c44c803f29fffb9663b11c8660b269",
+  "time" : {
+    "start" : 1700324033988,
+    "stop" : 1700324033989,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+  "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_1>\n\n    @allure.title(\"test Combination sum 01\")\n    def test_1(self):\n        actual_result = self.solution.combinationSum(candidates=[2, 3, 6, 7], target=8)\n        print(actual_result)\n>       self.assertEquals([[2, 2, 3], [7]], actual_result)\nE       AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:21: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_SolutionTest",
+    "time" : {
+      "start" : 1700324033988,
+      "stop" : 1700324033988,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+    "statusTrace" : "self = <src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum.SolutionTest testMethod=test_1>\n\n    @allure.title(\"test Combination sum 01\")\n    def test_1(self):\n        actual_result = self.solution.combinationSum(candidates=[2, 3, 6, 7], target=8)\n        print(actual_result)\n>       self.assertEquals([[2, 2, 3], [7]], actual_result)\nE       AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?\n\nsrc/test/java/challenges/c20201001_20201007/CombinationSum/test_combination_sum.py:21: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85c0155a4cfe25ac",
+      "name" : "stdout",
+      "source" : "85c0155a4cfe25ac.txt",
+      "type" : "text/plain",
+      "size" : 3
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_SolutionTest::0",
+    "time" : {
+      "start" : 1700324034060,
+      "stop" : 1700324034060,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature 20201001-20201007"
+  }, {
+    "name" : "story",
+    "value" : "story Combination sum"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_combination_sum"
+  }, {
+    "name" : "subSuite",
+    "value" : "SolutionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20201001_20201007.CombinationSum.test_combination_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "8438cba47562eff3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/8438cba47562eff3",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+        "time" : {
+          "start" : 1700323005426,
+          "stop" : 1700323005426,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4d34b3ed1de1f269",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/4d34b3ed1de1f269",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+        "time" : {
+          "start" : 1700313027638,
+          "stop" : 1700313027639,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4aecf177641e58eb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/4aecf177641e58eb",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+        "time" : {
+          "start" : 1700277420243,
+          "stop" : 1700277420244,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "60037d161de8bee8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/60037d161de8bee8",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+        "time" : {
+          "start" : 1700277325709,
+          "stop" : 1700277325710,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "879fc654e3edd2d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/879fc654e3edd2d1",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'SolutionTest' object has no attribute 'assertEquals'. Did you mean: 'assertEqual'?",
+        "time" : {
+          "start" : 1700271316488,
+          "stop" : 1700271316489,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "fb1fe37dc0c5ed2b.json",
+  "parameterValues" : [ ]
+}

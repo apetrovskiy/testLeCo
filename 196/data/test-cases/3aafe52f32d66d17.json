@@ -1,0 +1,127 @@
+{
+  "uid" : "3aafe52f32d66d17",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer#test_roman_to_integer",
+  "historyId" : "74f6aaa633873881ba013fceb0c75bef",
+  "time" : {
+    "start" : 1700324034126,
+    "stop" : 1700324034126,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Roman to integer"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_to_integer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.RomanToInteger.test_roman_to_integer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "input",
+    "value" : "'III'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a35cbbc7f8a94c1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/a35cbbc7f8a94c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700323005585,
+          "stop" : 1700323005585,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "85e850baffd26611",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/85e850baffd26611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700313027773,
+          "stop" : 1700313027773,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8ae352c74b844ee6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/8ae352c74b844ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277420373,
+          "stop" : 1700277420373,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "84ef9f5987bbad35",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/84ef9f5987bbad35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277325840,
+          "stop" : 1700277325841,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cef55bc26948cbb7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/cef55bc26948cbb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700271316620,
+          "stop" : 1700271316620,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "3aafe52f32d66d17.json",
+  "parameterValues" : [ "3", "'III'" ]
+}

@@ -1,0 +1,140 @@
+{
+  "uid" : "c24dd8c1ffe470af",
+  "name" : "test Python",
+  "fullName" : "src.test.java.challenges.c20210115_20210121.FindTheMostCompetitiveSubsequence.test_find_the_most_competitive_subsequence#test_most_competitive",
+  "historyId" : "2a77e8688e68173a74936f089ffe39d2",
+  "time" : {
+    "start" : 1700324034072,
+    "stop" : 1700324034072,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testLeCo/testLeCo/src/test/java/challenges/c20210115_20210121/FindTheMostCompetitiveSubsequence/test_find_the_most_competitive_subsequence.py', 12, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Find the most competitive subsequence"
+  }, {
+    "name" : "feature",
+    "value" : "feature 20210115-20210121"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "suite",
+    "value" : "test_find_the_most_competitive_subsequence"
+  }, {
+    "name" : "host",
+    "value" : "fv-az984-756"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.c20210115_20210121.FindTheMostCompetitiveSubsequence.test_find_the_most_competitive_subsequence"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[2, 3, 3, 4]"
+  }, {
+    "name" : "k",
+    "value" : "4"
+  }, {
+    "name" : "nums",
+    "value" : "[2, 4, 3, 3, 5, 4, 9, 6]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "9505f431b780a4c8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/9505f431b780a4c8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700323005505,
+          "stop" : 1700323005505,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1186b6833bdb566f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/1186b6833bdb566f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700313027717,
+          "stop" : 1700313027717,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ecc2a78df1fcea3a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/ecc2a78df1fcea3a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700277420322,
+          "stop" : 1700277420322,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e7d82c84fef3bf96",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/e7d82c84fef3bf96",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700277325789,
+          "stop" : 1700277325789,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "16936da177fe6df0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/16936da177fe6df0",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1700271316567,
+          "stop" : 1700271316567,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python", "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "c24dd8c1ffe470af.json",
+  "parameterValues" : [ "[2, 3, 3, 4]", "4", "[2, 4, 3, 3, 5, 4, 9, 6]" ]
+}
