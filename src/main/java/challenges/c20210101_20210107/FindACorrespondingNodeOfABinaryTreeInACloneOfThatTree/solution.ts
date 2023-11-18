@@ -12,6 +12,8 @@
  * }
  */
 
-function getTargetCopy(original: TreeNode | null, cloned: TreeNode | null, target: TreeNode | null): TreeNode | null {
-
-};
+function getTargetCopy(
+  original: TreeNode | null,
+  cloned: TreeNode | null,
+  target: TreeNode | null
+): TreeNode | null {}

@@ -1,3 +1,3 @@
 function findShortestSubArray(nums: number[]): number {
-    return 0;
-};
+  return 0;
+}
