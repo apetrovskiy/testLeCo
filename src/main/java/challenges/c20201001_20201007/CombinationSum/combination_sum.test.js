@@ -17,7 +17,16 @@ describe.each([
 ])(
   "combinationSum(%o, %i) should equal %i",
   (candidates, target, expectedResult) => {
-    test(`candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
+
+    test(`test Combination sum: candidates = ${candidates}, target = ${target}, returns ${expectedResult}`, () => {
+      reporter
+        .epic("epic Challenges")
+        .feature("feature 20201001-20201007")
+        .story("story Combination sum")
+        // .suite("suite JavaScript")
+        // .tag("tag JavaScript")
+        .description("test Combination sum");
+
       expect(combinationSum(candidates, target)).toEqual(expectedResult);
     });
   }

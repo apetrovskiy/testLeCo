@@ -7,7 +7,17 @@ describe.each([
 ])(
   "canCompleteCircuit(%i, %i) should equal %i",
   (gas, cost, expectedResult) => {
-    test(`gas = ${gas}, cost = ${cost}, returns ${expectedResult}`, () => {
+
+    test(`test Gas station: gas = ${gas}, cost = ${cost}, returns ${expectedResult}`, () => {
+      reporter
+        .epic("epic Problems")
+        .feature("feature Medium")
+        .story("story Gas station")
+        // .suite("suite JavaScript")
+        // .tag("tag JavaScript")
+        .description("test Gas station");
+
+
       expect(canCompleteCircuit(gas, cost)).toEqual(expectedResult);
     });
   }

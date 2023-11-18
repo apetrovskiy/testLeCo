@@ -10,7 +10,17 @@ describe.each([
   [[-1], -1],
   [[-2, -1], -1],
 ])("maxSubArray(%o) should equal %i", (inputArray, expectedResult) => {
-  test(`inputArray = {inputArray}, returns {expectedResult}`, () => {
+
+  test(`test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}`, () => {
+    reporter
+      .epic("epic Problems")
+      .feature("feature Easy")
+      .story("story Maximum subarray")
+      // .suite("suite JavaScript")
+      // .tag("tag JavaScript")
+      .description("test Maximum subarray");
+
+
     expect(maxSubArray(inputArray)).toEqual(expectedResult);
   });
 });
