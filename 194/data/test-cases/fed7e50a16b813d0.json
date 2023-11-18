@@ -1,0 +1,112 @@
+{
+  "uid" : "fed7e50a16b813d0",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.medium.GasStation.test_gas_station#test_gas_station",
+  "historyId" : "d17d85fc8fb585421f06588653a9bd7e",
+  "time" : {
+    "start" : 1700313027807,
+    "stop" : 1700313027807,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Gas station"
+  }, {
+    "name" : "feature",
+    "value" : "feature Medium"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_gas_station"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1153-970"
+  }, {
+    "name" : "thread",
+    "value" : "2377-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.GasStation.test_gas_station"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cost",
+    "value" : "[5, 9, 1, 2, 5]"
+  }, {
+    "name" : "expected_result",
+    "value" : "3"
+  }, {
+    "name" : "gas",
+    "value" : "[7, 1, 0, 11, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "78dc65ff4169ca6e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/78dc65ff4169ca6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277420407,
+          "stop" : 1700277420407,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "320e5493e865fa3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/320e5493e865fa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277325874,
+          "stop" : 1700277325874,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f649d260cb892922",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/f649d260cb892922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700271316653,
+          "stop" : 1700271316654,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "fed7e50a16b813d0.json",
+  "parameterValues" : [ "[5, 9, 1, 2, 5]", "3", "[7, 1, 0, 11, 4]" ]
+}
