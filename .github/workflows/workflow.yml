@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     # strategy:
@@ -46,9 +45,9 @@ jobs:
       run: |
         pwd
         pytest --alluredir=allure-results
-#     - name: Analysing the code with pylint
-#       run: |
-#         pylint `ls -R|grep .py$|xargs`
+    #     - name: Analysing the code with pylint
+    #       run: |
+    #         pylint `ls -R|grep .py$|xargs`
 
     - name: Look at Allure
       if: always()
@@ -86,9 +85,9 @@ jobs:
         # bundle install
 
     - name: Set up Ruby
-    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-    # change this to (see https://github.com/ruby/setup-ruby#versioning):
-    # uses: ruby/setup-ruby@v1
+      # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+      # change this to (see https://github.com/ruby/setup-ruby#versioning):
+      # uses: ruby/setup-ruby@v1
       uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
       if: always()
       with:
@@ -410,7 +409,6 @@ jobs:
       - swift
       - dart
     steps:
-
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v2
 
