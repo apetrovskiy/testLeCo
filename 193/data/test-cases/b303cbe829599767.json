@@ -1,0 +1,247 @@
+{
+  "uid" : "b303cbe829599767",
+  "name" : "test Climbing stairs",
+  "fullName" : "Problems.Easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(4,5)",
+  "historyId" : "Problems.Easy.ClimbingStairs.ClimbingStairsTest.ShouldCalculateStairs(4,5)",
+  "time" : {
+    "start" : 1700277412185,
+    "stop" : 1700277412185,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusMessage" : "ShouldCalculateStairs(4,5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1700277412185,
+      "stop" : 1700277412185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "ShouldCalculateStairs(4,5)",
+    "steps" : [ {
+      "name" : "ShouldCalculateStairs(4,5)",
+      "time" : {
+        "start" : 1700277412185,
+        "stop" : 1700277412185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8393e2a095fbeb",
+        "name" : "Console Output",
+        "source" : "c8393e2a095fbeb.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az973-567"
+  }, {
+    "name" : "package",
+    "value" : "Problems.Easy.ClimbingStairs"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldCalculateStairs"
+  }, {
+    "name" : "testClass",
+    "value" : "ClimbingStairsTest"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "suite",
+    "value" : "suite C#"
+  }, {
+    "name" : "tag",
+    "value" : "tag C#"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Param #0",
+    "value" : "4"
+  }, {
+    "name" : "Param #1",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "f5d1fdc43498823c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/f5d1fdc43498823c",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700277343802,
+          "stop" : 1700277343802,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1391fac30c0637da",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/1391fac30c0637da",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700271324483,
+          "stop" : 1700271324483,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fab2c8d3af4c9f7b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/190//#testresult/fab2c8d3af4c9f7b",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700270705783,
+          "stop" : 1700270705783,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f9b9973e9e695986",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/189//#testresult/f9b9973e9e695986",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700270581539,
+          "stop" : 1700270581540,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f536dbaa51926218",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/188//#testresult/f536dbaa51926218",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700270375105,
+          "stop" : 1700270375105,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "69a154686afe694e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/187//#testresult/69a154686afe694e",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700269715568,
+          "stop" : 1700269715568,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1bbd35f8402c0a66",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/186//#testresult/1bbd35f8402c0a66",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700269271666,
+          "stop" : 1700269271666,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b0667ec46329f8dd",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/185//#testresult/b0667ec46329f8dd",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700266787960,
+          "stop" : 1700266787960,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d0816241e2f1990d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/184//#testresult/d0816241e2f1990d",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700264541723,
+          "stop" : 1700264541723,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "147e9d1e3dcef3f9",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/183//#testresult/147e9d1e3dcef3f9",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700264274379,
+          "stop" : 1700264274379,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8734221d600ff2c2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/182//#testresult/8734221d600ff2c2",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700263287734,
+          "stop" : 1700263287735,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2a15cde8ee3eddad",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/181//#testresult/2a15cde8ee3eddad",
+        "status" : "passed",
+        "statusDetails" : "ShouldCalculateStairs(4,5)",
+        "time" : {
+          "start" : 1700260648431,
+          "stop" : 1700260648431,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag C#" ]
+  },
+  "source" : "b303cbe829599767.json",
+  "parameterValues" : [ "4", "5" ]
+}
