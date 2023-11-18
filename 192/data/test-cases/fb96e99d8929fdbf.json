@@ -1,0 +1,98 @@
+{
+  "uid" : "fb96e99d8929fdbf",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.DegreeOfAnArray.test_degree_of_an_array#test_degree_of_an_subarray",
+  "historyId" : "efd68010f3f5ccbce009be01a098bc70",
+  "time" : {
+    "start" : 1700277325812,
+    "stop" : 1700277325812,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0> = Solution()",
+  "statusTrace" : "input_array = [1, 2, 2, 3, 1, 4, ...], expected_result = 6\n\n    @allure.epic(\"epic Problems\")\n    @allure.feature(\"feature Easy\")\n    @allure.story(\"story Degree of an array\")\n    @allure.parent_suite(\"suite Python\")\n    @allure.title(\"test Python\")\n    @allure.tag(\"tag Python\")\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_degree_of_an_subarray(input_array: List[int], expected_result: int):\n>       assert expected_result == Solution().findShortestSubArray(input_array)\nE       assert 6 == 0\nE        +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>>([1, 2, 2, 3, 1, 4, ...])\nE        +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0>.findShortestSubArray\nE        +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f3c2c2420c0> = Solution()\n\nsrc/test/java/problems/easy/DegreeOfAnArray/test_degree_of_an_array.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "story",
+    "value" : "story Degree of an array"
+  }, {
+    "name" : "suite",
+    "value" : "test_degree_of_an_array"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1433-80"
+  }, {
+    "name" : "thread",
+    "value" : "2178-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.DegreeOfAnArray.test_degree_of_an_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "6"
+  }, {
+    "name" : "input_array",
+    "value" : "[1, 2, 2, 3, 1, 4, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fb634b50cc1fba9b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/fb634b50cc1fba9b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 6 == 0\n +  where 0 = <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f308a106ea0>>([1, 2, 2, 3, 1, 4, ...])\n +    where <bound method Solution.findShortestSubArray of <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f308a106ea0>> = <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f308a106ea0>.findShortestSubArray\n +      where <src.main.java.problems.easy.DegreeOfAnArray.degree_of_an_array.Solution object at 0x7f308a106ea0> = Solution()",
+        "time" : {
+          "start" : 1700271316591,
+          "stop" : 1700271316591,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "fb96e99d8929fdbf.json",
+  "parameterValues" : [ "6", "[1, 2, 2, 3, 1, 4, 2]" ]
+}
