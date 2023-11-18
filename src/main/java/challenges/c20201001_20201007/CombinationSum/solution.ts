@@ -1,3 +1,1 @@
-function combinationSum(candidates: number[], target: number): number[][] {
-
-};
+function combinationSum(candidates: number[], target: number): number[][] {}
