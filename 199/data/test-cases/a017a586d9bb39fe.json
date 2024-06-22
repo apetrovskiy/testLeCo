@@ -1,0 +1,154 @@
+{
+  "uid" : "a017a586d9bb39fe",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray#test_maximum_subarray",
+  "historyId" : "bf7298411f11724e819324a2e0d51bdd",
+  "time" : {
+    "start" : 1719073941673,
+    "stop" : 1719073941674,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Maximum subarray"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_maximum_subarray"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1240-558"
+  }, {
+    "name" : "thread",
+    "value" : "2051-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.MaximumSubarray.test_maximum_subarray"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "8"
+  }, {
+    "name" : "input_array",
+    "value" : "[5, -3, 6, -7, 6]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "7ee3f753d40500ff",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/198//#testresult/7ee3f753d40500ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1719073915428,
+          "stop" : 1719073915428,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2e6f180552126284",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/197//#testresult/2e6f180552126284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1714423553247,
+          "stop" : 1714423553247,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fe872ff5791411de",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/196//#testresult/fe872ff5791411de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700324034113,
+          "stop" : 1700324034113,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "add90dbf0a387d3c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/195//#testresult/add90dbf0a387d3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700323005569,
+          "stop" : 1700323005569,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "81f324330dafadf0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/194//#testresult/81f324330dafadf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700313027761,
+          "stop" : 1700313027761,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a3b1a99d0bc74d7b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/193//#testresult/a3b1a99d0bc74d7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277420362,
+          "stop" : 1700277420362,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bc74275e65ce4040",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/192//#testresult/bc74275e65ce4040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700277325829,
+          "stop" : 1700277325829,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9b99c4b4fa7322d0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/191//#testresult/9b99c4b4fa7322d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700271316608,
+          "stop" : 1700271316608,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "a017a586d9bb39fe.json",
+  "parameterValues" : [ "8", "[5, -3, 6, -7, 6]" ]
+}
