@@ -19,7 +19,10 @@ import java.util.stream.Stream
 @Story("story Maximum subarray")
 @DisplayName("suite Kotlin")
 class MaximumSubarrayKtTest {
-    @AllureId("7371")
+    @AllureId("7371") // 20250513 // regress
+/*
+message
+*/
     @ParameterizedTest
     @MethodSource("getInputData")
     @Tags(Tag("tag Kotlin"))

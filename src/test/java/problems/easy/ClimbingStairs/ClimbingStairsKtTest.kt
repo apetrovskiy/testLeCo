@@ -22,7 +22,12 @@ class ClimbingStairsKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     @Tags(Tag("tag Kotlin"))
-    @AllureId("7373")
+    @AllureId("7373") // 20250513 // regress
+/*
+message1
+message2
+message3
+*/
     @DisplayName("test Climbing stairs")
     fun testClimbingStairs(input: Int, expectedResult: Int) {
         assertEquals(expectedResult, ClimbingStairs().climbStairs(input))
