@@ -1,5 +1,6 @@
 package problems.easy.MaximumSubarray
 
+import io.qameta.allure.AllureId
 import io.qameta.allure.Epic
 import io.qameta.allure.Feature
 import io.qameta.allure.Story
@@ -18,6 +19,7 @@ import java.util.stream.Stream
 @Story("story Maximum subarray")
 @DisplayName("suite Kotlin")
 class MaximumSubarrayKtTest {
+    @AllureId("7371")
     @ParameterizedTest
     @MethodSource("getInputData")
     @Tags(Tag("tag Kotlin"))
