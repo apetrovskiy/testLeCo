@@ -1,5 +1,6 @@
 package problems.easy.ClimbingStairs
 
+import io.qameta.allure.AllureId
 import io.qameta.allure.Epic
 import io.qameta.allure.Feature
 import io.qameta.allure.Story
@@ -21,6 +22,7 @@ class ClimbingStairsKtTest {
     @ParameterizedTest
     @MethodSource("getInputData")
     @Tags(Tag("tag Kotlin"))
+    @AllureId("7373")
     @DisplayName("test Climbing stairs")
     fun testClimbingStairs(input: Int, expectedResult: Int) {
         assertEquals(expectedResult, ClimbingStairs().climbStairs(input))
