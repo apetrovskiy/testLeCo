@@ -56,13 +56,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -111,13 +111,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -149,13 +149,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -203,13 +203,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -252,13 +252,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -314,13 +314,13 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-reports
     #     path: allure-reports
@@ -343,7 +343,7 @@ jobs:
     # TODO: de-duplicate
     - name: Archive Allure results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
@@ -390,7 +390,7 @@ jobs:
     # # TODO: de-duplicate
     # - name: Archive Allure results
     #   if: always()
-    #   uses: actions/upload-artifact@v3
+    #   uses: actions/upload-artifact@v4
     #   with:
     #     name: allure-results
     #     path: allure-results
@@ -410,7 +410,7 @@ jobs:
       - dart
     steps:
     - name: Download all workflow run artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
 
     - name: Get Allure history
       uses: actions/checkout@v3
