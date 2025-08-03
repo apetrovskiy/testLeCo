@@ -5,7 +5,8 @@ runs:
   steps:
     - run: |
         sudo apt-get install allure
-        mkdir allure-results
-        mkdir allure-report
-        mkdir allure-history
+        mkdir -p allure-results
+        touch allure-results/1.txt
+        mkdir -p allure-report
+        mkdir -p allure-history
       shell: bash
