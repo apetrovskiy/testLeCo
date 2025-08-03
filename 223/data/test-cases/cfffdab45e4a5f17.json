@@ -1,0 +1,71 @@
+{
+  "uid" : "cfffdab45e4a5f17",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman#test_integer_to_roman",
+  "historyId" : "c0d232bb3af64a95330ecb57bc8416e1",
+  "time" : {
+    "start" : 1754258716488,
+    "stop" : 1754258716488,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Medium"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "story",
+    "value" : "story Integer to roman"
+  }, {
+    "name" : "suite",
+    "value" : "test_integer_to_roman"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "2518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.IntegerToRoman.test_integer_to_roman"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "''"
+  }, {
+    "name" : "input",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "cfffdab45e4a5f17.json",
+  "parameterValues" : [ "''", "0" ]
+}
