@@ -58,7 +58,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-py
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -113,7 +113,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-rb
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -151,7 +151,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-node
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -205,7 +205,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-go
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -254,7 +254,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-jdk
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -316,7 +316,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-net
         path: allure-results
     # - name: Archive Allure reports
     #   if: always()
@@ -345,7 +345,7 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: allure-results
+        name: allure-results-sw
         path: allure-results
 
   dart:
@@ -392,7 +392,7 @@ jobs:
     #   if: always()
     #   uses: actions/upload-artifact@v4
     #   with:
-    #     name: allure-results
+    #     name: allure-results-dart
     #     path: allure-results
 
   allure:
