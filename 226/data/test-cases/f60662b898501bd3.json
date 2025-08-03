@@ -1,0 +1,102 @@
+{
+  "uid" : "f60662b898501bd3",
+  "name" : "case 01",
+  "fullName" : "Two Sum.case 01",
+  "historyId" : "47f87f429fcb80f66e397b20750116b5",
+  "time" : {
+    "start" : 1754259632370,
+    "stop" : 1754259632373,
+    "duration" : 3
+  },
+  "description" : "test Two sum 01",
+  "descriptionHtml" : "<p>test Two sum 01</p>\n",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: assert is not defined",
+  "statusTrace" : "ReferenceError: assert is not defined\n                    at Object.<anonymous> (/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/TwoSum/two_sum.test.js:12:5)\n                    at Object.asyncJestTest (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testLeCo/testLeCo/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Two sum"
+  }, {
+    "name" : "suite",
+    "value" : "Two Sum"
+  }, {
+    "name" : "testClass",
+    "value" : "Two Sum"
+  }, {
+    "name" : "testMethod",
+    "value" : "case 01"
+  }, {
+    "name" : "package",
+    "value" : "Two Sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "25e4703bb9ee2e77",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/225//#testresult/25e4703bb9ee2e77",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: assert is not defined",
+        "time" : {
+          "start" : 1754259602519,
+          "stop" : 1754259602521,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "813a26ba8444865d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/813a26ba8444865d",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: assert is not defined",
+        "time" : {
+          "start" : 1754259208482,
+          "stop" : 1754259208483,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "772fd071bb4cec25",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/772fd071bb4cec25",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: assert is not defined",
+        "time" : {
+          "start" : 1754258722601,
+          "stop" : 1754258722602,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f60662b898501bd3.json",
+  "parameterValues" : [ ]
+}

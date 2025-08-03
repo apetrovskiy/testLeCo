@@ -1,0 +1,93 @@
+{
+  "uid" : "3a1f8a71562fa3f1",
+  "name" : "test Climbing stairs: input = {input}, returns = {expectedResult}",
+  "fullName" : "climbStairs(1) should equal 1.test Climbing stairs: input = {input}, returns = {expectedResult}",
+  "historyId" : "3acd741b6b1f3e676f10128593a78e15",
+  "time" : {
+    "start" : 1754259632811,
+    "stop" : 1754259632814,
+    "duration" : 3
+  },
+  "description" : "test Climbing stairs",
+  "descriptionHtml" : "<p>test Climbing stairs</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "suite",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "testClass",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test Climbing stairs: input = {input}, returns = {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "climbStairs(1) should equal 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9683579c3e7a7888",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/225//#testresult/9683579c3e7a7888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259602965,
+          "stop" : 1754259602968,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a70826538ec93b86",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/a70826538ec93b86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259208895,
+          "stop" : 1754259208898,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "324949afbac7705d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/324949afbac7705d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258723122,
+          "stop" : 1754258723125,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3a1f8a71562fa3f1.json",
+  "parameterValues" : [ ]
+}

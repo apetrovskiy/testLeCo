@@ -1,0 +1,93 @@
+{
+  "uid" : "4a48e554d75b66f",
+  "name" : "test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}",
+  "fullName" : "maxSubArray([ 1, [length]: 1 ]) should equal 1.test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}",
+  "historyId" : "80fb90d9b2817b9d393b8431a6a7d83e",
+  "time" : {
+    "start" : 1754259632284,
+    "stop" : 1754259632284,
+    "duration" : 0
+  },
+  "description" : "test Maximum subarray",
+  "descriptionHtml" : "<p>test Maximum subarray</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Maximum subarray"
+  }, {
+    "name" : "suite",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "testClass",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "maxSubArray([ 1, [length]: 1 ]) should equal 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "59716002c6293d72",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/225//#testresult/59716002c6293d72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259602460,
+          "stop" : 1754259602461,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f1937bfb2b5a9bbb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/f1937bfb2b5a9bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259208411,
+          "stop" : 1754259208412,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b98611f7c75e5f54",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/b98611f7c75e5f54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258722704,
+          "stop" : 1754258722705,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4a48e554d75b66f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "763dd1544ad4e099",
+  "name" : "test Recent counter",
+  "fullName" : "Challenges.C20201001_20201007.NumberOfRecentCalls.RecentCounterTest.PingTest",
+  "historyId" : "Challenges.C20201001_20201007.NumberOfRecentCalls.RecentCounterTest.PingTest",
+  "time" : {
+    "start" : 1754259633845,
+    "stop" : 1754259633855,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "statusMessage" : "PingTest",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1754259633850,
+      "stop" : 1754259633850,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "PingTest",
+    "steps" : [ {
+      "name" : "PingTest",
+      "time" : {
+        "start" : 1754259633846,
+        "stop" : 1754259633852,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9b9bf306d06eb8d",
+        "name" : "Console Output",
+        "source" : "d9b9bf306d06eb8d.txt",
+        "type" : "text/plain",
+        "size" : 118
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "package",
+    "value" : "Challenges.C20201001_20201007.NumberOfRecentCalls"
+  }, {
+    "name" : "testMethod",
+    "value" : "PingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RecentCounterTest"
+  }, {
+    "name" : "epic",
+    "value" : "epic Challenges"
+  }, {
+    "name" : "feature",
+    "value" : "feature 20201001-20201007"
+  }, {
+    "name" : "story",
+    "value" : "story Recent counter"
+  }, {
+    "name" : "suite",
+    "value" : "suite C#"
+  }, {
+    "name" : "tag",
+    "value" : "tag C#"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cdf49a7f681c2884",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/225//#testresult/cdf49a7f681c2884",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1754259622812,
+          "stop" : 1754259622821,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "7f35ee607020ddc0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/7f35ee607020ddc0",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1754259225727,
+          "stop" : 1754259225737,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "37ebca30110e940b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/37ebca30110e940b",
+        "status" : "passed",
+        "statusDetails" : "PingTest",
+        "time" : {
+          "start" : 1754258723359,
+          "stop" : 1754258723369,
+          "duration" : 10
+        }
+      } ]
+    },
+    "tags" : [ "tag C#" ]
+  },
+  "source" : "763dd1544ad4e099.json",
+  "parameterValues" : [ ]
+}

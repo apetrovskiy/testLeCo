@@ -1,0 +1,93 @@
+{
+  "uid" : "c1fdc6fc3ccfe241",
+  "name" : "test Majority element: input = {inputArray}, returns {expectedResult}",
+  "fullName" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2.test Majority element: input = {inputArray}, returns {expectedResult}",
+  "historyId" : "10da1b7bea2cec61d08fa908c6fd8444",
+  "time" : {
+    "start" : 1754259632680,
+    "stop" : 1754259632680,
+    "duration" : 0
+  },
+  "description" : "test Majority element",
+  "descriptionHtml" : "<p>test Majority element</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Majority element"
+  }, {
+    "name" : "suite",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "testClass",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test Majority element: input = {inputArray}, returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "majorityElement([ 2, 2, 1, 1, 1, 2, 2, [length]: 7 ]) should equal to 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "804a3761b0787427",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/225//#testresult/804a3761b0787427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259602850,
+          "stop" : 1754259602850,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dd47ed583d235b0",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/dd47ed583d235b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259208798,
+          "stop" : 1754259208799,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ac1ee749deaae484",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/ac1ee749deaae484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258722987,
+          "stop" : 1754258722988,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1fdc6fc3ccfe241.json",
+  "parameterValues" : [ ]
+}
