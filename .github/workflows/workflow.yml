@@ -411,6 +411,18 @@ jobs:
     steps:
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v4
+    
+    - name: Collect allure results in one folder
+      run: |
+        mkdir -p allure-results
+        mv allure-results-py/* allure-results/
+        mv allure-results-rb/* allure-results/
+        mv allure-results-node/* allure-results/
+        mv allure-results-go/* allure-results/
+        mv allure-results-jdk/* allure-results/
+        mv allure-results-net/* allure-results/
+        mv allure-results-sw/* allure-results/
+        mv allure-results-dart/* allure-results/
 
     - name: Get Allure history
       uses: actions/checkout@v3
