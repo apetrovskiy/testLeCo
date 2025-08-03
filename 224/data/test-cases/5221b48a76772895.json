@@ -1,0 +1,142 @@
+{
+  "uid" : "5221b48a76772895",
+  "name" : "Maximum Subarray",
+  "fullName" : "/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/MaximumSubarray/MaximumSubarray_test.go:TestMaximumSubarray",
+  "historyId" : "3459f42e9f899c54163a7b3117c186bdcd04781831546756e69d6b8593f1db3d",
+  "time" : {
+    "start" : 1754259215089,
+    "stop" : 1754259215089,
+    "duration" : 0
+  },
+  "description" : "test Maximum subarray 06",
+  "descriptionHtml" : "<p>test Maximum subarray 06</p>\n",
+  "status" : "failed",
+  "statusMessage" : "You are trying to make an assertion, but haven't registered Gomega's fail handler.\nIf you're using Ginkgo then you probably forgot to put your assertion in an It().\nAlternatively, you may have forgotten to register a fail handler with RegisterFailHandler() or RegisterTestingT().\nDepending on your vendoring solution you may be inadvertently importing gomega and subpackages (e.g. ghhtp, gexec,...) from different locations.\n",
+  "statusTrace" : "goroutine 7 [running]:\nruntime/debug.Stack()\n\t/home/runner/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.11.linux-amd64/src/runtime/debug/stack.go:26 +0x5e\npanic({0x609ec0?, 0x6c8960?})\n\t/home/runner/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.11.linux-amd64/src/runtime/panic.go:791 +0x132\ngithub.com/onsi/gomega.ensureDefaultGomegaIsConfigured(...)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/onsi/gomega/gomega_dsl.go:169\ngithub.com/onsi/gomega.Expect({0x60a100, 0x8240b8}, {0x0, 0x0, 0x0})\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/onsi/gomega/gomega_dsl.go:221 +0x98\ngithub.com/apetrovskiy/testLeCo/src/main/java/problems/easy/MaximumSubarray.TestMaximumSubarray.func6()\n\t/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/MaximumSubarray/MaximumSubarray_test.go:115 +0xd5\ngithub.com/jtolds/gls.(*ContextManager).SetValues.func1(0x0)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/context.go:97 +0x47e\ngithub.com/jtolds/gls.EnsureGoroutineId.func1()\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/gid.go:24 +0x1b\ngithub.com/jtolds/gls._m(0x630200?, 0xc000033a01?)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/stack_tags.go:108 +0x1b\ngithub.com/jtolds/gls.github_com_jtolds_gls_markS(0x0?, 0x0?)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/stack_tags.go:56 +0x13\ngithub.com/jtolds/gls.addStackTag(...)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/stack_tags.go:49\ngithub.com/jtolds/gls.EnsureGoroutineId(0xc00017c870)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/gid.go:24 +0xbd\ngithub.com/jtolds/gls.(*ContextManager).SetValues(0xc00002e4b0, 0xc00017c7e0, 0xc00002f370)\n\t/home/runner/work/testLeCo/testLeCo/vendor/github.com/jtolds/gls/context.go:63 +0x157\ngithub.com/apetrovskiy/testLeCo/src/main/java/problems/easy/MaximumSubarray.TestMaximumSubarray(0xc0000c09c0)\n\t/home/runner/work/testLeCo/testLeCo/src/main/java/problems/easy/MaximumSubarray/MaximumSubarray_test.go:109 +0x887\ntesting.tRunner(0xc0000c09c0, 0x68a1a8)\n\t/home/runner/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.11.linux-amd64/src/testing/testing.go:1690 +0xf4\ncreated by testing.(*T).Run in goroutine 1\n\t/home/runner/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.11.linux-amd64/src/testing/testing.go:1743 +0x390\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "home.runner.work.testLeCo.testLeCo.src.main.java.problems.easy.MaximumSubarray.MaximumSubarray_test"
+  }, {
+    "name" : "testClass",
+    "value" : "home.runner.work.testLeCo.testLeCo.src.main.java.problems.easy.MaximumSubarray.MaximumSubarray_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestMaximumSubarray"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "language",
+    "value" : "golang"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Maximum subarray"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6ed3c74206160fdf",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215089,
+        "stop" : 1754259215089,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "62e2dfcda1a9d1d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215089,
+        "stop" : 1754259215089,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc8becd35d12754e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215089,
+        "stop" : 1754259215089,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fea4df2f9fabb163",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215088,
+        "stop" : 1754259215088,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a9648bdee8ed4c25",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215088,
+        "stop" : 1754259215088,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4fb4395a3c9cb01",
+      "status" : "failed",
+      "time" : {
+        "start" : 1754259215088,
+        "stop" : 1754259215089,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dd915120b35f28dc",
+      "status" : "broken",
+      "statusDetails" : "You are trying to make an assertion, but haven't registered Gomega's fail handler.\nIf you're using Ginkgo then you probably forgot to put your assertion in an It().\nAlternatively, you may have forgotten to register a fail handler with RegisterFailHandler() or RegisterTestingT().\nDepending on your vendoring solution you may be inadvertently importing gomega and subpackages (e.g. ghhtp, gexec,...) from different locations.\n",
+      "time" : {
+        "start" : 1754259215087,
+        "stop" : 1754259215087,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "50aad313f84e2f17",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/50aad313f84e2f17",
+        "status" : "failed",
+        "statusDetails" : "You are trying to make an assertion, but haven't registered Gomega's fail handler.\nIf you're using Ginkgo then you probably forgot to put your assertion in an It().\nAlternatively, you may have forgotten to register a fail handler with RegisterFailHandler() or RegisterTestingT().\nDepending on your vendoring solution you may be inadvertently importing gomega and subpackages (e.g. ghhtp, gexec,...) from different locations.\n",
+        "time" : {
+          "start" : 1754258728872,
+          "stop" : 1754258728872,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5221b48a76772895.json",
+  "parameterValues" : [ ]
+}

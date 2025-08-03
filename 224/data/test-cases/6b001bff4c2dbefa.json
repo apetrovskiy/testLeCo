@@ -1,0 +1,94 @@
+{
+  "uid" : "6b001bff4c2dbefa",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.TwoSum.test_two_sum#test_two_sum",
+  "historyId" : "2bd7812eefe2bd18d9d44e3115a30463",
+  "time" : {
+    "start" : 1754259204686,
+    "stop" : 1754259204686,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Two sum"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_two_sum"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "2462-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.TwoSum.test_two_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[1, 2]"
+  }, {
+    "name" : "nums",
+    "value" : "[3, 2, 4]"
+  }, {
+    "name" : "target",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e5b0766d41958684",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/e5b0766d41958684",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258716470,
+          "stop" : 1754258716470,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "6b001bff4c2dbefa.json",
+  "parameterValues" : [ "[1, 2]", "[3, 2, 4]", "6" ]
+}

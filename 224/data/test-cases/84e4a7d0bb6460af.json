@@ -1,0 +1,75 @@
+{
+  "uid" : "84e4a7d0bb6460af",
+  "name" : "test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}",
+  "fullName" : "maxSubArray([ 6, -7, 6, -3, 5, [length]: 5 ]) should equal 8.test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}",
+  "historyId" : "a3948f295fa1f4942fbc0c77ca16c949",
+  "time" : {
+    "start" : 1754259208417,
+    "stop" : 1754259208417,
+    "duration" : 0
+  },
+  "description" : "test Maximum subarray",
+  "descriptionHtml" : "<p>test Maximum subarray</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "story",
+    "value" : "story Maximum subarray"
+  }, {
+    "name" : "suite",
+    "value" : "maxSubArray([ 6, -7, 6, -3, 5, [length]: 5 ]) should equal 8"
+  }, {
+    "name" : "testClass",
+    "value" : "maxSubArray([ 6, -7, 6, -3, 5, [length]: 5 ]) should equal 8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test Maximum subarray: inputArray = {inputArray}, returns {expectedResult}"
+  }, {
+    "name" : "package",
+    "value" : "maxSubArray([ 6, -7, 6, -3, 5, [length]: 5 ]) should equal 8"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "55d8428ca8fb9de",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/55d8428ca8fb9de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258722710,
+          "stop" : 1754258722710,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "84e4a7d0bb6460af.json",
+  "parameterValues" : [ ]
+}

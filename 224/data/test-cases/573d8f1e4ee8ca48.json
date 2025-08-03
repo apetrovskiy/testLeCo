@@ -1,0 +1,91 @@
+{
+  "uid" : "573d8f1e4ee8ca48",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs#test_climbing_stairs",
+  "historyId" : "9d4797994aa439910ce5619a50996e44",
+  "time" : {
+    "start" : 1754259204628,
+    "stop" : 1754259204628,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story Climbing stairs"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "suite",
+    "value" : "test_climbing_stairs"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "2462-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.ClimbingStairs.test_climbing_stairs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "1"
+  }, {
+    "name" : "input",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2c1ef0cf3eb0459b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/2c1ef0cf3eb0459b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258716411,
+          "stop" : 1754258716411,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "573d8f1e4ee8ca48.json",
+  "parameterValues" : [ "1", "1" ]
+}
