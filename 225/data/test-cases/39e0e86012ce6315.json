@@ -1,0 +1,100 @@
+{
+  "uid" : "39e0e86012ce6315",
+  "name" : "test Python",
+  "fullName" : "src.test.java.problems.easy.ContainsDuplicate.test_contains_duplicate#test_contains_duplicate",
+  "historyId" : "f84be5f3c6deac549e9d511045a38707",
+  "time" : {
+    "start" : 1754259625276,
+    "stop" : 1754259625276,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag Python"
+  }, {
+    "name" : "epic",
+    "value" : "epic Problems"
+  }, {
+    "name" : "story",
+    "value" : "story Contains duplicate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "suite Python"
+  }, {
+    "name" : "feature",
+    "value" : "feature Easy"
+  }, {
+    "name" : "suite",
+    "value" : "test_contains_duplicate"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "2618-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.ContainsDuplicate.test_contains_duplicate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "input",
+    "value" : "[1, 2, 3, 4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9c6e9f2d99be9478",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/224//#testresult/9c6e9f2d99be9478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754259204639,
+          "stop" : 1754259204639,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "44657230575a47fd",
+        "reportUrl" : "https://apetrovskiy.github.io/testLeCo/223//#testresult/44657230575a47fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754258716422,
+          "stop" : 1754258716422,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "tag Python" ]
+  },
+  "source" : "39e0e86012ce6315.json",
+  "parameterValues" : [ "False", "[1, 2, 3, 4]" ]
+}
